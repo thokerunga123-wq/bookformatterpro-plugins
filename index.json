@@ -355,5 +355,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T12:35:37.354Z"
+  "generatedAt": "2026-09-20T13:19:35.067Z",
+  "app": {
+    "name": "BookFormatter Pro",
+    "version": "1.0.0",
+    "size": 16707599,
+    "sha256": "bee772fad77e7fa41a6e58f81815e916e213a4fa71f1be266a36bc671671551f",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.0.0/BookFormatterPro-1.0.0-setup.exe",
+    "releasedAt": "2026-09-20",
+    "notes": "First release of the redesigned app (version 1). Plugins now update on their own.",
+    "history": [
+      {
+        "version": "1.0.0",
+        "sha256": "bee772fad77e7fa41a6e58f81815e916e213a4fa71f1be266a36bc671671551f",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.0.0/BookFormatterPro-1.0.0-setup.exe",
+        "releasedAt": "2026-09-20",
+        "notes": "First release of the redesigned app (version 1). Plugins now update on their own."
+      }
+    ]
+  }
 }
