@@ -256,9 +256,14 @@
       "name": "Book Formatter Pro Academy",
       "entry": "src/book-formatter-pro-academy/sidepanel/sidepanel.html",
       "description": "Training and guides.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "New Plugins Tutorial tab, full-width lesson grid that fits small panels, videos now open in your web browser, Start-here order, Continue where you left off, New badges, video length, quick steps, chapter links and Saved lessons."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",

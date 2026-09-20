@@ -366,16 +366,23 @@
     "book-formatter-pro-academy": {
       "name": "Book Formatter Pro Academy",
       "description": "Training and guides.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro-academy/sidepanel/sidepanel.html",
-      "size": 60211,
-      "sha256": "672164eef0ef49c0bf136fbff93060c59ea2add806b8a89def4452f3a321c258",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-academy-v1.1.0/book-formatter-pro-academy-1.1.0.bfpk",
-      "contentHash": "c19295a06ea037244eb272867ea85db48317008d41bb76de192b97aebbff57ee",
+      "size": 77566,
+      "sha256": "b653aeeddb096f1d8bd5d7a83372df9d5f6a3522312676823bd9e1fbca524f4d",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-academy-v1.1.1/book-formatter-pro-academy-1.1.1.bfpk",
+      "contentHash": "bb447554a495a38420d0625061e24c346d067dc2ce57cbce397c2a2f9f42c4b2",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "New Plugins Tutorial tab, full-width lesson grid that fits small panels, videos now open in your web browser, Start-here order, Continue where you left off, New badges, video length, quick steps, chapter links and Saved lessons.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "b653aeeddb096f1d8bd5d7a83372df9d5f6a3522312676823bd9e1fbca524f4d",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-academy-v1.1.1/book-formatter-pro-academy-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "New Plugins Tutorial tab, full-width lesson grid that fits small panels, videos now open in your web browser, Start-here order, Continue where you left off, New badges, video length, quick steps, chapter links and Saved lessons."
+        },
         {
           "version": "1.1.0",
           "sha256": "672164eef0ef49c0bf136fbff93060c59ea2add806b8a89def4452f3a321c258",
@@ -481,7 +488,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T21:45:33.582Z",
+  "generatedAt": "2026-09-20T21:45:33.877Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.1",
