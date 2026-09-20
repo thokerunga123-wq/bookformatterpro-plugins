@@ -54,6 +54,23 @@ for (const [id, entry] of Object.entries(index.plugins)) {
   }
 }
 
+// --online: download every published plugin package and check it, exactly as the app does.
+if (process.argv.includes("--online")) {
+  let checked = 0;
+  for (const [id, entry] of Object.entries(index.plugins)) {
+    try {
+      const response = await fetch(entry.url);
+      const bytes = Buffer.from(await response.arrayBuffer());
+      if (!response.ok) fail(id, `download answered ${response.status}`);
+      else if (sha256Hex(bytes) !== entry.sha256 || bytes.length !== entry.size) fail(id, "the published package does not match index.json");
+      else checked += 1;
+    } catch (error) {
+      fail(id, `download failed: ${error.message}`);
+    }
+  }
+  console.log(`Online: ${checked} of ${Object.keys(index.plugins).length} published plugin packages match their SHA-256.`);
+}
+
 // The app itself.
 const app = index.app;
 if (app) {

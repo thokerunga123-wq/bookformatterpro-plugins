@@ -1,8 +1,8 @@
 name: Verify plugin packages
 
+# Actions minutes are used up: run by hand from the Actions tab, or use `node tools/ship.mjs` locally.
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   verify:

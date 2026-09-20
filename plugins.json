@@ -6,9 +6,14 @@
       "name": "GPT Centre",
       "entry": "src/gpt-centre/sidepanel/sidepanel.html",
       "description": "Prompt library and launcher for AI chats.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -21,9 +26,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -36,9 +46,14 @@
       "name": "Book Cover Pro",
       "entry": "src/book-cover/index.html",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -51,9 +66,14 @@
       "name": "Images",
       "entry": "src/images/index.html",
       "description": "Image tools for book pages.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -66,9 +86,14 @@
       "name": "Recipe Formatter Pro",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -81,9 +106,14 @@
       "name": "AutoLumen",
       "entry": "src/autolumen/sidepanel.html",
       "description": "Automates image generation.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -96,9 +126,14 @@
       "name": "AutoFlow Pro",
       "entry": "src/autoflow-pro/sidepanel.html",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -111,9 +146,14 @@
       "name": "Outline Book Writer",
       "entry": "src/outline-book-writer/index.html",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -126,9 +166,14 @@
       "name": "Fiction Writer",
       "entry": "src/fiction-writer/index.html",
       "description": "Writes fiction chapter by chapter.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -141,9 +186,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -156,9 +206,14 @@
       "name": "Book Generator AI",
       "entry": "src/book-generator-ai/index.html",
       "description": "Generates book content with AI.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -171,9 +226,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -186,9 +246,14 @@
       "name": "Book Formatter Pro Academy",
       "entry": "src/book-formatter-pro-academy/sidepanel/sidepanel.html",
       "description": "Training and guides.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -201,9 +266,14 @@
       "name": "PDF Editor",
       "entry": "src/pdf-editor/index.html",
       "description": "Open, reorder, edit and number PDF pages.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -216,9 +286,14 @@
       "name": "Topic Ideas",
       "entry": "src/book-topic-ideas/index.html",
       "description": "Book topic research.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",
@@ -231,9 +306,14 @@
       "name": "Cookbook Writer Pro",
       "entry": "src/cookbook-writer-pro/index.html",
       "description": "Writes and prepares cookbooks.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "date": "2026-09-20",

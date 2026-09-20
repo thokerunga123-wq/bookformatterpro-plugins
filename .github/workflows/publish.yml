@@ -2,10 +2,13 @@ name: Publish plugin release
 
 # A tag named <plugin-id>-v<version> (created by tools/release.mjs) publishes that plugin's
 # package as a GitHub release. The app downloads the asset and checks it against index.json.
+# Not triggered by tags any more (Actions minutes are used up). `node tools/ship.mjs` does this locally.
 on:
-  push:
-    tags:
-      - "*-v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag to publish, for example image-prompt-queue-v1.1.0"
+        required: true
 
 permissions:
   contents: write
@@ -23,7 +26,7 @@ jobs:
       - name: Create the release
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.ref_name }}
+          TAG: ${{ inputs.tag }}
         run: |
           ID="${TAG%-v*}"
           VERSION="${TAG##*-v}"

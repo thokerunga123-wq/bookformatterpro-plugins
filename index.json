@@ -4,16 +4,23 @@
     "gpt-centre": {
       "name": "GPT Centre",
       "description": "Prompt library and launcher for AI chats.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/gpt-centre/sidepanel/sidepanel.html",
-      "size": 58747,
-      "sha256": "e95bd50ca11b7511afeb1e2363ecc13a5a93c81da4d511d164330d9203aae025",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/gpt-centre-v1.0.0/gpt-centre-1.0.0.bfpk",
+      "size": 58749,
+      "sha256": "f6a97019c02a5340a304d4fc77e72f04097bfc67b63564aa3b2c1e78ed883eb6",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/gpt-centre-v1.1.0/gpt-centre-1.1.0.bfpk",
       "contentHash": "0c9f1570ced4590f276d5d8c2c80984d6c74ce1b9cacdf4bad9ff48bd14616f4",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "f6a97019c02a5340a304d4fc77e72f04097bfc67b63564aa3b2c1e78ed883eb6",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/gpt-centre-v1.1.0/gpt-centre-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "e95bd50ca11b7511afeb1e2363ecc13a5a93c81da4d511d164330d9203aae025",
@@ -26,16 +33,23 @@
     "book-formatter-pro": {
       "name": "Book Formatter Pro",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
-      "size": 11403100,
-      "sha256": "548a555d2ad1873ade6c0d005a9842d291508d915f3acd8ebb51d229b3aeeac8",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.0.0/book-formatter-pro-1.0.0.bfpk",
+      "size": 11403109,
+      "sha256": "6aefb7b58b30edf23c967ea663d5e5b1844033e564e6b13bed216d9406d76235",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.0/book-formatter-pro-1.1.0.bfpk",
       "contentHash": "c3446518751836963472b18ebf8edc0d81b2da35371af1dd1b8a0b85be1f2550",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "6aefb7b58b30edf23c967ea663d5e5b1844033e564e6b13bed216d9406d76235",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.0/book-formatter-pro-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "548a555d2ad1873ade6c0d005a9842d291508d915f3acd8ebb51d229b3aeeac8",
@@ -48,16 +62,23 @@
     "book-cover": {
       "name": "Book Cover Pro",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/book-cover/index.html",
-      "size": 222362,
-      "sha256": "d298dcea91d1ded22dca1dde5266b991e357e567fd528591f67cf6277b07fecc",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.0.0/book-cover-1.0.0.bfpk",
+      "size": 222366,
+      "sha256": "c983cff5d7646cbb68d9ea5c5b0acbfa65db1dbb38f558a78d9d87a3a235384e",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.0/book-cover-1.1.0.bfpk",
       "contentHash": "7dd84c7cc26d60057e0aad843985941d2777ff64ab629ac5c7ef719b238d9fe9",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "c983cff5d7646cbb68d9ea5c5b0acbfa65db1dbb38f558a78d9d87a3a235384e",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.0/book-cover-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "d298dcea91d1ded22dca1dde5266b991e357e567fd528591f67cf6277b07fecc",
@@ -70,16 +91,23 @@
     "images": {
       "name": "Images",
       "description": "Image tools for book pages.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/images/index.html",
-      "size": 1957994,
-      "sha256": "d4e4909a95b728a3a25a70c97239b81be52df4fafa7deff326f8410915d7f3ec",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/images-v1.0.0/images-1.0.0.bfpk",
+      "size": 1957996,
+      "sha256": "a8a93948d7f3de1273d88452960e724c34de35e7999ca45f2b8eb8eba5d280f2",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/images-v1.1.0/images-1.1.0.bfpk",
       "contentHash": "a1811ee863fe688525b057b647d7d3e4c3b42c28d169ced39efc17f23c9a48a8",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "a8a93948d7f3de1273d88452960e724c34de35e7999ca45f2b8eb8eba5d280f2",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/images-v1.1.0/images-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "d4e4909a95b728a3a25a70c97239b81be52df4fafa7deff326f8410915d7f3ec",
@@ -92,16 +120,23 @@
     "recipe-formatter-pro": {
       "name": "Recipe Formatter Pro",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
-      "size": 466118,
-      "sha256": "5a3bcebd8a964366374e49ee772f4c270f4acfc9df42a87e6abffadb5c5d726b",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.0.0/recipe-formatter-pro-1.0.0.bfpk",
+      "size": 466121,
+      "sha256": "b1986254cdfec1187c085718f23cd0b4fdf8a4a691de72ea75cc01a13aa2ac99",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.0/recipe-formatter-pro-1.1.0.bfpk",
       "contentHash": "5da97db77a4b5a76c33b05e84e5d306dc5cfb3080d44a94261dae695d8af29d4",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "b1986254cdfec1187c085718f23cd0b4fdf8a4a691de72ea75cc01a13aa2ac99",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.0/recipe-formatter-pro-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "5a3bcebd8a964366374e49ee772f4c270f4acfc9df42a87e6abffadb5c5d726b",
@@ -114,16 +149,23 @@
     "autolumen": {
       "name": "AutoLumen",
       "description": "Automates image generation.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/autolumen/sidepanel.html",
-      "size": 120271,
-      "sha256": "f0a2298380e314602d105e144e3956de526d4358b5b134ae493a18a61801046e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autolumen-v1.0.0/autolumen-1.0.0.bfpk",
+      "size": 120274,
+      "sha256": "370be3eb2e0127436097c97342e3479494a7b3df85a9e4d28d4f8c6250fb5c7c",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autolumen-v1.1.0/autolumen-1.1.0.bfpk",
       "contentHash": "d4754cfc4f7fca89e484d3eeafde18f2eef18e5361d7a919b2ea1d8be4c82754",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "370be3eb2e0127436097c97342e3479494a7b3df85a9e4d28d4f8c6250fb5c7c",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autolumen-v1.1.0/autolumen-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "f0a2298380e314602d105e144e3956de526d4358b5b134ae493a18a61801046e",
@@ -136,16 +178,23 @@
     "autoflow-pro": {
       "name": "AutoFlow Pro",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/autoflow-pro/sidepanel.html",
-      "size": 177381,
-      "sha256": "121511f8eb02f787aee86581d4d2f219ed9989c522c61ed12d3ce9dd659e6f5d",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.0.0/autoflow-pro-1.0.0.bfpk",
+      "size": 177383,
+      "sha256": "b70d8acaba2b1cb8695e0a070fc73b39a78c8d15cd7e5f0a58cd3d41ababd636",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.0/autoflow-pro-1.1.0.bfpk",
       "contentHash": "5adfd36c38a8a0ad96cf5dd0894ee3d87e6cc73c52adc3d5775db8c1d2780843",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "b70d8acaba2b1cb8695e0a070fc73b39a78c8d15cd7e5f0a58cd3d41ababd636",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.0/autoflow-pro-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "121511f8eb02f787aee86581d4d2f219ed9989c522c61ed12d3ce9dd659e6f5d",
@@ -158,16 +207,23 @@
     "outline-book-writer": {
       "name": "Outline Book Writer",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/outline-book-writer/index.html",
-      "size": 168663,
-      "sha256": "fec40828044147d5f14e8dd55b126955b538905832d0ccf73b69940c95cb4b0e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.0.0/outline-book-writer-1.0.0.bfpk",
+      "size": 168666,
+      "sha256": "35988091e7934df6d6300a2714c445247572e8b61db1f28a55a874bd0486063b",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.0/outline-book-writer-1.1.0.bfpk",
       "contentHash": "3e88dc70c71265d7d6e4514c8705eb041cb83140b6559f00ab3b0541de37c0b6",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "35988091e7934df6d6300a2714c445247572e8b61db1f28a55a874bd0486063b",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.0/outline-book-writer-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "fec40828044147d5f14e8dd55b126955b538905832d0ccf73b69940c95cb4b0e",
@@ -180,16 +236,23 @@
     "fiction-writer": {
       "name": "Fiction Writer",
       "description": "Writes fiction chapter by chapter.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/fiction-writer/index.html",
-      "size": 132860,
-      "sha256": "13bb5afc0b157b141e9b6cc3680286f5f75656c751f0d446cbc3b8f9089e63d8",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/fiction-writer-v1.0.0/fiction-writer-1.0.0.bfpk",
+      "size": 132863,
+      "sha256": "b03f563a839356cf1aa8bb3054c5f401fb727d7ebca060ef07b2e09921ea2bc3",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/fiction-writer-v1.1.0/fiction-writer-1.1.0.bfpk",
       "contentHash": "49d6f0068733466a6fbb58451a23e1ea5d780713f50d65a4765c37eafc551986",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "b03f563a839356cf1aa8bb3054c5f401fb727d7ebca060ef07b2e09921ea2bc3",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/fiction-writer-v1.1.0/fiction-writer-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "13bb5afc0b157b141e9b6cc3680286f5f75656c751f0d446cbc3b8f9089e63d8",
@@ -202,16 +265,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/response-collector/index.html",
-      "size": 517141,
-      "sha256": "44a5913302f2507cb015aa198103a23f8d76e4db4f1cefdecc4973c39cd9dca9",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.0.0/response-collector-1.0.0.bfpk",
+      "size": 517148,
+      "sha256": "bed82f456e4b1fe7be64cde06a2a6e735e8607421b6fffe32e18a8f438b66b5d",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.0/response-collector-1.1.0.bfpk",
       "contentHash": "edd90f0c0ee2648f14dab12ae5874df38808c89ec6162553a1241c4edcc082ec",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "bed82f456e4b1fe7be64cde06a2a6e735e8607421b6fffe32e18a8f438b66b5d",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.0/response-collector-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "44a5913302f2507cb015aa198103a23f8d76e4db4f1cefdecc4973c39cd9dca9",
@@ -224,16 +294,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/book-generator-ai/index.html",
-      "size": 672480,
-      "sha256": "355cf8febe2549a9c68a4324228085ab7432263957052c0614203250a0146622",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.0.0/book-generator-ai-1.0.0.bfpk",
+      "size": 672490,
+      "sha256": "bde21b4275881d2ae5548dcdc7a50b15c188551fc9e971365d4e162f0888ffb0",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.0/book-generator-ai-1.1.0.bfpk",
       "contentHash": "fda7121d0e878bd4945d52ca6a0feee2d3a1259759389c02209a0d7ce442acf4",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "bde21b4275881d2ae5548dcdc7a50b15c188551fc9e971365d4e162f0888ffb0",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.0/book-generator-ai-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "355cf8febe2549a9c68a4324228085ab7432263957052c0614203250a0146622",
@@ -246,16 +323,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 170660,
-      "sha256": "382f149917e109ef51892003ed2c20e265d87586c878fbcd89c318138783c8ea",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.0.0/image-prompt-queue-1.0.0.bfpk",
+      "size": 170664,
+      "sha256": "b69292072d7878a0b5359a8dee277fadf9ade2b78eb81b3bde8b5a0870600522",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.0/image-prompt-queue-1.1.0.bfpk",
       "contentHash": "017717c93092239ffa649a0aeacd8366750d75e95097ef214197c46f9e1a2b37",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "b69292072d7878a0b5359a8dee277fadf9ade2b78eb81b3bde8b5a0870600522",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.0/image-prompt-queue-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "382f149917e109ef51892003ed2c20e265d87586c878fbcd89c318138783c8ea",
@@ -268,16 +352,23 @@
     "book-formatter-pro-academy": {
       "name": "Book Formatter Pro Academy",
       "description": "Training and guides.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro-academy/sidepanel/sidepanel.html",
-      "size": 60209,
-      "sha256": "ed36736e7796962f770ef411cd643b9efaf16ce13903654dcd97bf00d0b580e2",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-academy-v1.0.0/book-formatter-pro-academy-1.0.0.bfpk",
+      "size": 60211,
+      "sha256": "672164eef0ef49c0bf136fbff93060c59ea2add806b8a89def4452f3a321c258",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-academy-v1.1.0/book-formatter-pro-academy-1.1.0.bfpk",
       "contentHash": "c19295a06ea037244eb272867ea85db48317008d41bb76de192b97aebbff57ee",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "672164eef0ef49c0bf136fbff93060c59ea2add806b8a89def4452f3a321c258",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-academy-v1.1.0/book-formatter-pro-academy-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "ed36736e7796962f770ef411cd643b9efaf16ce13903654dcd97bf00d0b580e2",
@@ -290,16 +381,23 @@
     "pdf-editor": {
       "name": "PDF Editor",
       "description": "Open, reorder, edit and number PDF pages.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/pdf-editor/index.html",
-      "size": 233241,
-      "sha256": "252922a086bcdaee4c23f1ce7e4bfbd0e3a3c7fe165fbf575cc94318e3566c85",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/pdf-editor-v1.0.0/pdf-editor-1.0.0.bfpk",
+      "size": 233243,
+      "sha256": "df5cc078b079f49c77eebc5d895eedda77bc735f7235eb28888325dae32549dc",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/pdf-editor-v1.1.0/pdf-editor-1.1.0.bfpk",
       "contentHash": "36e08e8b46a205b18389cbb8091749db1c3fda0ed8d0bdcf2a75bf0632d66695",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "df5cc078b079f49c77eebc5d895eedda77bc735f7235eb28888325dae32549dc",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/pdf-editor-v1.1.0/pdf-editor-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "252922a086bcdaee4c23f1ce7e4bfbd0e3a3c7fe165fbf575cc94318e3566c85",
@@ -312,16 +410,23 @@
     "book-topic-ideas": {
       "name": "Topic Ideas",
       "description": "Book topic research.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/book-topic-ideas/index.html",
-      "size": 1204039,
-      "sha256": "def99e2bd483d253686a5bee2adccab201d25e28265242bfa092a867d73023bb",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-topic-ideas-v1.0.0/book-topic-ideas-1.0.0.bfpk",
+      "size": 1204044,
+      "sha256": "082f403a4afc272b0c5cf820d1eb01399e22b1b1a5279918fbc56fe5c3d493b7",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-topic-ideas-v1.1.0/book-topic-ideas-1.1.0.bfpk",
       "contentHash": "a2223049939b553149ceb5e471cb45cc19b5d2d92d0180b782d372a789875b1a",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "082f403a4afc272b0c5cf820d1eb01399e22b1b1a5279918fbc56fe5c3d493b7",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-topic-ideas-v1.1.0/book-topic-ideas-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "def99e2bd483d253686a5bee2adccab201d25e28265242bfa092a867d73023bb",
@@ -334,16 +439,23 @@
     "cookbook-writer-pro": {
       "name": "Cookbook Writer Pro",
       "description": "Writes and prepares cookbooks.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "minAppVersion": "1.0.0",
       "entry": "src/cookbook-writer-pro/index.html",
-      "size": 91826,
-      "sha256": "22322333100e24ee49e6a51f2c97d8a4c0883e0fecce7e9befa1a91adc4fda57",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.0.0/cookbook-writer-pro-1.0.0.bfpk",
+      "size": 91828,
+      "sha256": "59980d2c863b7cffcbcf3ca9e848ca4ca8de02e4b8f220fabecddd797b6416ca",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.0/cookbook-writer-pro-1.1.0.bfpk",
       "contentHash": "c044b56a70f42bbce73e42db7cfb20d982fff2ec7843dc57ff9baad54809ff55",
       "releasedAt": "2026-09-20",
-      "notes": "First release.",
+      "notes": "Version 1.1.0: updated Settings panel and update tools.",
       "history": [
+        {
+          "version": "1.1.0",
+          "sha256": "59980d2c863b7cffcbcf3ca9e848ca4ca8de02e4b8f220fabecddd797b6416ca",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.0/cookbook-writer-pro-1.1.0.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Version 1.1.0: updated Settings panel and update tools."
+        },
         {
           "version": "1.0.0",
           "sha256": "22322333100e24ee49e6a51f2c97d8a4c0883e0fecce7e9befa1a91adc4fda57",
@@ -355,7 +467,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T13:19:35.067Z",
+  "generatedAt": "2026-09-20T13:42:58.342Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.0.0",
