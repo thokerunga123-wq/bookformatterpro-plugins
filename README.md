@@ -88,7 +88,27 @@ release of all plugins is published with `node tools/publish.mjs`, which creates
 missing (using `gh`). Later, single-plugin releases run `publish.yml` from their tag as usual, and
 `node tools/publish.mjs <plugin-id>` does the same by hand.
 
-## Shipping the whole app
+## Releasing the app itself
 
-The app's own installer feed is separate (`bookformatterpro-app-releases`), so a plugin release can
-never be mistaken for a new app version.
+The app (the installer) is released here too, with its own SHA-256, as the `app` entry of `index.json`
+and a release tagged `app-v<version>`. The app is at **1.0.0**.
+
+```powershell
+# in the app project: build the installer
+npm run tauri build -- --bundles nsis
+
+# in this repo: record it, push, upload the installer
+node tools/release-app.mjs --installer "F:\TAURI APP - REDESIGNED\src-tauri	argeteleaseundle
+sis\BookFormatter Pro_1.0.1_x64-setup.exe" --notes "What changed"
+git push origin main --follow-tags
+node tools/publish.mjs
+node tools/verify.mjs --online      # downloads the published installer and checks its SHA-256
+```
+
+The version is read from the app's `tauri.conf.json` (or use `--version`). The installer itself is not
+committed to git (`dist-app/` is ignored); it is uploaded to the release together with
+`BookFormatterPro-<version>-setup.exe.sha256`. Installed apps read the `app` entry, and offer the update
+only if its version is newer than theirs; the installer is downloaded, checked against the SHA-256,
+and then installed silently.
+
+Plugins and the app version independently: a plugin release never asks anyone to reinstall the app.

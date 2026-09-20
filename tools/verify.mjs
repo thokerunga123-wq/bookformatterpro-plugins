@@ -9,7 +9,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { gunzipSync } from "node:zlib";
 import { join } from "node:path";
-import { PACKAGES_DIR, PACKAGE_FORMAT, loadIndex, loadRegistry, packageFileName, sha256Hex, assetUrl } from "./lib/common.mjs";
+import { APP_DIST_DIR, PACKAGES_DIR, PACKAGE_FORMAT, appAssetName, appAssetUrl, loadIndex, loadRegistry, packageFileName, parseVersion, sha256Hex, assetUrl } from "./lib/common.mjs";
 
 const registry = loadRegistry();
 const index = loadIndex();
@@ -54,8 +54,34 @@ for (const [id, entry] of Object.entries(index.plugins)) {
   }
 }
 
+// The app itself.
+const app = index.app;
+if (app) {
+  try { parseVersion(app.version); } catch (error) { fail("app", error.message); }
+  if (!/^[0-9a-f]{64}$/.test(app.sha256 || "")) fail("app", "sha256 is not a 64-character hex value");
+  if (!(app.size > 0)) fail("app", "size is missing");
+  if (app.url !== appAssetUrl(app.version)) fail("app", `url does not point at this release: ${app.url}`);
+  const local = join(APP_DIST_DIR, appAssetName(app.version));
+  if (existsSync(local)) {
+    const bytes = readFileSync(local);
+    if (sha256Hex(bytes) !== app.sha256 || bytes.length !== app.size) fail("app", "the installer in dist-app/ does not match index.json");
+  }
+  // --online: download the published installer and check it, exactly as the app does.
+  if (process.argv.includes("--online")) {
+    try {
+      const response = await fetch(app.url);
+      const bytes = Buffer.from(await response.arrayBuffer());
+      if (!response.ok) fail("app", `download answered ${response.status}`);
+      else if (sha256Hex(bytes) !== app.sha256 || bytes.length !== app.size) fail("app", "the published installer does not match index.json");
+      else console.log(`OK: the published app installer (${(bytes.length / 1048576).toFixed(1)} MB) matches its SHA-256.`);
+    } catch (error) {
+      fail("app", `download failed: ${error.message}`);
+    }
+  }
+}
+
 if (problems.length) {
   console.error(`${problems.length} problem(s):\n - ${problems.join("\n - ")}`);
   process.exit(1);
 }
-console.log(`OK: ${Object.keys(index.plugins).length} plugin package(s) verified.`);
+console.log(`OK: ${Object.keys(index.plugins).length} plugin package(s)${app ? ` and the app ${app.version}` : ""} verified.`);

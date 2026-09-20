@@ -11,7 +11,7 @@
 import { execFileSync } from "node:child_process";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import { GITHUB_REPO, PACKAGES_DIR, REPO_ROOT, loadIndex, packageFileName, tagFor } from "./lib/common.mjs";
+import { APP_DIST_DIR, GITHUB_REPO, PACKAGES_DIR, REPO_ROOT, appAssetName, appTag, loadIndex, packageFileName, tagFor } from "./lib/common.mjs";
 
 const only = process.argv[2];
 const gh = (args) => execFileSync("gh", args, { cwd: REPO_ROOT, encoding: "utf8" }).trim();
@@ -46,5 +46,27 @@ for (const [id, entry] of Object.entries(index.plugins)) {
   ]);
   console.log(`+ ${tag} published`);
   created += 1;
+}
+// The app itself: its installer is uploaded from dist-app/ (created by tools/release-app.mjs).
+if (index.app && (!only || only === "app")) {
+  const tag = appTag(index.app.version);
+  if (existing.has(tag)) {
+    console.log(`= ${tag} already released`);
+  } else {
+    const file = join(APP_DIST_DIR, appAssetName(index.app.version));
+    if (!existsSync(file)) {
+      console.error(`! ${tag}: installer missing (${file}); run tools/release-app.mjs on this machine first`);
+      process.exitCode = 1;
+    } else {
+      gh([
+        "release", "create", tag, file, `${file}.sha256`,
+        "--repo", GITHUB_REPO, "--verify-tag",
+        "--title", `BookFormatter Pro ${index.app.version}`,
+        "--notes", `${index.app.notes || "Update."}\n\nSHA-256: ${index.app.sha256}`
+      ]);
+      console.log(`+ ${tag} published`);
+      created += 1;
+    }
+  }
 }
 console.log(created ? `Published ${created} release(s).` : "Nothing to publish.");

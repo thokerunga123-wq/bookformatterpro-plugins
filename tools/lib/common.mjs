@@ -74,3 +74,10 @@ export function loadRegistry() {
 export function loadIndex() {
   return readJson(INDEX_PATH, { schema: 1, plugins: {} });
 }
+
+// The app itself (the installer) is released next to the plugins, tagged app-v<version>.
+export const appTag = (version) => `app-v${version}`;
+export const appAssetName = (version) => `BookFormatterPro-${version}-setup.exe`;
+export const appAssetUrl = (version) =>
+  `https://github.com/${GITHUB_REPO}/releases/download/${appTag(version)}/${appAssetName(version)}`;
+export const APP_DIST_DIR = join(REPO_ROOT, "dist-app");
