@@ -59,3 +59,33 @@ plugin needs; the app skips a plugin update it is too old for.
 
 Note that the checksum proves the download is intact and matches what was published. It does not prove
 who published it: protect the GitHub account and repository (two-factor login, branch protection).
+
+## How the app uses this repository
+
+The app (`src-tauri/src/plugin_updates.rs`) reads
+`https://raw.githubusercontent.com/thokerunga123-wq/bookformatterpro-plugins/main/index.json`,
+so **this repository must be public** (or the app needs a token).
+
+- A few seconds after start-up it checks the index and, unless the user turned it off, installs
+  newer plugins. The **Updates** button in the dock shows every plugin's version, lets the user check,
+  update one plugin or all of them, roll a plugin back, and switch automatic updates on or off.
+- Installed updates live in the app's data folder under `plugins/<id>/<version>/`. A plugin that has
+  one opens through the app's `bfpplugins` address; every other file it needs comes from the app.
+  Plugins without an update open exactly as before.
+- An update is used the next time the plugin is opened (a plugin that is already open keeps its
+  old version until it is closed).
+
+## First publish
+
+```powershell
+cd F:\bookformatterpro-plugins
+gh repo create thokerunga123-wq/bookformatterpro-plugins --public --source . --remote origin
+git push origin main --follow-tags
+```
+
+The 16 tags `<plugin>-v1.0.0` start 16 `publish.yml` runs, each creating that plugin's GitHub release.
+
+## Shipping the whole app
+
+The app's own installer feed is separate (`bookformatterpro-app-releases`), so a plugin release can
+never be mistaken for a new app version.
