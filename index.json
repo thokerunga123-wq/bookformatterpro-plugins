@@ -265,16 +265,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.0",
-      "minAppVersion": "1.0.0",
+      "version": "1.1.1",
+      "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 517148,
-      "sha256": "bed82f456e4b1fe7be64cde06a2a6e735e8607421b6fffe32e18a8f438b66b5d",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.0/response-collector-1.1.0.bfpk",
-      "contentHash": "edd90f0c0ee2648f14dab12ae5874df38808c89ec6162553a1241c4edcc082ec",
+      "size": 517298,
+      "sha256": "957c624086223b8ba28c050869d1a513fe249649c272894b42b97b81f7eb4107",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.1/response-collector-1.1.1.bfpk",
+      "contentHash": "b60d52fc3576c47b5ab02a37c34d28bf05fcc921a7793a75776f1520147c518a",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Cookbook: page numbers now use the Workbook designs with a size control, Amazon KDP margin and page-number guides in the preview, switching template rebuilds the whole book with an accurate table of contents, wider popup panels, and the PDF export now matches the preview exactly (fonts, images and page numbers). Requires app 1.2.2.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "957c624086223b8ba28c050869d1a513fe249649c272894b42b97b81f7eb4107",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.1/response-collector-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Cookbook: page numbers now use the Workbook designs with a size control, Amazon KDP margin and page-number guides in the preview, switching template rebuilds the whole book with an accurate table of contents, wider popup panels, and the PDF export now matches the preview exactly (fonts, images and page numbers). Requires app 1.2.2."
+        },
         {
           "version": "1.1.0",
           "sha256": "bed82f456e4b1fe7be64cde06a2a6e735e8607421b6fffe32e18a8f438b66b5d",
@@ -467,7 +474,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T15:41:20.717Z",
+  "generatedAt": "2026-09-20T21:45:33.016Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.1",

@@ -186,9 +186,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.0",
-      "minAppVersion": "1.0.0",
+      "version": "1.1.1",
+      "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Cookbook: page numbers now use the Workbook designs with a size control, Amazon KDP margin and page-number guides in the preview, switching template rebuilds the whole book with an accurate table of contents, wider popup panels, and the PDF export now matches the preview exactly (fonts, images and page numbers). Requires app 1.2.2."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
@@ -207,7 +212,7 @@
       "entry": "src/book-generator-ai/index.html",
       "description": "Generates book content with AI.",
       "version": "1.1.0",
-      "minAppVersion": "1.0.0",
+      "minAppVersion": "1.2.2",
       "changelog": [
         {
           "version": "1.1.0",
