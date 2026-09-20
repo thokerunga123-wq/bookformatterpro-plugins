@@ -6,9 +6,14 @@
       "name": "GPT Centre",
       "entry": "src/gpt-centre/sidepanel/sidepanel.html",
       "description": "Prompt library and launcher for AI chats.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
@@ -26,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
@@ -146,9 +156,14 @@
       "name": "Outline Book Writer",
       "entry": "src/outline-book-writer/index.html",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
@@ -281,9 +296,14 @@
       "name": "PDF Editor",
       "entry": "src/pdf-editor/index.html",
       "description": "Open, reorder, edit and number PDF pages.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
@@ -301,9 +321,14 @@
       "name": "Topic Ideas",
       "entry": "src/book-topic-ideas/index.html",
       "description": "Book topic research.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
@@ -321,9 +346,14 @@
       "name": "Cookbook Writer Pro",
       "entry": "src/cookbook-writer-pro/index.html",
       "description": "Writes and prepares cookbooks.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",

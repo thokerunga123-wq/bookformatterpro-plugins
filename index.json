@@ -4,16 +4,23 @@
     "gpt-centre": {
       "name": "GPT Centre",
       "description": "Prompt library and launcher for AI chats.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/gpt-centre/sidepanel/sidepanel.html",
-      "size": 58749,
-      "sha256": "f6a97019c02a5340a304d4fc77e72f04097bfc67b63564aa3b2c1e78ed883eb6",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/gpt-centre-v1.1.0/gpt-centre-1.1.0.bfpk",
-      "contentHash": "0c9f1570ced4590f276d5d8c2c80984d6c74ce1b9cacdf4bad9ff48bd14616f4",
+      "size": 59534,
+      "sha256": "82e1ebd827649e1e9fbf0609032ac0cd92422e04d60a99c12cb8763e1b6c9b82",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/gpt-centre-v1.1.1/gpt-centre-1.1.1.bfpk",
+      "contentHash": "8ff020fd292867ce5c0814d37755571521a683fed7f9b847f008568710698bff",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "82e1ebd827649e1e9fbf0609032ac0cd92422e04d60a99c12cb8763e1b6c9b82",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/gpt-centre-v1.1.1/gpt-centre-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "sha256": "f6a97019c02a5340a304d4fc77e72f04097bfc67b63564aa3b2c1e78ed883eb6",
@@ -33,16 +40,23 @@
     "book-formatter-pro": {
       "name": "Book Formatter Pro",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
-      "size": 11403109,
-      "sha256": "6aefb7b58b30edf23c967ea663d5e5b1844033e564e6b13bed216d9406d76235",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.0/book-formatter-pro-1.1.0.bfpk",
-      "contentHash": "c3446518751836963472b18ebf8edc0d81b2da35371af1dd1b8a0b85be1f2550",
+      "size": 11423418,
+      "sha256": "79ec966a723af4bec7c1baaf7fe80b7a803b16c1ae1e2dc015714a923dcc9e59",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.1/book-formatter-pro-1.1.1.bfpk",
+      "contentHash": "f63b32bec54f86183252de8982ad61d950c76d33592d28b50af531d0d82601ca",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "79ec966a723af4bec7c1baaf7fe80b7a803b16c1ae1e2dc015714a923dcc9e59",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.1/book-formatter-pro-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "sha256": "6aefb7b58b30edf23c967ea663d5e5b1844033e564e6b13bed216d9406d76235",
@@ -207,16 +221,23 @@
     "outline-book-writer": {
       "name": "Outline Book Writer",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/outline-book-writer/index.html",
-      "size": 168666,
-      "sha256": "35988091e7934df6d6300a2714c445247572e8b61db1f28a55a874bd0486063b",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.0/outline-book-writer-1.1.0.bfpk",
-      "contentHash": "3e88dc70c71265d7d6e4514c8705eb041cb83140b6559f00ab3b0541de37c0b6",
+      "size": 169727,
+      "sha256": "1d577d2c1c1598df232117188f4c4333f321fd719880542cad3bfdfa68cb5645",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.1/outline-book-writer-1.1.1.bfpk",
+      "contentHash": "9877724d19899cafa20f561e89c85acb0aeaa26937a7f5e6b49be57f75204e36",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "1d577d2c1c1598df232117188f4c4333f321fd719880542cad3bfdfa68cb5645",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.1/outline-book-writer-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "sha256": "35988091e7934df6d6300a2714c445247572e8b61db1f28a55a874bd0486063b",
@@ -402,16 +423,23 @@
     "pdf-editor": {
       "name": "PDF Editor",
       "description": "Open, reorder, edit and number PDF pages.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/pdf-editor/index.html",
-      "size": 233243,
-      "sha256": "df5cc078b079f49c77eebc5d895eedda77bc735f7235eb28888325dae32549dc",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/pdf-editor-v1.1.0/pdf-editor-1.1.0.bfpk",
-      "contentHash": "36e08e8b46a205b18389cbb8091749db1c3fda0ed8d0bdcf2a75bf0632d66695",
+      "size": 234163,
+      "sha256": "c55ea7f1f5b3b028f0d513d9fb5289245abda9e4e4b72941f1d8edabbd3bfd53",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/pdf-editor-v1.1.1/pdf-editor-1.1.1.bfpk",
+      "contentHash": "df8d65fe2131561c8a764ebf50ff59c3b4a26524d0d51197f026fde035266e72",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "c55ea7f1f5b3b028f0d513d9fb5289245abda9e4e4b72941f1d8edabbd3bfd53",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/pdf-editor-v1.1.1/pdf-editor-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "sha256": "df5cc078b079f49c77eebc5d895eedda77bc735f7235eb28888325dae32549dc",
@@ -431,16 +459,23 @@
     "book-topic-ideas": {
       "name": "Topic Ideas",
       "description": "Book topic research.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/book-topic-ideas/index.html",
-      "size": 1204044,
-      "sha256": "082f403a4afc272b0c5cf820d1eb01399e22b1b1a5279918fbc56fe5c3d493b7",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-topic-ideas-v1.1.0/book-topic-ideas-1.1.0.bfpk",
-      "contentHash": "a2223049939b553149ceb5e471cb45cc19b5d2d92d0180b782d372a789875b1a",
+      "size": 1205022,
+      "sha256": "354d7f8192797f1c9adc1e7c1b4a7bd333b486d83785cf84a8e43f2022f38fa5",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-topic-ideas-v1.1.1/book-topic-ideas-1.1.1.bfpk",
+      "contentHash": "f856d39c698315cac596b1d103efd8ca133ddfd8f8571a0ef479cd1e02bacbcf",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "354d7f8192797f1c9adc1e7c1b4a7bd333b486d83785cf84a8e43f2022f38fa5",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-topic-ideas-v1.1.1/book-topic-ideas-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "sha256": "082f403a4afc272b0c5cf820d1eb01399e22b1b1a5279918fbc56fe5c3d493b7",
@@ -460,16 +495,23 @@
     "cookbook-writer-pro": {
       "name": "Cookbook Writer Pro",
       "description": "Writes and prepares cookbooks.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/cookbook-writer-pro/index.html",
-      "size": 91828,
-      "sha256": "59980d2c863b7cffcbcf3ca9e848ca4ca8de02e4b8f220fabecddd797b6416ca",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.0/cookbook-writer-pro-1.1.0.bfpk",
-      "contentHash": "c044b56a70f42bbce73e42db7cfb20d982fff2ec7843dc57ff9baad54809ff55",
+      "size": 92741,
+      "sha256": "7fba6d039723d24303e6ec2c0cd8534bec3890e40d932b762e0065a2061c9f67",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.1/cookbook-writer-pro-1.1.1.bfpk",
+      "contentHash": "6f207ed3e84ca3fce8afc0744b4d34d267a36a1c39bec7482bbb464fd367bee6",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "7fba6d039723d24303e6ec2c0cd8534bec3890e40d932b762e0065a2061c9f67",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.1/cookbook-writer-pro-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Shared page engine update: more reliable PDF export and page decorations."
+        },
         {
           "version": "1.1.0",
           "sha256": "59980d2c863b7cffcbcf3ca9e848ca4ca8de02e4b8f220fabecddd797b6416ca",
@@ -488,7 +530,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T21:45:33.877Z",
+  "generatedAt": "2026-09-20T21:45:35.698Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.1",
