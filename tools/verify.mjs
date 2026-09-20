@@ -1,0 +1,61 @@
+#!/usr/bin/env node
+// Checks that everything index.json promises is true:
+//   - every plugin in index.json has a package file whose SHA-256 matches the published one
+//   - the .sha256 file next to it agrees
+//   - the package opens, its manifest matches the index, and every file inside matches its own SHA-256
+//   - the entry page is inside the package
+//   - the version in index.json equals the one in plugins.json
+// Exits non-zero on any problem, so it can run in CI and before every push.
+import { existsSync, readFileSync } from "node:fs";
+import { gunzipSync } from "node:zlib";
+import { join } from "node:path";
+import { PACKAGES_DIR, PACKAGE_FORMAT, loadIndex, loadRegistry, packageFileName, sha256Hex, assetUrl } from "./lib/common.mjs";
+
+const registry = loadRegistry();
+const index = loadIndex();
+const problems = [];
+const fail = (id, message) => problems.push(`${id}: ${message}`);
+
+for (const plugin of registry.plugins) {
+  if (!index.plugins[plugin.id]) fail(plugin.id, "listed in plugins.json but has no release in index.json");
+}
+
+for (const [id, entry] of Object.entries(index.plugins)) {
+  const plugin = registry.plugins.find((p) => p.id === id);
+  if (!plugin) { fail(id, "in index.json but not in plugins.json"); continue; }
+  if (plugin.version !== entry.version) fail(id, `plugins.json says ${plugin.version} but index.json says ${entry.version}`);
+  if (entry.url !== assetUrl(id, entry.version)) fail(id, `url does not point at this release: ${entry.url}`);
+
+  const fileName = packageFileName(id, entry.version);
+  const path = join(PACKAGES_DIR, id, fileName);
+  if (!existsSync(path)) { fail(id, `missing ${path}`); continue; }
+  const bytes = readFileSync(path);
+  const actual = sha256Hex(bytes);
+  if (actual !== entry.sha256) fail(id, `SHA-256 mismatch (index ${entry.sha256.slice(0, 12)}..., file ${actual.slice(0, 12)}...)`);
+  if (bytes.length !== entry.size) fail(id, `size mismatch (index ${entry.size}, file ${bytes.length})`);
+  const sidecar = join(PACKAGES_DIR, id, `${fileName}.sha256`);
+  if (!existsSync(sidecar) || !readFileSync(sidecar, "utf8").startsWith(entry.sha256)) fail(id, "the .sha256 file is missing or different");
+
+  let doc;
+  try {
+    doc = JSON.parse(gunzipSync(bytes).toString("utf8"));
+  } catch (error) {
+    fail(id, `package does not open: ${error.message}`);
+    continue;
+  }
+  if (doc.format !== PACKAGE_FORMAT) fail(id, `package format ${doc.format}, expected ${PACKAGE_FORMAT}`);
+  if (doc.id !== id || doc.version !== entry.version) fail(id, "manifest id/version differ from index.json");
+  if (doc.entry !== entry.entry) fail(id, "manifest entry differs from index.json");
+  if (!doc.files.some((f) => f.path === doc.entry)) fail(id, `entry page ${doc.entry} is not inside the package`);
+  for (const file of doc.files) {
+    if (file.path.includes("..") || file.path.startsWith("/") || file.path.includes("\\")) fail(id, `unsafe path ${file.path}`);
+    const data = Buffer.from(file.data, "base64");
+    if (sha256Hex(data) !== file.sha256 || data.length !== file.size) fail(id, `file ${file.path} does not match its own SHA-256`);
+  }
+}
+
+if (problems.length) {
+  console.error(`${problems.length} problem(s):\n - ${problems.join("\n - ")}`);
+  process.exit(1);
+}
+console.log(`OK: ${Object.keys(index.plugins).length} plugin package(s) verified.`);

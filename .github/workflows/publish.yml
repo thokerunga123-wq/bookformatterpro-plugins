@@ -1,0 +1,33 @@
+name: Publish plugin release
+
+# A tag named <plugin-id>-v<version> (created by tools/release.mjs) publishes that plugin's
+# package as a GitHub release. The app downloads the asset and checks it against index.json.
+on:
+  push:
+    tags:
+      - "*-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Verify all packages first
+        run: node tools/verify.mjs
+      - name: Create the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          ID="${TAG%-v*}"
+          VERSION="${TAG##*-v}"
+          FILE="packages/${ID}/${ID}-${VERSION}.bfpk"
+          test -f "$FILE" || { echo "No package at $FILE"; exit 1; }
+          NOTES=$(node -e "const i=JSON.parse(require('fs').readFileSync('index.json','utf8')).plugins['$ID']; const h=(i.history||[]).find(x=>x.version==='$VERSION'); console.log((h&&h.notes)||'Update.'+'\n\nSHA-256: '+(h&&h.sha256))")
+          gh release create "$TAG" "$FILE" "$FILE.sha256" --title "$ID $VERSION" --notes "$NOTES"

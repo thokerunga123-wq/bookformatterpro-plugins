@@ -1,0 +1,13 @@
+{
+  "name": "bookformatterpro-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Per-plugin releases for BookFormatter Pro, published with SHA-256 checksums so plugins update without reinstalling the app.",
+  "scripts": {
+    "verify": "node tools/verify.mjs",
+    "release": "node tools/release.mjs",
+    "list": "node tools/list.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
