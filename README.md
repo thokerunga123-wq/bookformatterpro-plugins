@@ -83,7 +83,10 @@ gh repo create thokerunga123-wq/bookformatterpro-plugins --public --source . --r
 git push origin main --follow-tags
 ```
 
-The 16 tags `<plugin>-v1.0.0` start 16 `publish.yml` runs, each creating that plugin's GitHub release.
+GitHub does not start tag workflows when more than three tags are pushed at once, so the first
+release of all plugins is published with `node tools/publish.mjs`, which creates every release that is
+missing (using `gh`). Later, single-plugin releases run `publish.yml` from their tag as usual, and
+`node tools/publish.mjs <plugin-id>` does the same by hand.
 
 ## Shipping the whole app
 
