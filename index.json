@@ -530,16 +530,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T21:45:35.698Z",
+  "generatedAt": "2026-09-20T21:47:06.043Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.2.1",
-    "size": 16706902,
-    "sha256": "d6c038d7d49b34308f4dd20c911c8f2f55fcc198f9438aaeb1a156b6950e0376",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.1/BookFormatterPro-1.2.1-setup.exe",
+    "version": "1.2.2",
+    "size": 17854388,
+    "sha256": "1606adc1eea9aa4ae7a18a0aaac75193e3094a649c8ba3f116435e00ad16eced",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.2/BookFormatterPro-1.2.2-setup.exe",
     "releasedAt": "2026-09-20",
-    "notes": "Version 1.2.1: fixes the blank New Tab page, closes a license bypass, allows only one running copy of the app, turns off developer tools in release builds, and restores the styling of the activation and dialog screens.",
+    "notes": "Version 1.2.2: Cookbook PDF export now matches the preview (with page numbers), the PDF editor opens exported files reliably, Academy lessons open in your web browser, and the Fiction Writer, Cookbook and Academy plugins get the improvements released alongside.",
     "history": [
+      {
+        "version": "1.2.2",
+        "sha256": "1606adc1eea9aa4ae7a18a0aaac75193e3094a649c8ba3f116435e00ad16eced",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.2/BookFormatterPro-1.2.2-setup.exe",
+        "releasedAt": "2026-09-20",
+        "notes": "Version 1.2.2: Cookbook PDF export now matches the preview (with page numbers), the PDF editor opens exported files reliably, Academy lessons open in your web browser, and the Fiction Writer, Cookbook and Academy plugins get the improvements released alongside."
+      },
       {
         "version": "1.2.1",
         "sha256": "d6c038d7d49b34308f4dd20c911c8f2f55fcc198f9438aaeb1a156b6950e0376",
