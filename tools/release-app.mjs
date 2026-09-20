@@ -56,7 +56,7 @@ const assetName = appAssetName(version);
 const outDir = join(REPO_ROOT, "dist-app");
 mkdirSync(outDir, { recursive: true });
 copyFileSync(installer, join(outDir, assetName));
-writeFileSync(join(outDir, `${assetName}.sha256`), `${sha256}  ${assetName}\n`);
+writeFileSync(join(outDir, `${assetName}.sha256`), `${sha256}\n`);
 
 const today = new Date().toISOString().slice(0, 10);
 const notes = args.values.notes || (index.app ? "Update." : "First release.");
