@@ -530,16 +530,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T21:47:06.043Z",
+  "generatedAt": "2026-09-20T22:00:28.496Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.2.2",
-    "size": 17854388,
-    "sha256": "1606adc1eea9aa4ae7a18a0aaac75193e3094a649c8ba3f116435e00ad16eced",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.2/BookFormatterPro-1.2.2-setup.exe",
+    "version": "1.2.3",
+    "size": 17859957,
+    "sha256": "408329e2e434112522c1d911b7e889abfbcce51b089b903fcc26e6d05d96001e",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.3/BookFormatterPro-1.2.3-setup.exe",
     "releasedAt": "2026-09-20",
-    "notes": "Version 1.2.2: Cookbook PDF export now matches the preview (with page numbers), the PDF editor opens exported files reliably, Academy lessons open in your web browser, and the Fiction Writer, Cookbook and Academy plugins get the improvements released alongside.",
+    "notes": "Version 1.2.3: stronger license protection. Old-style activations now expire after a short window, a refusal from the license server locks the install immediately, and each computer without a readable drive serial now gets its own machine ID.",
     "history": [
+      {
+        "version": "1.2.3",
+        "sha256": "408329e2e434112522c1d911b7e889abfbcce51b089b903fcc26e6d05d96001e",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.3/BookFormatterPro-1.2.3-setup.exe",
+        "releasedAt": "2026-09-20",
+        "notes": "Version 1.2.3: stronger license protection. Old-style activations now expire after a short window, a refusal from the license server locks the install immediately, and each computer without a readable drive serial now gets its own machine ID."
+      },
       {
         "version": "1.2.2",
         "sha256": "1606adc1eea9aa4ae7a18a0aaac75193e3094a649c8ba3f116435e00ad16eced",
