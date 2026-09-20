@@ -530,16 +530,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T22:00:28.496Z",
+  "generatedAt": "2026-09-20T22:18:31.329Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.2.3",
-    "size": 17859957,
-    "sha256": "408329e2e434112522c1d911b7e889abfbcce51b089b903fcc26e6d05d96001e",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.3/BookFormatterPro-1.2.3-setup.exe",
+    "version": "1.2.4",
+    "size": 17900390,
+    "sha256": "b0d651c9b7dfa6eb506e72e2cc9641ccd76f59b8a69a80dd6c5c9227afd28975",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.4/BookFormatterPro-1.2.4-setup.exe",
     "releasedAt": "2026-09-20",
-    "notes": "Version 1.2.3: stronger license protection. Old-style activations now expire after a short window, a refusal from the license server locks the install immediately, and each computer without a readable drive serial now gets its own machine ID.",
+    "notes": "Version 1.2.4: installing this version now retires the older BookFormatter Pro 4.x on the same Windows account, so the two never run side by side. Your license, saved data and Word add-in are kept.",
     "history": [
+      {
+        "version": "1.2.4",
+        "sha256": "b0d651c9b7dfa6eb506e72e2cc9641ccd76f59b8a69a80dd6c5c9227afd28975",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.4/BookFormatterPro-1.2.4-setup.exe",
+        "releasedAt": "2026-09-20",
+        "notes": "Version 1.2.4: installing this version now retires the older BookFormatter Pro 4.x on the same Windows account, so the two never run side by side. Your license, saved data and Word add-in are kept."
+      },
       {
         "version": "1.2.3",
         "sha256": "408329e2e434112522c1d911b7e889abfbcce51b089b903fcc26e6d05d96001e",
