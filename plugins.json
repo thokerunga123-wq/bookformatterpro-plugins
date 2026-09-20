@@ -166,9 +166,14 @@
       "name": "Fiction Writer",
       "entry": "src/fiction-writer/index.html",
       "description": "Writes fiction chapter by chapter.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-20",
+          "notes": "Series and M/M support in every prompt, setting-neutral wording, locked story direction on every chapter, chapter length setting, paste written chapters so the next one continues from them, Copy prompt buttons, progress strip with Beam next, sturdier outline parsing, and a cleaner layout."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",

@@ -236,16 +236,23 @@
     "fiction-writer": {
       "name": "Fiction Writer",
       "description": "Writes fiction chapter by chapter.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/fiction-writer/index.html",
-      "size": 132863,
-      "sha256": "b03f563a839356cf1aa8bb3054c5f401fb727d7ebca060ef07b2e09921ea2bc3",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/fiction-writer-v1.1.0/fiction-writer-1.1.0.bfpk",
-      "contentHash": "49d6f0068733466a6fbb58451a23e1ea5d780713f50d65a4765c37eafc551986",
+      "size": 145712,
+      "sha256": "186c1b449a0973539fff6399c1ad6b5e927d1d57051c76f949bae37cb82c2f21",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/fiction-writer-v1.1.1/fiction-writer-1.1.1.bfpk",
+      "contentHash": "da9aa9717da1bcc3303b131d7c7ee893ccab84b296582992a032433a25e8b382",
       "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "notes": "Series and M/M support in every prompt, setting-neutral wording, locked story direction on every chapter, chapter length setting, paste written chapters so the next one continues from them, Copy prompt buttons, progress strip with Beam next, sturdier outline parsing, and a cleaner layout.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "186c1b449a0973539fff6399c1ad6b5e927d1d57051c76f949bae37cb82c2f21",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/fiction-writer-v1.1.1/fiction-writer-1.1.1.bfpk",
+          "releasedAt": "2026-09-20",
+          "notes": "Series and M/M support in every prompt, setting-neutral wording, locked story direction on every chapter, chapter length setting, paste written chapters so the next one continues from them, Copy prompt buttons, progress strip with Beam next, sturdier outline parsing, and a cleaner layout."
+        },
         {
           "version": "1.1.0",
           "sha256": "b03f563a839356cf1aa8bb3054c5f401fb727d7ebca060ef07b2e09921ea2bc3",
@@ -474,7 +481,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T21:45:33.016Z",
+  "generatedAt": "2026-09-20T21:45:33.582Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.1",
