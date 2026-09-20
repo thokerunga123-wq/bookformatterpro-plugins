@@ -467,16 +467,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T14:32:02.720Z",
+  "generatedAt": "2026-09-20T15:11:54.997Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.1.1",
-    "size": 16707480,
-    "sha256": "6eb2666b14cb74388848bb3a7b981e4f45a6a4c54009be5e7a76924b814a2e80",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.1.1/BookFormatterPro-1.1.1-setup.exe",
+    "version": "1.2.0",
+    "size": 16704124,
+    "sha256": "82340d047e766445c70c1567a12bda69c8315721c8cd114b0f71c4aadaaf6343",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.0/BookFormatterPro-1.2.0-setup.exe",
     "releasedAt": "2026-09-20",
-    "notes": "Version 1.1.1: fixes the blank New Tab page in the installed app.",
+    "notes": "Version 1.2.0: fixes the blank New Tab page, closes a license bypass, allows only one running copy of the app, and turns off the developer tools in release builds.",
     "history": [
+      {
+        "version": "1.2.0",
+        "sha256": "82340d047e766445c70c1567a12bda69c8315721c8cd114b0f71c4aadaaf6343",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.0/BookFormatterPro-1.2.0-setup.exe",
+        "releasedAt": "2026-09-20",
+        "notes": "Version 1.2.0: fixes the blank New Tab page, closes a license bypass, allows only one running copy of the app, and turns off the developer tools in release builds."
+      },
       {
         "version": "1.1.1",
         "sha256": "6eb2666b14cb74388848bb3a7b981e4f45a6a4c54009be5e7a76924b814a2e80",
