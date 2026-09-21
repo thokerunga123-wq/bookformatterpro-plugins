@@ -321,16 +321,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 525510,
-      "sha256": "8c0af38c3b268bc90fd6e5ebdd6c8e650c4a567e3b9b21ed904307d4eb525e02",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.3/response-collector-1.1.3.bfpk",
-      "contentHash": "70bdefc4e01366924199ff596315863e259d68b7e8318b0a66e5e70c9a36dfcf",
+      "size": 529316,
+      "sha256": "edb13dedecd87a79b45c39964a44a992502011e486d79cccbd7bf4673c91ebbe",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.4/response-collector-1.1.4.bfpk",
+      "contentHash": "18a2846a11f3066997c3d209ef761465d3ff1db33fcf7967fdebc9c825954a16",
       "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: new Text Size panel with a live preview. Set the exact size in points for the chapter label, chapter title, Heading 2-4, body text, quotes and callouts, and table headers. Export menu offers only PDF and HTML.",
+      "notes": "Designed Format preview: changing the template now rebuilds the whole book from scratch (title page, copyright page and table of contents laid down again, with your page setup kept). Table of contents sub-entries now sit at the same indent as chapter headings.",
       "history": [
+        {
+          "version": "1.1.4",
+          "sha256": "edb13dedecd87a79b45c39964a44a992502011e486d79cccbd7bf4673c91ebbe",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.4/response-collector-1.1.4.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: changing the template now rebuilds the whole book from scratch (title page, copyright page and table of contents laid down again, with your page setup kept). Table of contents sub-entries now sit at the same indent as chapter headings."
+        },
         {
           "version": "1.1.3",
           "sha256": "8c0af38c3b268bc90fd6e5ebdd6c8e650c4a567e3b9b21ed904307d4eb525e02",
@@ -621,7 +628,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T17:00:56.444Z",
+  "generatedAt": "2026-09-21T17:56:06.567Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
