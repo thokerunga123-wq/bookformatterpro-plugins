@@ -271,9 +271,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.5",
+          "date": "2026-09-21",
+          "notes": "Workbook now has a Book language, like Cookbook Writer Pro. The plugin and the prompts stay in English; only what is printed on the pages changes language. Prompt Writer: pick from 35 European languages or type any language, and the prompt tells the AI to write all printed text natively (not translated), including the front pages. Puzzle pages: labels, titles, standard instructions and colour names are built in for Spanish, French, German, Italian and Portuguese, and any other language can be added with one copy-and-paste translation request that is then saved. Month and weekday names come from locale data for every language, months can be typed in your language, and the week starts on Monday for non-English languages (changeable). Word search, crossword, cryptogram and scramble now work with accented, Cyrillic and Greek letters."
+        },
         {
           "version": "1.1.4",
           "date": "2026-09-21",

@@ -386,16 +386,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 274797,
-      "sha256": "b25d7b8b90f89376fab391c1aea6784968c6fcecf12e5de9fa0fb6db346c00a2",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.4/image-prompt-queue-1.1.4.bfpk",
-      "contentHash": "9086480e978fd05e2df94e8202b627dd76467df6081bc5346e192dcd44d9ef74",
+      "size": 309121,
+      "sha256": "011fedbd2d758afba47c31281f8bd55638b442d1ca219c5c9b500cb0d478a85e",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.5/image-prompt-queue-1.1.5.bfpk",
+      "contentHash": "8263008fcc4f42c084e08805d5ecc7c4bea9c03f91cd65d3320752a0ff2e8270",
       "releasedAt": "2026-09-21",
-      "notes": "Workbook Puzzle pages now builds 62 page types in software, so every line, letter, number and date is exact and stays inside the KDP content zone (each page is text-checked before it is added). Puzzles and games: word search, sudoku, dot-to-dot, crossword, maze, word scramble, cryptogram, maths worksheet, bingo, matching, counting, colour-by-number (mystery picture from your artwork), spot-the-difference (picture B made from your artwork) and board game, plus riddles and quiz. Activities: flashcards, handwriting, tracing. Fixed layouts: journals, daily and weekly planners, habit, budget, expense, fitness, workout, mood, reading, sleep and water trackers, goals, to-do, checklist, monthly and year calendars with correct dates, password log, guest book, notebook, dot grid, graph and music paper, Cornell notes, storyboard, comic, bullet journal, certificate, title, belongs-to, dedication, thank-you, chapter and section pages, closing and quote pages. The Prompt Writer adds Colour-by-number and Counting page types and a Build this page with software button.",
+      "notes": "Workbook now has a Book language, like Cookbook Writer Pro. The plugin and the prompts stay in English; only what is printed on the pages changes language. Prompt Writer: pick from 35 European languages or type any language, and the prompt tells the AI to write all printed text natively (not translated), including the front pages. Puzzle pages: labels, titles, standard instructions and colour names are built in for Spanish, French, German, Italian and Portuguese, and any other language can be added with one copy-and-paste translation request that is then saved. Month and weekday names come from locale data for every language, months can be typed in your language, and the week starts on Monday for non-English languages (changeable). Word search, crossword, cryptogram and scramble now work with accented, Cyrillic and Greek letters.",
       "history": [
+        {
+          "version": "1.1.5",
+          "sha256": "011fedbd2d758afba47c31281f8bd55638b442d1ca219c5c9b500cb0d478a85e",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.5/image-prompt-queue-1.1.5.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Workbook now has a Book language, like Cookbook Writer Pro. The plugin and the prompts stay in English; only what is printed on the pages changes language. Prompt Writer: pick from 35 European languages or type any language, and the prompt tells the AI to write all printed text natively (not translated), including the front pages. Puzzle pages: labels, titles, standard instructions and colour names are built in for Spanish, French, German, Italian and Portuguese, and any other language can be added with one copy-and-paste translation request that is then saved. Month and weekday names come from locale data for every language, months can be typed in your language, and the week starts on Monday for non-English languages (changeable). Word search, crossword, cryptogram and scramble now work with accented, Cyrillic and Greek letters."
+        },
         {
           "version": "1.1.4",
           "sha256": "b25d7b8b90f89376fab391c1aea6784968c6fcecf12e5de9fa0fb6db346c00a2",
@@ -586,7 +593,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T14:56:25.827Z",
+  "generatedAt": "2026-09-21T15:28:48.541Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
