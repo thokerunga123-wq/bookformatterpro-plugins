@@ -31,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.6",
+          "date": "2026-09-21",
+          "notes": "Plain Format: the one-card 'Choose a Template' dialog is gone (Professional Nonfiction is used directly). Word export fixed: page numbers now appear in the footer, no stray blank first page, chapters start on new pages."
+        },
         {
           "version": "1.1.5",
           "date": "2026-09-21",
