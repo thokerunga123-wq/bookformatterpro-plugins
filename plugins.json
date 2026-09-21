@@ -31,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.7",
+          "date": "2026-09-21",
+          "notes": "Designed Format: printed page numbers and the page count are now correct (blank pages are removed before numbering, so numbers no longer jump ahead), and the table of contents reads the numbers printed on the pages, so Conclusion and every entry match."
+        },
         {
           "version": "1.1.6",
           "date": "2026-09-21",
