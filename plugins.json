@@ -321,9 +321,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.6",
+          "date": "2026-09-21",
+          "notes": "Prompt Writer: every generated page prompt now ends with an identical consistency sentence covering colours, lighting and quality, so all pages match."
+        },
         {
           "version": "1.1.5",
           "date": "2026-09-21",

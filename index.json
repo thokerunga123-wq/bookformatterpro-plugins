@@ -456,16 +456,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 309121,
-      "sha256": "011fedbd2d758afba47c31281f8bd55638b442d1ca219c5c9b500cb0d478a85e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.5/image-prompt-queue-1.1.5.bfpk",
-      "contentHash": "8263008fcc4f42c084e08805d5ecc7c4bea9c03f91cd65d3320752a0ff2e8270",
+      "size": 310489,
+      "sha256": "3d01a4e367c33f18d1e8683a643f9f7081745e90f162a2f836222d65a41d76e2",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.6/image-prompt-queue-1.1.6.bfpk",
+      "contentHash": "798cd266753d91fc4bf4f7905bd418371782cea5f8456f662a57aae519f8a715",
       "releasedAt": "2026-09-21",
-      "notes": "Workbook now has a Book language, like Cookbook Writer Pro. The plugin and the prompts stay in English; only what is printed on the pages changes language. Prompt Writer: pick from 35 European languages or type any language, and the prompt tells the AI to write all printed text natively (not translated), including the front pages. Puzzle pages: labels, titles, standard instructions and colour names are built in for Spanish, French, German, Italian and Portuguese, and any other language can be added with one copy-and-paste translation request that is then saved. Month and weekday names come from locale data for every language, months can be typed in your language, and the week starts on Monday for non-English languages (changeable). Word search, crossword, cryptogram and scramble now work with accented, Cyrillic and Greek letters.",
+      "notes": "Prompt Writer: every generated page prompt now ends with an identical consistency sentence covering colours, lighting and quality, so all pages match.",
       "history": [
+        {
+          "version": "1.1.6",
+          "sha256": "3d01a4e367c33f18d1e8683a643f9f7081745e90f162a2f836222d65a41d76e2",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.6/image-prompt-queue-1.1.6.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Prompt Writer: every generated page prompt now ends with an identical consistency sentence covering colours, lighting and quality, so all pages match."
+        },
         {
           "version": "1.1.5",
           "sha256": "011fedbd2d758afba47c31281f8bd55638b442d1ca219c5c9b500cb0d478a85e",
@@ -663,7 +670,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T18:53:10.103Z",
+  "generatedAt": "2026-09-21T21:11:32.812Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
