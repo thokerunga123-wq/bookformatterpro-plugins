@@ -321,16 +321,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 517298,
-      "sha256": "957c624086223b8ba28c050869d1a513fe249649c272894b42b97b81f7eb4107",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.1/response-collector-1.1.1.bfpk",
-      "contentHash": "b60d52fc3576c47b5ab02a37c34d28bf05fcc921a7793a75776f1520147c518a",
-      "releasedAt": "2026-09-20",
-      "notes": "Cookbook: page numbers now use the Workbook designs with a size control, Amazon KDP margin and page-number guides in the preview, switching template rebuilds the whole book with an accurate table of contents, wider popup panels, and the PDF export now matches the preview exactly (fonts, images and page numbers). Requires app 1.2.2.",
+      "size": 514691,
+      "sha256": "467bf80a0bf7b205fb2210e71ad91e2a99475b890f383fdc59fda7d87caa1698",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.2/response-collector-1.1.2.bfpk",
+      "contentHash": "31e17f5ecf1eb57f696998ca8aa874b15b9f517298d4dff97cc1fe3f9fffa640",
+      "releasedAt": "2026-09-21",
+      "notes": "Designed Format preview: new Text size control (A- / A+, 70-160%) scales all book text; Export menu now offers only PDF and HTML.",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "467bf80a0bf7b205fb2210e71ad91e2a99475b890f383fdc59fda7d87caa1698",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.2/response-collector-1.1.2.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: new Text size control (A- / A+, 70-160%) scales all book text; Export menu now offers only PDF and HTML."
+        },
         {
           "version": "1.1.1",
           "sha256": "957c624086223b8ba28c050869d1a513fe249649c272894b42b97b81f7eb4107",
@@ -593,7 +600,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T15:28:48.541Z",
+  "generatedAt": "2026-09-21T16:29:45.150Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
