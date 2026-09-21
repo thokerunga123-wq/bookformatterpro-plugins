@@ -271,9 +271,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.3",
+          "date": "2026-09-21",
+          "notes": "Workbook: new Puzzle pages tool and a Fit in safe area button. Puzzle pages (KDP Canvas tab) builds word search, sudoku and dot-to-dot pages where software draws every letter, number and grid: word lists are placed exactly once, every sudoku has one solution, and every piece of text is checked against the KDP content zone before the page is added. An AI picture can sit behind the puzzle. The Prompt Writer can now ask the AI for artwork only for those three types. Fit in safe area (toolbar, and per page) scales a whole image to sit inside the green safe line and leaves the rest of the page white, in the preview, export and PDF."
+        },
         {
           "version": "1.1.2",
           "date": "2026-09-21",
