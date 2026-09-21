@@ -378,16 +378,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 679906,
-      "sha256": "3c62f61d8219d8feed1cbf1b2f90fc84c0912d7037d59e204ff7e43a36311b91",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.2/book-generator-ai-1.1.2.bfpk",
-      "contentHash": "1853188e089ffdb4c9fc836955eca18ad9d4a098f2c733662b9319f68b7d8f33",
+      "size": 683524,
+      "sha256": "9b666ade98d77b64516f78dea9af17ec1f289b7782901cc4f1b7e7590ef13888",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.3/book-generator-ai-1.1.3.bfpk",
+      "contentHash": "7c37803eb3d5d4db64ef4cbf94cd0d561a04eb54be1cd87cb0ed78f4472b5bb2",
       "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: new Text Size panel with a live preview. Set the exact size in points for the chapter label, chapter title, Heading 2-4, body text, quotes and callouts, and table headers. Export menu offers only PDF and HTML.",
+      "notes": "Designed Format preview: changing the template now rebuilds the whole book from scratch (title page, copyright page and table of contents laid down again, with your page setup kept). Table of contents sub-entries now sit at the same indent as chapter headings.",
       "history": [
+        {
+          "version": "1.1.3",
+          "sha256": "9b666ade98d77b64516f78dea9af17ec1f289b7782901cc4f1b7e7590ef13888",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.3/book-generator-ai-1.1.3.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: changing the template now rebuilds the whole book from scratch (title page, copyright page and table of contents laid down again, with your page setup kept). Table of contents sub-entries now sit at the same indent as chapter headings."
+        },
         {
           "version": "1.1.2",
           "sha256": "3c62f61d8219d8feed1cbf1b2f90fc84c0912d7037d59e204ff7e43a36311b91",
@@ -628,7 +635,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T17:56:06.567Z",
+  "generatedAt": "2026-09-21T17:56:07.678Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
