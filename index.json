@@ -335,16 +335,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 530325,
-      "sha256": "c218fea55d1906ed077fc26c7d53efc225cc7084a01428cf5736ed4880e8db97",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.5/response-collector-1.1.5.bfpk",
-      "contentHash": "cf1c71eff35dba8571c4c140e92283bcf6eba5ca6120f350476f13db6d4d8c33",
+      "size": 535255,
+      "sha256": "6020bb2fa25be0e88f628817cc850e4513f2ec2a53208971833975bdf2d34ac3",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.6/response-collector-1.1.6.bfpk",
+      "contentHash": "a139fb943df8296fa2c44b07faaf2bd29551aa87272625416ee563eab20ab1d9",
       "releasedAt": "2026-09-21",
-      "notes": "Plain Format: the one-card 'Choose a Template' dialog is gone (Professional Nonfiction is used directly). Word export fixed: page numbers now appear in the footer, no stray blank first page, chapters start on new pages.",
+      "notes": "Designed Format preview: new Update TOC button (update page numbers only, or the entire table, like Word). The table of contents now also corrects its own page numbers after any re-flow and before every PDF or HTML export.",
       "history": [
+        {
+          "version": "1.1.6",
+          "sha256": "6020bb2fa25be0e88f628817cc850e4513f2ec2a53208971833975bdf2d34ac3",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.6/response-collector-1.1.6.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: new Update TOC button (update page numbers only, or the entire table, like Word). The table of contents now also corrects its own page numbers after any re-flow and before every PDF or HTML export."
+        },
         {
           "version": "1.1.5",
           "sha256": "c218fea55d1906ed077fc26c7d53efc225cc7084a01428cf5736ed4880e8db97",
@@ -670,7 +677,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T21:11:32.812Z",
+  "generatedAt": "2026-09-21T21:19:40.071Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
