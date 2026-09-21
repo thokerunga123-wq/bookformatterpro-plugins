@@ -226,9 +226,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "1.1.3",
+          "date": "2026-09-21",
+          "notes": "Designed Format preview: new Text Size panel with a live preview. Set the exact size in points for the chapter label, chapter title, Heading 2-4, body text, quotes and callouts, and table headers. Export menu offers only PDF and HTML."
+        },
         {
           "version": "1.1.2",
           "date": "2026-09-21",
