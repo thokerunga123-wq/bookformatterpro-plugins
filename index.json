@@ -413,16 +413,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 689463,
-      "sha256": "44bf6752909441d74cf3b3647f2be7baa77cc38f1c2b36539b8d5f5d25ce171f",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.5/book-generator-ai-1.1.5.bfpk",
-      "contentHash": "6f467ad0b857e8737cef59d08204e6805b8e48937ccad00d3c220f9490e92d10",
+      "size": 691056,
+      "sha256": "0d5424c485cb08053b7165792e8c601feacb5e92cd7dcf8dab72b1d4e26920a2",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.6/book-generator-ai-1.1.6.bfpk",
+      "contentHash": "eafce84114ddda4ce0989743496e9fcb1b3cf4d7313ffe1697b41d65c918ccfb",
       "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: new Update TOC button (update page numbers only, or the entire table, like Word). The table of contents now also corrects its own page numbers after any re-flow and before every PDF or HTML export.",
+      "notes": "Designed Format: printed page numbers and the page count are now correct (blank pages are removed before numbering, so numbers no longer jump ahead), and the table of contents reads the numbers printed on the pages, so Conclusion and every entry match.",
       "history": [
+        {
+          "version": "1.1.6",
+          "sha256": "0d5424c485cb08053b7165792e8c601feacb5e92cd7dcf8dab72b1d4e26920a2",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.6/book-generator-ai-1.1.6.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format: printed page numbers and the page count are now correct (blank pages are removed before numbering, so numbers no longer jump ahead), and the table of contents reads the numbers printed on the pages, so Conclusion and every entry match."
+        },
         {
           "version": "1.1.5",
           "sha256": "44bf6752909441d74cf3b3647f2be7baa77cc38f1c2b36539b8d5f5d25ce171f",
@@ -691,7 +698,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T21:32:22.055Z",
+  "generatedAt": "2026-09-21T21:32:22.797Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
