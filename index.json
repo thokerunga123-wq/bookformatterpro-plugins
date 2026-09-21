@@ -530,16 +530,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-20T23:08:10.071Z",
+  "generatedAt": "2026-09-21T07:36:36.150Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.2.5",
-    "size": 17877388,
-    "sha256": "75c2c3a96e970d98149c2478f14f3c7d8a95b5552381c4975f8dae9253ac93c9",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.5/BookFormatterPro-1.2.5-setup.exe",
-    "releasedAt": "2026-09-20",
-    "notes": "Version 1.2.5: free-trial license support. Trial keys count down from first activation, the app stops when the days run out (even offline) and shows a Free trial: N days left badge in the title bar.",
+    "version": "1.2.6",
+    "size": 17868230,
+    "sha256": "d27e065ad33a62316367e1756abcbd89d229407ece8ded7048c5063e0f902069",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.6/BookFormatterPro-1.2.6-setup.exe",
+    "releasedAt": "2026-09-21",
+    "notes": "Version 1.2.6: free-trial keys can now last seconds, minutes, hours, days, weeks, months or years. The app stops the moment a trial ends and shows a live countdown in the title bar.",
     "history": [
+      {
+        "version": "1.2.6",
+        "sha256": "d27e065ad33a62316367e1756abcbd89d229407ece8ded7048c5063e0f902069",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.6/BookFormatterPro-1.2.6-setup.exe",
+        "releasedAt": "2026-09-21",
+        "notes": "Version 1.2.6: free-trial keys can now last seconds, minutes, hours, days, weeks, months or years. The app stops the moment a trial ends and shows a live countdown in the title bar."
+      },
       {
         "version": "1.2.5",
         "sha256": "75c2c3a96e970d98149c2478f14f3c7d8a95b5552381c4975f8dae9253ac93c9",
