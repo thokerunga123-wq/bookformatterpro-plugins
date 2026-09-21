@@ -364,16 +364,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.0",
-      "minAppVersion": "1.0.0",
+      "version": "1.1.1",
+      "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 672490,
-      "sha256": "bde21b4275881d2ae5548dcdc7a50b15c188551fc9e971365d4e162f0888ffb0",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.0/book-generator-ai-1.1.0.bfpk",
-      "contentHash": "fda7121d0e878bd4945d52ca6a0feee2d3a1259759389c02209a0d7ce442acf4",
-      "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "size": 669132,
+      "sha256": "d7126e8f645ba0aa4fff8c79a025b6d82037637bd9e4ac0e0054533bcf1dd4a8",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.1/book-generator-ai-1.1.1.bfpk",
+      "contentHash": "039b6f93ca48dc011c404204f1483f21178e4d2859580b19016cfe7489a86245",
+      "releasedAt": "2026-09-21",
+      "notes": "Designed Format preview: new Text size control (A- / A+, 70-160%) scales all book text; Export menu now offers only PDF and HTML.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "d7126e8f645ba0aa4fff8c79a025b6d82037637bd9e4ac0e0054533bcf1dd4a8",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.1/book-generator-ai-1.1.1.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: new Text size control (A- / A+, 70-160%) scales all book text; Export menu now offers only PDF and HTML."
+        },
         {
           "version": "1.1.0",
           "sha256": "bde21b4275881d2ae5548dcdc7a50b15c188551fc9e971365d4e162f0888ffb0",
@@ -600,7 +607,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T16:29:45.150Z",
+  "generatedAt": "2026-09-21T16:29:46.298Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
