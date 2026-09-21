@@ -371,16 +371,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 669132,
-      "sha256": "d7126e8f645ba0aa4fff8c79a025b6d82037637bd9e4ac0e0054533bcf1dd4a8",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.1/book-generator-ai-1.1.1.bfpk",
-      "contentHash": "039b6f93ca48dc011c404204f1483f21178e4d2859580b19016cfe7489a86245",
+      "size": 679906,
+      "sha256": "3c62f61d8219d8feed1cbf1b2f90fc84c0912d7037d59e204ff7e43a36311b91",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.2/book-generator-ai-1.1.2.bfpk",
+      "contentHash": "1853188e089ffdb4c9fc836955eca18ad9d4a098f2c733662b9319f68b7d8f33",
       "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: new Text size control (A- / A+, 70-160%) scales all book text; Export menu now offers only PDF and HTML.",
+      "notes": "Designed Format preview: new Text Size panel with a live preview. Set the exact size in points for the chapter label, chapter title, Heading 2-4, body text, quotes and callouts, and table headers. Export menu offers only PDF and HTML.",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "3c62f61d8219d8feed1cbf1b2f90fc84c0912d7037d59e204ff7e43a36311b91",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.2/book-generator-ai-1.1.2.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: new Text Size panel with a live preview. Set the exact size in points for the chapter label, chapter title, Heading 2-4, body text, quotes and callouts, and table headers. Export menu offers only PDF and HTML."
+        },
         {
           "version": "1.1.1",
           "sha256": "d7126e8f645ba0aa4fff8c79a025b6d82037637bd9e4ac0e0054533bcf1dd4a8",
@@ -614,7 +621,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T17:00:55.811Z",
+  "generatedAt": "2026-09-21T17:00:56.444Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
