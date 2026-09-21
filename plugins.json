@@ -121,9 +121,14 @@
       "name": "Recipe Formatter Pro",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-21",
+          "notes": "Cookbook: the custom chapter count now accepts any number from 1 upward (was limited to 17-99)."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",

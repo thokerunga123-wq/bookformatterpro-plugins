@@ -169,16 +169,23 @@
     "recipe-formatter-pro": {
       "name": "Recipe Formatter Pro",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
-      "size": 466121,
-      "sha256": "b1986254cdfec1187c085718f23cd0b4fdf8a4a691de72ea75cc01a13aa2ac99",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.0/recipe-formatter-pro-1.1.0.bfpk",
-      "contentHash": "5da97db77a4b5a76c33b05e84e5d306dc5cfb3080d44a94261dae695d8af29d4",
-      "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "size": 466385,
+      "sha256": "53bdc821f78d2e26bdb2abbee3060e42e850dc38fea3e6c2c800f4840303c4d8",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.1/recipe-formatter-pro-1.1.1.bfpk",
+      "contentHash": "91bb538ec9f66b1ffe181e7cc13ab89b48138d08d379f3c063f8b7cb2388f355",
+      "releasedAt": "2026-09-21",
+      "notes": "Cookbook: the custom chapter count now accepts any number from 1 upward (was limited to 17-99).",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "53bdc821f78d2e26bdb2abbee3060e42e850dc38fea3e6c2c800f4840303c4d8",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.1/recipe-formatter-pro-1.1.1.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Cookbook: the custom chapter count now accepts any number from 1 upward (was limited to 17-99)."
+        },
         {
           "version": "1.1.0",
           "sha256": "b1986254cdfec1187c085718f23cd0b4fdf8a4a691de72ea75cc01a13aa2ac99",
@@ -656,7 +663,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T18:39:36.387Z",
+  "generatedAt": "2026-09-21T18:53:10.103Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
