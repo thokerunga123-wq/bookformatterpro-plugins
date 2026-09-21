@@ -335,16 +335,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 535255,
-      "sha256": "6020bb2fa25be0e88f628817cc850e4513f2ec2a53208971833975bdf2d34ac3",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.6/response-collector-1.1.6.bfpk",
-      "contentHash": "a139fb943df8296fa2c44b07faaf2bd29551aa87272625416ee563eab20ab1d9",
+      "size": 536134,
+      "sha256": "9a437ad43f8a48c36be857eaccffa582aff9496e395042492030e176fcfcbc6f",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.7/response-collector-1.1.7.bfpk",
+      "contentHash": "5a6b1a56520b1d2f119978315cb409167dae284d6878dfe670dfe4f549e2e174",
       "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: new Update TOC button (update page numbers only, or the entire table, like Word). The table of contents now also corrects its own page numbers after any re-flow and before every PDF or HTML export.",
+      "notes": "Designed Format: printed page numbers and the page count are now correct (blank pages are removed before numbering, so numbers no longer jump ahead), and the table of contents reads the numbers printed on the pages, so Conclusion and every entry match.",
       "history": [
+        {
+          "version": "1.1.7",
+          "sha256": "9a437ad43f8a48c36be857eaccffa582aff9496e395042492030e176fcfcbc6f",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.7/response-collector-1.1.7.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format: printed page numbers and the page count are now correct (blank pages are removed before numbering, so numbers no longer jump ahead), and the table of contents reads the numbers printed on the pages, so Conclusion and every entry match."
+        },
         {
           "version": "1.1.6",
           "sha256": "6020bb2fa25be0e88f628817cc850e4513f2ec2a53208971833975bdf2d34ac3",
@@ -684,7 +691,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T21:19:41.602Z",
+  "generatedAt": "2026-09-21T21:32:22.055Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
