@@ -40,16 +40,23 @@
     "book-formatter-pro": {
       "name": "Book Formatter Pro",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
-      "size": 11468891,
-      "sha256": "e301ce34f7ab99ab1e2fbeead682457a7f0428775605c4ccf4f6a104ecfaaafc",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.4/book-formatter-pro-1.1.4.bfpk",
-      "contentHash": "6ea789b2f4c85c740dd9a634ffcedf30d3ac428a9bc5630c386fa771a68dc9f9",
+      "size": 11470888,
+      "sha256": "15c837fd5d59fc6beea0aff7f96275afda3d011b1f623c170590fbaca1bb8fef",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.5/book-formatter-pro-1.1.5.bfpk",
+      "contentHash": "dfaa4c5ad9b69080ea8649ddd7a1030c97fedb02ba2aaed56a20d0a3fda8b295",
       "releasedAt": "2026-09-21",
-      "notes": "One Chapter per Video fix, now actually included (1.1.3 was published without it). Every section (Introduction, each chapter, Conclusion) is written only from the video labelled for it: each prompt says exactly which section to write and to ignore every other source, and a section with no transcript-ready video stops with a clear message instead of reusing the open video. Also fixes the progress notes in prompts showing a stale chapter count and saying the Introduction was completed while writing it.",
+      "notes": "The bin button in the panel header is now Reset everything. It asks for a second click to confirm, then clears this plugin's saved data (Sources list and labels, loaded video and transcript, outline, chapter summaries, progress and book settings) and reloads the panel fresh. It only touches Tube2book's own data, never other plugins, quota or license.",
       "history": [
+        {
+          "version": "1.1.5",
+          "sha256": "15c837fd5d59fc6beea0aff7f96275afda3d011b1f623c170590fbaca1bb8fef",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.5/book-formatter-pro-1.1.5.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "The bin button in the panel header is now Reset everything. It asks for a second click to confirm, then clears this plugin's saved data (Sources list and labels, loaded video and transcript, outline, chapter summaries, progress and book settings) and reloads the panel fresh. It only touches Tube2book's own data, never other plugins, quota or license."
+        },
         {
           "version": "1.1.4",
           "sha256": "e301ce34f7ab99ab1e2fbeead682457a7f0428775605c4ccf4f6a104ecfaaafc",
@@ -565,7 +572,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T13:58:32.778Z",
+  "generatedAt": "2026-09-21T14:00:28.501Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",

@@ -31,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.5",
+          "date": "2026-09-21",
+          "notes": "The bin button in the panel header is now Reset everything. It asks for a second click to confirm, then clears this plugin's saved data (Sources list and labels, loaded video and transcript, outline, chapter summaries, progress and book settings) and reloads the panel fresh. It only touches Tube2book's own data, never other plugins, quota or license."
+        },
         {
           "version": "1.1.4",
           "date": "2026-09-21",
