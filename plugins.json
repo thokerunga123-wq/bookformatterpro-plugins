@@ -226,9 +226,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "1.1.5",
+          "date": "2026-09-21",
+          "notes": "Plain Format: the one-card 'Choose a Template' dialog is gone (Professional Nonfiction is used directly). Word export fixed: page numbers now appear in the footer, no stray blank first page, chapters start on new pages."
+        },
         {
           "version": "1.1.4",
           "date": "2026-09-21",

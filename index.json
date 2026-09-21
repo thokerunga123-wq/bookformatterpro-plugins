@@ -321,16 +321,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 529316,
-      "sha256": "edb13dedecd87a79b45c39964a44a992502011e486d79cccbd7bf4673c91ebbe",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.4/response-collector-1.1.4.bfpk",
-      "contentHash": "18a2846a11f3066997c3d209ef761465d3ff1db33fcf7967fdebc9c825954a16",
+      "size": 530325,
+      "sha256": "c218fea55d1906ed077fc26c7d53efc225cc7084a01428cf5736ed4880e8db97",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.5/response-collector-1.1.5.bfpk",
+      "contentHash": "cf1c71eff35dba8571c4c140e92283bcf6eba5ca6120f350476f13db6d4d8c33",
       "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: changing the template now rebuilds the whole book from scratch (title page, copyright page and table of contents laid down again, with your page setup kept). Table of contents sub-entries now sit at the same indent as chapter headings.",
+      "notes": "Plain Format: the one-card 'Choose a Template' dialog is gone (Professional Nonfiction is used directly). Word export fixed: page numbers now appear in the footer, no stray blank first page, chapters start on new pages.",
       "history": [
+        {
+          "version": "1.1.5",
+          "sha256": "c218fea55d1906ed077fc26c7d53efc225cc7084a01428cf5736ed4880e8db97",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.5/response-collector-1.1.5.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Plain Format: the one-card 'Choose a Template' dialog is gone (Professional Nonfiction is used directly). Word export fixed: page numbers now appear in the footer, no stray blank first page, chapters start on new pages."
+        },
         {
           "version": "1.1.4",
           "sha256": "edb13dedecd87a79b45c39964a44a992502011e486d79cccbd7bf4673c91ebbe",
@@ -635,7 +642,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T17:56:07.678Z",
+  "generatedAt": "2026-09-21T18:39:25.957Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
