@@ -406,16 +406,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 685267,
-      "sha256": "cfe69a6bca5e4bebd10af25836581398bdf7285a81229bc4841b516401afcf5a",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.4/book-generator-ai-1.1.4.bfpk",
-      "contentHash": "c7697b2427e3e53456e69f20243f0331073f2e887d6e091e6312059dc858ce45",
+      "size": 689463,
+      "sha256": "44bf6752909441d74cf3b3647f2be7baa77cc38f1c2b36539b8d5f5d25ce171f",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.5/book-generator-ai-1.1.5.bfpk",
+      "contentHash": "6f467ad0b857e8737cef59d08204e6805b8e48937ccad00d3c220f9490e92d10",
       "releasedAt": "2026-09-21",
-      "notes": "Plain Format: the one-card 'Choose a Template' dialog is gone (Professional Nonfiction is used directly). Word export fixed: page numbers now appear in the footer, no stray blank first page, chapters start on new pages.",
+      "notes": "Designed Format preview: new Update TOC button (update page numbers only, or the entire table, like Word). The table of contents now also corrects its own page numbers after any re-flow and before every PDF or HTML export.",
       "history": [
+        {
+          "version": "1.1.5",
+          "sha256": "44bf6752909441d74cf3b3647f2be7baa77cc38f1c2b36539b8d5f5d25ce171f",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.5/book-generator-ai-1.1.5.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: new Update TOC button (update page numbers only, or the entire table, like Word). The table of contents now also corrects its own page numbers after any re-flow and before every PDF or HTML export."
+        },
         {
           "version": "1.1.4",
           "sha256": "cfe69a6bca5e4bebd10af25836581398bdf7285a81229bc4841b516401afcf5a",
@@ -677,7 +684,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T21:19:40.071Z",
+  "generatedAt": "2026-09-21T21:19:41.602Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",

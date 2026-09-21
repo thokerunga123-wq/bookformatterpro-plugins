@@ -286,9 +286,14 @@
       "name": "Book Generator AI",
       "entry": "src/book-generator-ai/index.html",
       "description": "Generates book content with AI.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "1.1.5",
+          "date": "2026-09-21",
+          "notes": "Designed Format preview: new Update TOC button (update page numbers only, or the entire table, like Word). The table of contents now also corrects its own page numbers after any re-flow and before every PDF or HTML export."
+        },
         {
           "version": "1.1.4",
           "date": "2026-09-21",
