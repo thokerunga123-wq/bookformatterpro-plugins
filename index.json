@@ -40,16 +40,23 @@
     "book-formatter-pro": {
       "name": "Book Formatter Pro",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
-      "size": 11423418,
-      "sha256": "79ec966a723af4bec7c1baaf7fe80b7a803b16c1ae1e2dc015714a923dcc9e59",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.1/book-formatter-pro-1.1.1.bfpk",
-      "contentHash": "f63b32bec54f86183252de8982ad61d950c76d33592d28b50af531d0d82601ca",
-      "releasedAt": "2026-09-20",
-      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
+      "size": 11463293,
+      "sha256": "382531a204dc85fd08d98d36ea52b3800569db8aac6d3a6c1946a12a6323d8e4",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.2/book-formatter-pro-1.1.2.bfpk",
+      "contentHash": "cf9b1bb78c97f3af773c90a06f2c15128202f90a649cd51ff489b40f1251a6fc",
+      "releasedAt": "2026-09-21",
+      "notes": "Tube2book: new Sources list. Add as many YouTube videos as you like, label each one (Introduction, Chapter 1, Chapter 2 ... Conclusion), and write the book one section at a time from them. Get transcripts in place for one video or all at once, with a guide that shows the next step, balanced full-width section tabs, and one-chapter-per-video writing that uses each section's own videos. The Add button on YouTube video cards needs app 1.2.7.",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "382531a204dc85fd08d98d36ea52b3800569db8aac6d3a6c1946a12a6323d8e4",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.2/book-formatter-pro-1.1.2.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Tube2book: new Sources list. Add as many YouTube videos as you like, label each one (Introduction, Chapter 1, Chapter 2 ... Conclusion), and write the book one section at a time from them. Get transcripts in place for one video or all at once, with a guide that shows the next step, balanced full-width section tabs, and one-chapter-per-video writing that uses each section's own videos. The Add button on YouTube video cards needs app 1.2.7."
+        },
         {
           "version": "1.1.1",
           "sha256": "79ec966a723af4bec7c1baaf7fe80b7a803b16c1ae1e2dc015714a923dcc9e59",
@@ -530,7 +537,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T07:36:36.150Z",
+  "generatedAt": "2026-09-21T09:23:54.315Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.6",

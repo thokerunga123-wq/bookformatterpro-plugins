@@ -31,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.2",
+          "date": "2026-09-21",
+          "notes": "Tube2book: new Sources list. Add as many YouTube videos as you like, label each one (Introduction, Chapter 1, Chapter 2 ... Conclusion), and write the book one section at a time from them. Get transcripts in place for one video or all at once, with a guide that shows the next step, balanced full-width section tabs, and one-chapter-per-video writing that uses each section's own videos. The Add button on YouTube video cards needs app 1.2.7."
+        },
         {
           "version": "1.1.1",
           "date": "2026-09-20",
