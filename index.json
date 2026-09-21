@@ -386,16 +386,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 227151,
-      "sha256": "dcad958f8aeb3b5497c7f52c79c8d2f5b955f172f2c3abdfa128602de2fe5d99",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.3/image-prompt-queue-1.1.3.bfpk",
-      "contentHash": "5c5a892a7b0908760291c4a8521758ac7f05ea129b4109427c573d708daaf427",
+      "size": 274797,
+      "sha256": "b25d7b8b90f89376fab391c1aea6784968c6fcecf12e5de9fa0fb6db346c00a2",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.4/image-prompt-queue-1.1.4.bfpk",
+      "contentHash": "9086480e978fd05e2df94e8202b627dd76467df6081bc5346e192dcd44d9ef74",
       "releasedAt": "2026-09-21",
-      "notes": "Workbook: new Puzzle pages tool and a Fit in safe area button. Puzzle pages (KDP Canvas tab) builds word search, sudoku and dot-to-dot pages where software draws every letter, number and grid: word lists are placed exactly once, every sudoku has one solution, and every piece of text is checked against the KDP content zone before the page is added. An AI picture can sit behind the puzzle. The Prompt Writer can now ask the AI for artwork only for those three types. Fit in safe area (toolbar, and per page) scales a whole image to sit inside the green safe line and leaves the rest of the page white, in the preview, export and PDF.",
+      "notes": "Workbook Puzzle pages now builds 62 page types in software, so every line, letter, number and date is exact and stays inside the KDP content zone (each page is text-checked before it is added). Puzzles and games: word search, sudoku, dot-to-dot, crossword, maze, word scramble, cryptogram, maths worksheet, bingo, matching, counting, colour-by-number (mystery picture from your artwork), spot-the-difference (picture B made from your artwork) and board game, plus riddles and quiz. Activities: flashcards, handwriting, tracing. Fixed layouts: journals, daily and weekly planners, habit, budget, expense, fitness, workout, mood, reading, sleep and water trackers, goals, to-do, checklist, monthly and year calendars with correct dates, password log, guest book, notebook, dot grid, graph and music paper, Cornell notes, storyboard, comic, bullet journal, certificate, title, belongs-to, dedication, thank-you, chapter and section pages, closing and quote pages. The Prompt Writer adds Colour-by-number and Counting page types and a Build this page with software button.",
       "history": [
+        {
+          "version": "1.1.4",
+          "sha256": "b25d7b8b90f89376fab391c1aea6784968c6fcecf12e5de9fa0fb6db346c00a2",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.4/image-prompt-queue-1.1.4.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Workbook Puzzle pages now builds 62 page types in software, so every line, letter, number and date is exact and stays inside the KDP content zone (each page is text-checked before it is added). Puzzles and games: word search, sudoku, dot-to-dot, crossword, maze, word scramble, cryptogram, maths worksheet, bingo, matching, counting, colour-by-number (mystery picture from your artwork), spot-the-difference (picture B made from your artwork) and board game, plus riddles and quiz. Activities: flashcards, handwriting, tracing. Fixed layouts: journals, daily and weekly planners, habit, budget, expense, fitness, workout, mood, reading, sleep and water trackers, goals, to-do, checklist, monthly and year calendars with correct dates, password log, guest book, notebook, dot grid, graph and music paper, Cornell notes, storyboard, comic, bullet journal, certificate, title, belongs-to, dedication, thank-you, chapter and section pages, closing and quote pages. The Prompt Writer adds Colour-by-number and Counting page types and a Build this page with software button."
+        },
         {
           "version": "1.1.3",
           "sha256": "dcad958f8aeb3b5497c7f52c79c8d2f5b955f172f2c3abdfa128602de2fe5d99",
@@ -579,7 +586,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T14:30:23.336Z",
+  "generatedAt": "2026-09-21T14:56:25.827Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
