@@ -40,16 +40,23 @@
     "book-formatter-pro": {
       "name": "Book Formatter Pro",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "size": 11463293,
-      "sha256": "382531a204dc85fd08d98d36ea52b3800569db8aac6d3a6c1946a12a6323d8e4",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.2/book-formatter-pro-1.1.2.bfpk",
+      "sha256": "0c75c5334a677f19c3fd9b35a066a3c076ff5e23104ff8d3819b3e493846ba7f",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.3/book-formatter-pro-1.1.3.bfpk",
       "contentHash": "cf9b1bb78c97f3af773c90a06f2c15128202f90a649cd51ff489b40f1251a6fc",
       "releasedAt": "2026-09-21",
-      "notes": "Tube2book: new Sources list. Add as many YouTube videos as you like, label each one (Introduction, Chapter 1, Chapter 2 ... Conclusion), and write the book one section at a time from them. Get transcripts in place for one video or all at once, with a guide that shows the next step, balanced full-width section tabs, and one-chapter-per-video writing that uses each section's own videos. The Add button on YouTube video cards needs app 1.2.7.",
+      "notes": "One Chapter per Video: every section (Introduction, each chapter, Conclusion) is now written only from the video labelled for it. Fixes chapters all being written from a single video. Each prompt now tells the AI exactly which section to write and to ignore every other source, and a section with no transcript-ready video stops with a clear message instead of quietly reusing the open video.",
       "history": [
+        {
+          "version": "1.1.3",
+          "sha256": "0c75c5334a677f19c3fd9b35a066a3c076ff5e23104ff8d3819b3e493846ba7f",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.3/book-formatter-pro-1.1.3.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "One Chapter per Video: every section (Introduction, each chapter, Conclusion) is now written only from the video labelled for it. Fixes chapters all being written from a single video. Each prompt now tells the AI exactly which section to write and to ignore every other source, and a section with no transcript-ready video stops with a clear message instead of quietly reusing the open video."
+        },
         {
           "version": "1.1.2",
           "sha256": "382531a204dc85fd08d98d36ea52b3800569db8aac6d3a6c1946a12a6323d8e4",
@@ -537,7 +544,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T09:26:22.440Z",
+  "generatedAt": "2026-09-21T10:17:55.835Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",

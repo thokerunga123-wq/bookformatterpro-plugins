@@ -31,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.3",
+          "date": "2026-09-21",
+          "notes": "One Chapter per Video: every section (Introduction, each chapter, Conclusion) is now written only from the video labelled for it. Fixes chapters all being written from a single video. Each prompt now tells the AI exactly which section to write and to ignore every other source, and a section with no transcript-ready video stops with a clear message instead of quietly reusing the open video."
+        },
         {
           "version": "1.1.2",
           "date": "2026-09-21",
