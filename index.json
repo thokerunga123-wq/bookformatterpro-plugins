@@ -342,16 +342,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 536134,
-      "sha256": "9a437ad43f8a48c36be857eaccffa582aff9496e395042492030e176fcfcbc6f",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.7/response-collector-1.1.7.bfpk",
-      "contentHash": "5a6b1a56520b1d2f119978315cb409167dae284d6878dfe670dfe4f549e2e174",
+      "size": 539978,
+      "sha256": "39d77d7581f17493acb73665574abc4288eb5995c9edd8f9438c8bb9266b5cab",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.8/response-collector-1.1.8.bfpk",
+      "contentHash": "1495ad18b3fa12ec53cc5c2eca77c46c7f8a01f69e5e9fa9119e05e98a7ad50d",
       "releasedAt": "2026-09-21",
-      "notes": "Designed Format: printed page numbers and the page count are now correct (blank pages are removed before numbering, so numbers no longer jump ahead), and the table of contents reads the numbers printed on the pages, so Conclusion and every entry match.",
+      "notes": "Designed Format preview: new Margins and Bleed guide buttons (Amazon KDP safe area and trim line). Text Sizes panel redesigned to be compact and fit small laptop screens. The label on the title page (e.g. OFFICIAL EDITION) can now be edited or hidden in Front Matter > Design Title Page.",
       "history": [
+        {
+          "version": "1.1.8",
+          "sha256": "39d77d7581f17493acb73665574abc4288eb5995c9edd8f9438c8bb9266b5cab",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.8/response-collector-1.1.8.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Designed Format preview: new Margins and Bleed guide buttons (Amazon KDP safe area and trim line). Text Sizes panel redesigned to be compact and fit small laptop screens. The label on the title page (e.g. OFFICIAL EDITION) can now be edited or hidden in Front Matter > Design Title Page."
+        },
         {
           "version": "1.1.7",
           "sha256": "9a437ad43f8a48c36be857eaccffa582aff9496e395042492030e176fcfcbc6f",
@@ -705,7 +712,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T21:32:31.219Z",
+  "generatedAt": "2026-09-21T21:48:13.859Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
