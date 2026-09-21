@@ -537,16 +537,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T09:23:54.315Z",
+  "generatedAt": "2026-09-21T09:26:22.440Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.2.6",
-    "size": 17868230,
-    "sha256": "d27e065ad33a62316367e1756abcbd89d229407ece8ded7048c5063e0f902069",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.6/BookFormatterPro-1.2.6-setup.exe",
+    "version": "1.2.7",
+    "size": 17890376,
+    "sha256": "7416e8e05e03a716339336925671e28a8cca1b4cc54220ae9e6f174cb6836476",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.7/BookFormatterPro-1.2.7-setup.exe",
     "releasedAt": "2026-09-21",
-    "notes": "Version 1.2.6: free-trial keys can now last seconds, minutes, hours, days, weeks, months or years. The app stops the moment a trial ends and shows a live countdown in the title bar.",
+    "notes": "Version 1.2.7: an Add button now appears on YouTube video cards. Hover a video, click Add, and it goes straight into the Tube2book Sources list. Works together with the new Tube2book Sources list, which installed apps receive as a plugin update.",
     "history": [
+      {
+        "version": "1.2.7",
+        "sha256": "7416e8e05e03a716339336925671e28a8cca1b4cc54220ae9e6f174cb6836476",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.7/BookFormatterPro-1.2.7-setup.exe",
+        "releasedAt": "2026-09-21",
+        "notes": "Version 1.2.7: an Add button now appears on YouTube video cards. Hover a video, click Add, and it goes straight into the Tube2book Sources list. Works together with the new Tube2book Sources list, which installed apps receive as a plugin update."
+      },
       {
         "version": "1.2.6",
         "sha256": "d27e065ad33a62316367e1756abcbd89d229407ece8ded7048c5063e0f902069",
