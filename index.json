@@ -379,16 +379,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 170664,
-      "sha256": "b69292072d7878a0b5359a8dee277fadf9ade2b78eb81b3bde8b5a0870600522",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.0/image-prompt-queue-1.1.0.bfpk",
-      "contentHash": "017717c93092239ffa649a0aeacd8366750d75e95097ef214197c46f9e1a2b37",
-      "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "size": 201202,
+      "sha256": "ce3b604e36475fb4769f8c6662d43810cdd6f64f8534108e92776bc56f2edc74",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.1/image-prompt-queue-1.1.1.bfpk",
+      "contentHash": "eed8549fb376c9e06f4c7bc45de8a367d43466a8061cbee22e3412b123cd8836",
+      "releasedAt": "2026-09-21",
+      "notes": "Workbook Prompt Writer: every page type now has its own detailed specification (83 types). The prompt you paste into ChatGPT now spells out that type's exact layout, counts, sizes, printed text and blank areas instead of one generic line, for example the full grid and word list for a word search, the given digits for a sudoku, and the 8 by 31 grid for a habit tracker. Page types that only work as line art (coloring pages, mazes, puzzle grids, graph paper and similar) are printed as black line art automatically, a hint under the Page type list shows what each type asks for, and custom page types ask the AI to state the full structure.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "ce3b604e36475fb4769f8c6662d43810cdd6f64f8534108e92776bc56f2edc74",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.1/image-prompt-queue-1.1.1.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Workbook Prompt Writer: every page type now has its own detailed specification (83 types). The prompt you paste into ChatGPT now spells out that type's exact layout, counts, sizes, printed text and blank areas instead of one generic line, for example the full grid and word list for a word search, the given digits for a sudoku, and the 8 by 31 grid for a habit tracker. Page types that only work as line art (coloring pages, mazes, puzzle grids, graph paper and similar) are printed as black line art automatically, a hint under the Page type list shows what each type asks for, and custom page types ask the AI to state the full structure."
+        },
         {
           "version": "1.1.0",
           "sha256": "b69292072d7878a0b5359a8dee277fadf9ade2b78eb81b3bde8b5a0870600522",
@@ -551,7 +558,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T10:30:20.043Z",
+  "generatedAt": "2026-09-21T13:16:41.982Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
