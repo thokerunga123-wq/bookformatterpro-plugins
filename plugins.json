@@ -266,9 +266,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.2",
+          "date": "2026-09-21",
+          "notes": "Workbook Prompt Writer: protected white margin. Every page now has a content zone that holds all artwork and text (worked out from your trim size, margin and page count) and a protected white exclusion zone around it that the AI must leave empty, so nothing can run to the page edge or into the bleed. Prompts now list every piece of text that appears and forbid any other writing. New Empty outer band setting (pure white or very light decoration). Page-type specs updated to match."
+        },
         {
           "version": "1.1.1",
           "date": "2026-09-21",

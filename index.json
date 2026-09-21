@@ -379,16 +379,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 201202,
-      "sha256": "ce3b604e36475fb4769f8c6662d43810cdd6f64f8534108e92776bc56f2edc74",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.1/image-prompt-queue-1.1.1.bfpk",
-      "contentHash": "eed8549fb376c9e06f4c7bc45de8a367d43466a8061cbee22e3412b123cd8836",
+      "size": 204065,
+      "sha256": "afcc64e110f3b23373eb9bf590764c04ad37df38c37031c567a066d086e54d6c",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.2/image-prompt-queue-1.1.2.bfpk",
+      "contentHash": "e1e4ee3e38b450e329449f13441d7d535521d3dd9909ab9812b10d4666f503de",
       "releasedAt": "2026-09-21",
-      "notes": "Workbook Prompt Writer: every page type now has its own detailed specification (83 types). The prompt you paste into ChatGPT now spells out that type's exact layout, counts, sizes, printed text and blank areas instead of one generic line, for example the full grid and word list for a word search, the given digits for a sudoku, and the 8 by 31 grid for a habit tracker. Page types that only work as line art (coloring pages, mazes, puzzle grids, graph paper and similar) are printed as black line art automatically, a hint under the Page type list shows what each type asks for, and custom page types ask the AI to state the full structure.",
+      "notes": "Workbook Prompt Writer: protected white margin. Every page now has a content zone that holds all artwork and text (worked out from your trim size, margin and page count) and a protected white exclusion zone around it that the AI must leave empty, so nothing can run to the page edge or into the bleed. Prompts now list every piece of text that appears and forbid any other writing. New Empty outer band setting (pure white or very light decoration). Page-type specs updated to match.",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "afcc64e110f3b23373eb9bf590764c04ad37df38c37031c567a066d086e54d6c",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.2/image-prompt-queue-1.1.2.bfpk",
+          "releasedAt": "2026-09-21",
+          "notes": "Workbook Prompt Writer: protected white margin. Every page now has a content zone that holds all artwork and text (worked out from your trim size, margin and page count) and a protected white exclusion zone around it that the AI must leave empty, so nothing can run to the page edge or into the bleed. Prompts now list every piece of text that appears and forbid any other writing. New Empty outer band setting (pure white or very light decoration). Page-type specs updated to match."
+        },
         {
           "version": "1.1.1",
           "sha256": "ce3b604e36475fb4769f8c6662d43810cdd6f64f8534108e92776bc56f2edc74",
@@ -558,7 +565,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T13:16:41.982Z",
+  "generatedAt": "2026-09-21T13:58:32.778Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
