@@ -176,16 +176,23 @@
     "recipe-formatter-pro": {
       "name": "Recipe Formatter Pro",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
-      "size": 466385,
-      "sha256": "53bdc821f78d2e26bdb2abbee3060e42e850dc38fea3e6c2c800f4840303c4d8",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.1/recipe-formatter-pro-1.1.1.bfpk",
-      "contentHash": "91bb538ec9f66b1ffe181e7cc13ab89b48138d08d379f3c063f8b7cb2388f355",
-      "releasedAt": "2026-09-21",
-      "notes": "Cookbook: the custom chapter count now accepts any number from 1 upward (was limited to 17-99).",
+      "size": 467453,
+      "sha256": "979da804752a5f3c9057c70cf78a61af258fc07114fdc40d8cf0e540afe384d4",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.2/recipe-formatter-pro-1.1.2.bfpk",
+      "contentHash": "b74fa7bb24d0fd20939f40d002834067b02ce90f741e7a527c2d39270b5d39b7",
+      "releasedAt": "2026-09-24",
+      "notes": "Table of Contents: chapter headings and subheadings now align flush at 0 indent across all templates for a balanced vertical layout.",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "979da804752a5f3c9057c70cf78a61af258fc07114fdc40d8cf0e540afe384d4",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.2/recipe-formatter-pro-1.1.2.bfpk",
+          "releasedAt": "2026-09-24",
+          "notes": "Table of Contents: chapter headings and subheadings now align flush at 0 indent across all templates for a balanced vertical layout."
+        },
         {
           "version": "1.1.1",
           "sha256": "53bdc821f78d2e26bdb2abbee3060e42e850dc38fea3e6c2c800f4840303c4d8",
@@ -719,7 +726,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-21T21:48:15.164Z",
+  "generatedAt": "2026-09-24T08:55:00.738Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
