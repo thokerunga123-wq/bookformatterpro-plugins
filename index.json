@@ -356,16 +356,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.10",
+      "version": "2.0.0",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 541670,
-      "sha256": "281e051496a25113dd3c780e47d905af4e5e8e2b11819c657722e9b8bee67777",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.10/response-collector-1.1.10.bfpk",
+      "size": 541669,
+      "sha256": "1b9ef342229dbe52b64310584dc66da9324a7c4c410bade6433940f4f1f9e155",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.0/response-collector-2.0.0.bfpk",
       "contentHash": "6d02812b0cc7a5809cd1cbea1992f880b24ceef2cad8db9f6d94a007f986aeb3",
       "releasedAt": "2026-09-24",
-      "notes": "Cookbook Format: fixed Insert Images folder and single image file pickers with multi-strategy native and file dialog fallbacks, enhanced recipe image matching, and aligned Table of Contents headings and subheadings flush at 0 indent across all templates.",
+      "notes": "Major release 2.0.0: Cookbook Format with robust Insert Images folder and single image file pickers, multi-strategy native and file dialog fallbacks, enhanced recipe image auto-matching, and Table of Contents flush 0-indent alignment across all templates.",
       "history": [
+        {
+          "version": "2.0.0",
+          "sha256": "1b9ef342229dbe52b64310584dc66da9324a7c4c410bade6433940f4f1f9e155",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.0/response-collector-2.0.0.bfpk",
+          "releasedAt": "2026-09-24",
+          "notes": "Major release 2.0.0: Cookbook Format with robust Insert Images folder and single image file pickers, multi-strategy native and file dialog fallbacks, enhanced recipe image auto-matching, and Table of Contents flush 0-indent alignment across all templates."
+        },
         {
           "version": "1.1.10",
           "sha256": "281e051496a25113dd3c780e47d905af4e5e8e2b11819c657722e9b8bee67777",
@@ -761,7 +768,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T09:12:18.033Z",
+  "generatedAt": "2026-09-24T09:25:51.508Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",

@@ -251,9 +251,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.10",
+      "version": "2.0.0",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.0",
+          "date": "2026-09-24",
+          "notes": "Major release 2.0.0: Cookbook Format with robust Insert Images folder and single image file pickers, multi-strategy native and file dialog fallbacks, enhanced recipe image auto-matching, and Table of Contents flush 0-indent alignment across all templates."
+        },
         {
           "version": "1.1.10",
           "date": "2026-09-24",
