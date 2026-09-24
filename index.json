@@ -469,16 +469,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.9",
+      "version": "1.1.10",
       "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 697418,
-      "sha256": "4384c5da7a201352fceae061b248775cc72800aba7a133d5a97f01a131cdc33e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.9/book-generator-ai-1.1.9.bfpk",
-      "contentHash": "3a81876f18ed238cedff341da12fba48e58453beac6349f6cbf532ae681bdfc9",
+      "size": 698418,
+      "sha256": "6c20dbf2aa5d18257b5f255c495576da39925b22ca36adf3ae6e72b3a2ae4d0e",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.10/book-generator-ai-1.1.10.bfpk",
+      "contentHash": "da2dc99b49a7e3c7e5cf06d652414228c1c2e9220926a8aace53ae8c179fa97a",
       "releasedAt": "2026-09-24",
-      "notes": "Cookbook Format: added Insert Images folder and single image file pickers with multi-strategy fallbacks, recipe image auto-matching, and aligned Table of Contents headings and subheadings flush at 0 indent across all templates.",
+      "notes": "Book Generator AI v1.1.10: bundled with latest native folder/image pickers and HTML5 fallback.",
       "history": [
+        {
+          "version": "1.1.10",
+          "sha256": "6c20dbf2aa5d18257b5f255c495576da39925b22ca36adf3ae6e72b3a2ae4d0e",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.10/book-generator-ai-1.1.10.bfpk",
+          "releasedAt": "2026-09-24",
+          "notes": "Book Generator AI v1.1.10: bundled with latest native folder/image pickers and HTML5 fallback."
+        },
         {
           "version": "1.1.9",
           "sha256": "4384c5da7a201352fceae061b248775cc72800aba7a133d5a97f01a131cdc33e",
@@ -775,7 +782,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T10:37:30.404Z",
+  "generatedAt": "2026-09-24T10:37:37.239Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.8",
