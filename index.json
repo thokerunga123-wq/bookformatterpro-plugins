@@ -176,16 +176,23 @@
     "recipe-formatter-pro": {
       "name": "Recipe Formatter Pro",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
-      "size": 467453,
-      "sha256": "979da804752a5f3c9057c70cf78a61af258fc07114fdc40d8cf0e540afe384d4",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.2/recipe-formatter-pro-1.1.2.bfpk",
+      "size": 467451,
+      "sha256": "36a2defd04690c20dbf7d2fc6632019e316c41c51f617b0ed8b4fd60568ad996",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.3/recipe-formatter-pro-1.1.3.bfpk",
       "contentHash": "b74fa7bb24d0fd20939f40d002834067b02ce90f741e7a527c2d39270b5d39b7",
       "releasedAt": "2026-09-24",
-      "notes": "Table of Contents: chapter headings and subheadings now align flush at 0 indent across all templates for a balanced vertical layout.",
+      "notes": "Table of Contents: chapter headings and subheadings now align flush at 0 indent across all templates for a balanced vertical layout. Image matching: enhanced recipe image auto-matching engine with number matching, prompt suffix cleanup, and fuzzy scoring.",
       "history": [
+        {
+          "version": "1.1.3",
+          "sha256": "36a2defd04690c20dbf7d2fc6632019e316c41c51f617b0ed8b4fd60568ad996",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.3/recipe-formatter-pro-1.1.3.bfpk",
+          "releasedAt": "2026-09-24",
+          "notes": "Table of Contents: chapter headings and subheadings now align flush at 0 indent across all templates for a balanced vertical layout. Image matching: enhanced recipe image auto-matching engine with number matching, prompt suffix cleanup, and fuzzy scoring."
+        },
         {
           "version": "1.1.2",
           "sha256": "979da804752a5f3c9057c70cf78a61af258fc07114fdc40d8cf0e540afe384d4",
@@ -740,7 +747,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T08:55:27.578Z",
+  "generatedAt": "2026-09-24T09:11:46.540Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",

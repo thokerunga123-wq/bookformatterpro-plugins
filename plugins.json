@@ -126,9 +126,14 @@
       "name": "Recipe Formatter Pro",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.3",
+          "date": "2026-09-24",
+          "notes": "Table of Contents: chapter headings and subheadings now align flush at 0 indent across all templates for a balanced vertical layout. Image matching: enhanced recipe image auto-matching engine with number matching, prompt suffix cleanup, and fuzzy scoring."
+        },
         {
           "version": "1.1.2",
           "date": "2026-09-24",
