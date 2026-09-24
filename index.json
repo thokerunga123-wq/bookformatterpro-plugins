@@ -768,16 +768,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T09:25:51.508Z",
+  "generatedAt": "2026-09-24T10:37:13.227Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.2.7",
-    "size": 17890376,
-    "sha256": "7416e8e05e03a716339336925671e28a8cca1b4cc54220ae9e6f174cb6836476",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.7/BookFormatterPro-1.2.7-setup.exe",
-    "releasedAt": "2026-09-21",
-    "notes": "Version 1.2.7: an Add button now appears on YouTube video cards. Hover a video, click Add, and it goes straight into the Tube2book Sources list. Works together with the new Tube2book Sources list, which installed apps receive as a plugin update.",
+    "version": "1.2.8",
+    "size": 18108605,
+    "sha256": "84735afdfa97c80fc2f5e36dc236bf90176c254ae724d15eec1c1963ec705a6c",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.8/BookFormatterPro-1.2.8-setup.exe",
+    "releasedAt": "2026-09-24",
+    "notes": "Version 1.2.8: native folder and single-image picker for Cookbook recipe photo matching, robust multi-tier fallback for image insertion, and Table of Contents flush-left alignment.",
     "history": [
+      {
+        "version": "1.2.8",
+        "sha256": "84735afdfa97c80fc2f5e36dc236bf90176c254ae724d15eec1c1963ec705a6c",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.8/BookFormatterPro-1.2.8-setup.exe",
+        "releasedAt": "2026-09-24",
+        "notes": "Version 1.2.8: native folder and single-image picker for Cookbook recipe photo matching, robust multi-tier fallback for image insertion, and Table of Contents flush-left alignment."
+      },
       {
         "version": "1.2.7",
         "sha256": "7416e8e05e03a716339336925671e28a8cca1b4cc54220ae9e6f174cb6836476",
