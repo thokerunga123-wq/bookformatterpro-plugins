@@ -251,9 +251,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.1",
+          "date": "2026-09-24",
+          "notes": "Response Collector v2.0.1: bundled with latest native folder/image pickers and HTML5 fallback."
+        },
         {
           "version": "2.0.0",
           "date": "2026-09-24",

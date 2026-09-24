@@ -356,16 +356,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 541669,
-      "sha256": "1b9ef342229dbe52b64310584dc66da9324a7c4c410bade6433940f4f1f9e155",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.0/response-collector-2.0.0.bfpk",
-      "contentHash": "6d02812b0cc7a5809cd1cbea1992f880b24ceef2cad8db9f6d94a007f986aeb3",
+      "size": 543664,
+      "sha256": "c182f206d106fcdfbc0b437510b9507ace5f9be23efc6932c8e70079ba892bb9",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.1/response-collector-2.0.1.bfpk",
+      "contentHash": "3b2737a844775b26482be8ccdba9c03cbde0860fd479b7a208ba4b8c700a3ff6",
       "releasedAt": "2026-09-24",
-      "notes": "Major release 2.0.0: Cookbook Format with robust Insert Images folder and single image file pickers, multi-strategy native and file dialog fallbacks, enhanced recipe image auto-matching, and Table of Contents flush 0-indent alignment across all templates.",
+      "notes": "Response Collector v2.0.1: bundled with latest native folder/image pickers and HTML5 fallback.",
       "history": [
+        {
+          "version": "2.0.1",
+          "sha256": "c182f206d106fcdfbc0b437510b9507ace5f9be23efc6932c8e70079ba892bb9",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.1/response-collector-2.0.1.bfpk",
+          "releasedAt": "2026-09-24",
+          "notes": "Response Collector v2.0.1: bundled with latest native folder/image pickers and HTML5 fallback."
+        },
         {
           "version": "2.0.0",
           "sha256": "1b9ef342229dbe52b64310584dc66da9324a7c4c410bade6433940f4f1f9e155",
@@ -768,7 +775,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T10:37:13.227Z",
+  "generatedAt": "2026-09-24T10:37:30.404Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.8",
