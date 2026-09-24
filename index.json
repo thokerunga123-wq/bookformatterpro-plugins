@@ -349,16 +349,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 539978,
-      "sha256": "39d77d7581f17493acb73665574abc4288eb5995c9edd8f9438c8bb9266b5cab",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.8/response-collector-1.1.8.bfpk",
-      "contentHash": "1495ad18b3fa12ec53cc5c2eca77c46c7f8a01f69e5e9fa9119e05e98a7ad50d",
-      "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: new Margins and Bleed guide buttons (Amazon KDP safe area and trim line). Text Sizes panel redesigned to be compact and fit small laptop screens. The label on the title page (e.g. OFFICIAL EDITION) can now be edited or hidden in Front Matter > Design Title Page.",
+      "size": 541669,
+      "sha256": "2ad9f11021cff33b174a524f17bf8ea7523b65684a52e25cbfdb6ab538628093",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.9/response-collector-1.1.9.bfpk",
+      "contentHash": "6d02812b0cc7a5809cd1cbea1992f880b24ceef2cad8db9f6d94a007f986aeb3",
+      "releasedAt": "2026-09-24",
+      "notes": "Table of Contents: chapter headings and subheadings aligned at 0 indent across all templates. Insert image: fixed image folder/file picker fallback and improved recipe image auto-matching.",
       "history": [
+        {
+          "version": "1.1.9",
+          "sha256": "2ad9f11021cff33b174a524f17bf8ea7523b65684a52e25cbfdb6ab538628093",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v1.1.9/response-collector-1.1.9.bfpk",
+          "releasedAt": "2026-09-24",
+          "notes": "Table of Contents: chapter headings and subheadings aligned at 0 indent across all templates. Insert image: fixed image folder/file picker fallback and improved recipe image auto-matching."
+        },
         {
           "version": "1.1.8",
           "sha256": "39d77d7581f17493acb73665574abc4288eb5995c9edd8f9438c8bb9266b5cab",
@@ -726,7 +733,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T08:55:00.738Z",
+  "generatedAt": "2026-09-24T08:55:11.464Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",
