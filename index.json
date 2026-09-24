@@ -441,16 +441,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 695327,
-      "sha256": "c949046d7725a977a929f9c6591cc36c3bec0c91178c4f0f5e2bdae2b0a47f46",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.7/book-generator-ai-1.1.7.bfpk",
-      "contentHash": "a5de8aa86c829cd794792b202a7f97f1af2f47221d32a5bcddd60d3f2d53aa0b",
-      "releasedAt": "2026-09-21",
-      "notes": "Designed Format preview: new Margins and Bleed guide buttons (Amazon KDP safe area and trim line). Text Sizes panel redesigned to be compact and fit small laptop screens. The label on the title page (e.g. OFFICIAL EDITION) can now be edited or hidden in Front Matter > Design Title Page.",
+      "size": 695496,
+      "sha256": "8d95d9be9a18b5e5e5c6425efe180d686938f6665554c93f3aaaff133c8d506f",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.8/book-generator-ai-1.1.8.bfpk",
+      "contentHash": "0ba5ba6b16222769aca3f4641c8ab23e31767e06397d7f2932dad70ca38efffd",
+      "releasedAt": "2026-09-24",
+      "notes": "Table of Contents: chapter headings and subheadings aligned at 0 indent across all templates for a balanced vertical layout.",
       "history": [
+        {
+          "version": "1.1.8",
+          "sha256": "8d95d9be9a18b5e5e5c6425efe180d686938f6665554c93f3aaaff133c8d506f",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.8/book-generator-ai-1.1.8.bfpk",
+          "releasedAt": "2026-09-24",
+          "notes": "Table of Contents: chapter headings and subheadings aligned at 0 indent across all templates for a balanced vertical layout."
+        },
         {
           "version": "1.1.7",
           "sha256": "c949046d7725a977a929f9c6591cc36c3bec0c91178c4f0f5e2bdae2b0a47f46",
@@ -733,7 +740,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T08:55:11.464Z",
+  "generatedAt": "2026-09-24T08:55:27.578Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.7",

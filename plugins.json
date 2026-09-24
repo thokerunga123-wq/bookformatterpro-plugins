@@ -311,9 +311,14 @@
       "name": "Book Generator AI",
       "entry": "src/book-generator-ai/index.html",
       "description": "Generates book content with AI.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "1.1.8",
+          "date": "2026-09-24",
+          "notes": "Table of Contents: chapter headings and subheadings aligned at 0 indent across all templates for a balanced vertical layout."
+        },
         {
           "version": "1.1.7",
           "date": "2026-09-21",
