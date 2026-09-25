@@ -261,9 +261,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.3",
+          "date": "2026-09-25",
+          "notes": "Photo assignment review: after Insert Images runs, any recipe still without a photo now opens a review window where you click the recipe, click an image on the right (or use the row's dropdown) and press Confirm & Insert. New Fill Remaining Photos from Folder button. Smarter matching: slot numbers such as 3_ are read from the filename, one photo can never fill two recipes, and only photos that actually landed in a slot count as placed, so a failed load goes back to the pool."
+        },
         {
           "version": "2.0.2",
           "date": "2026-09-25",
