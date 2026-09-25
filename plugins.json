@@ -186,9 +186,14 @@
       "name": "AutoFlow Pro",
       "entry": "src/autoflow-pro/sidepanel.html",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.2",
+          "date": "2026-09-25",
+          "notes": "Google Flow Image Import: native Windows folder picker without browser warnings, smart prompt matching with unassigned fallback, centered gold confirm button, and native toast notifications."
+        },
         {
           "version": "1.1.1",
           "date": "2026-09-25",
