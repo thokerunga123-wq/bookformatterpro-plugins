@@ -817,16 +817,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-25T09:46:15.437Z",
+  "generatedAt": "2026-09-25T09:46:26.198Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.2.8",
-    "size": 18108605,
-    "sha256": "84735afdfa97c80fc2f5e36dc236bf90176c254ae724d15eec1c1963ec705a6c",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.8/BookFormatterPro-1.2.8-setup.exe",
-    "releasedAt": "2026-09-24",
-    "notes": "Version 1.2.8: native folder and single-image picker for Cookbook recipe photo matching, robust multi-tier fallback for image insertion, and Table of Contents flush-left alignment.",
+    "version": "1.2.9",
+    "size": 18403343,
+    "sha256": "36182bd8c80bf26ebe6d92326ebec92df7cf27e85cf93f3afe80f51e9b92e2be",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.9/BookFormatterPro-1.2.9-setup.exe",
+    "releasedAt": "2026-09-25",
+    "notes": "Version 1.2.9: Google Flow Image Import system with automatic prompt matching, native Win32 folder selection with zero browser security prompts, centered high-contrast confirm action, and enhanced cookbook layout alignment.",
     "history": [
+      {
+        "version": "1.2.9",
+        "sha256": "36182bd8c80bf26ebe6d92326ebec92df7cf27e85cf93f3afe80f51e9b92e2be",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.2.9/BookFormatterPro-1.2.9-setup.exe",
+        "releasedAt": "2026-09-25",
+        "notes": "Version 1.2.9: Google Flow Image Import system with automatic prompt matching, native Win32 folder selection with zero browser security prompts, centered high-contrast confirm action, and enhanced cookbook layout alignment."
+      },
       {
         "version": "1.2.8",
         "sha256": "84735afdfa97c80fc2f5e36dc236bf90176c254ae724d15eec1c1963ec705a6c",
