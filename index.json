@@ -624,16 +624,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 314882,
-      "sha256": "246f3e43548b6ddcc34023d1cd73f682a096d10b24c010f06296e76a24cd2b87",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.7/image-prompt-queue-1.1.7.bfpk",
-      "contentHash": "1e1e6d463133519e0ac008b16cb399a1f98f10637b32429b44f7dfc4c579d903",
+      "size": 317814,
+      "sha256": "acb02cff7d35f54cf723b5db9ab7a78281b42e71f2e925c40eea684639247ecf",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.8/image-prompt-queue-1.1.8.bfpk",
+      "contentHash": "98a554c7853eab50e274729f92e61ca0a5990d216455e9027d0d1be6399ba74b",
       "releasedAt": "2026-09-25",
-      "notes": "Updated shared page engine, formatting controls and stability enhancements.",
+      "notes": "Grid view drag-and-drop reordering: added drag handles, precision before/after insertion indicators, ghost drag preview, and seamless grid gap and end-of-book dropping.",
       "history": [
+        {
+          "version": "1.1.8",
+          "sha256": "acb02cff7d35f54cf723b5db9ab7a78281b42e71f2e925c40eea684639247ecf",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.8/image-prompt-queue-1.1.8.bfpk",
+          "releasedAt": "2026-09-25",
+          "notes": "Grid view drag-and-drop reordering: added drag handles, precision before/after insertion indicators, ghost drag preview, and seamless grid gap and end-of-book dropping."
+        },
         {
           "version": "1.1.7",
           "sha256": "246f3e43548b6ddcc34023d1cd73f682a096d10b24c010f06296e76a24cd2b87",
@@ -845,7 +852,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-25T12:10:59.661Z",
+  "generatedAt": "2026-09-25T22:31:13.293Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.3.0",

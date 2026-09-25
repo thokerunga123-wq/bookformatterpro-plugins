@@ -441,9 +441,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.8",
+          "date": "2026-09-25",
+          "notes": "Grid view drag-and-drop reordering: added drag handles, precision before/after insertion indicators, ghost drag preview, and seamless grid gap and end-of-book dropping."
+        },
         {
           "version": "1.1.7",
           "date": "2026-09-25",
