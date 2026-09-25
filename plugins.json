@@ -266,9 +266,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.4",
+          "date": "2026-09-25",
+          "notes": "Smart recipe image matching: 2-pass numeric prefix and sequential fallback matching, plus one-click 'Fill Remaining Photos from Folder' action for unassigned images."
+        },
         {
           "version": "2.0.3",
           "date": "2026-09-25",
