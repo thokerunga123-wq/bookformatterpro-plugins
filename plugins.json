@@ -31,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.8",
+          "date": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "1.1.7",
           "date": "2026-09-21",
@@ -256,9 +261,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.2",
+          "date": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "2.0.1",
           "date": "2026-09-24",
@@ -336,9 +346,14 @@
       "name": "Book Generator AI",
       "entry": "src/book-generator-ai/index.html",
       "description": "Generates book content with AI.",
-      "version": "1.1.10",
+      "version": "1.1.11",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "1.1.11",
+          "date": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "1.1.10",
           "date": "2026-09-24",
@@ -406,9 +421,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.7",
+          "date": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "1.1.6",
           "date": "2026-09-21",

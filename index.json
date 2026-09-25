@@ -40,16 +40,23 @@
     "book-formatter-pro": {
       "name": "Book Formatter Pro",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
-      "size": 11468301,
-      "sha256": "7021513aa7dcd2c2d6955d7f0d6e1576158f193cd74e7365a3480bf158d5e45a",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.7/book-formatter-pro-1.1.7.bfpk",
-      "contentHash": "92951ff12920fc98072418e2668af2b13b79479151771630676217108338e5ef",
-      "releasedAt": "2026-09-21",
-      "notes": "Designed Format: printed page numbers and the page count are now correct (blank pages are removed before numbering, so numbers no longer jump ahead), and the table of contents reads the numbers printed on the pages, so Conclusion and every entry match.",
+      "size": 11504693,
+      "sha256": "80f9c70390515277df382c465cd699e1c0d87129f56fb21ab73076cda5754fa9",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.8/book-formatter-pro-1.1.8.bfpk",
+      "contentHash": "3d8ce1ded1c8b2df0f19550a7bafe3fee014c31000f5e5bda8735bc65c24dacd",
+      "releasedAt": "2026-09-25",
+      "notes": "Updated shared page engine, formatting controls and stability enhancements.",
       "history": [
+        {
+          "version": "1.1.8",
+          "sha256": "80f9c70390515277df382c465cd699e1c0d87129f56fb21ab73076cda5754fa9",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.8/book-formatter-pro-1.1.8.bfpk",
+          "releasedAt": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "1.1.7",
           "sha256": "7021513aa7dcd2c2d6955d7f0d6e1576158f193cd74e7365a3480bf158d5e45a",
@@ -363,16 +370,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 543664,
-      "sha256": "c182f206d106fcdfbc0b437510b9507ace5f9be23efc6932c8e70079ba892bb9",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.1/response-collector-2.0.1.bfpk",
-      "contentHash": "3b2737a844775b26482be8ccdba9c03cbde0860fd479b7a208ba4b8c700a3ff6",
-      "releasedAt": "2026-09-24",
-      "notes": "Response Collector v2.0.1: bundled with latest native folder/image pickers and HTML5 fallback.",
+      "size": 548393,
+      "sha256": "b3f479a61c7baba2004e3fb489e98094abc138f75d3b163ba9a2c16ba8394547",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.2/response-collector-2.0.2.bfpk",
+      "contentHash": "a44e774d83fe589128d0dfe74febd97089d2009569f3207313f665434c8388a5",
+      "releasedAt": "2026-09-25",
+      "notes": "Updated shared page engine, formatting controls and stability enhancements.",
       "history": [
+        {
+          "version": "2.0.2",
+          "sha256": "b3f479a61c7baba2004e3fb489e98094abc138f75d3b163ba9a2c16ba8394547",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.2/response-collector-2.0.2.bfpk",
+          "releasedAt": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "2.0.1",
           "sha256": "c182f206d106fcdfbc0b437510b9507ace5f9be23efc6932c8e70079ba892bb9",
@@ -476,16 +490,23 @@
     "book-generator-ai": {
       "name": "Book Generator AI",
       "description": "Generates book content with AI.",
-      "version": "1.1.10",
+      "version": "1.1.11",
       "minAppVersion": "1.2.2",
       "entry": "src/book-generator-ai/index.html",
-      "size": 698418,
-      "sha256": "6c20dbf2aa5d18257b5f255c495576da39925b22ca36adf3ae6e72b3a2ae4d0e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.10/book-generator-ai-1.1.10.bfpk",
-      "contentHash": "da2dc99b49a7e3c7e5cf06d652414228c1c2e9220926a8aace53ae8c179fa97a",
-      "releasedAt": "2026-09-24",
-      "notes": "Book Generator AI v1.1.10: bundled with latest native folder/image pickers and HTML5 fallback.",
+      "size": 703200,
+      "sha256": "1e3529605691fdb623390922932d15e1455dbfbed9a149c3ec98c901e2d3512a",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.11/book-generator-ai-1.1.11.bfpk",
+      "contentHash": "42be65bce1a70b55e1391ba2a2ad29d5b1884e33774640cb2708bc27ca2a4b2d",
+      "releasedAt": "2026-09-25",
+      "notes": "Updated shared page engine, formatting controls and stability enhancements.",
       "history": [
+        {
+          "version": "1.1.11",
+          "sha256": "1e3529605691fdb623390922932d15e1455dbfbed9a149c3ec98c901e2d3512a",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-generator-ai-v1.1.11/book-generator-ai-1.1.11.bfpk",
+          "releasedAt": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "1.1.10",
           "sha256": "6c20dbf2aa5d18257b5f255c495576da39925b22ca36adf3ae6e72b3a2ae4d0e",
@@ -575,16 +596,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 310489,
-      "sha256": "3d01a4e367c33f18d1e8683a643f9f7081745e90f162a2f836222d65a41d76e2",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.6/image-prompt-queue-1.1.6.bfpk",
-      "contentHash": "798cd266753d91fc4bf4f7905bd418371782cea5f8456f662a57aae519f8a715",
-      "releasedAt": "2026-09-21",
-      "notes": "Prompt Writer: every generated page prompt now ends with an identical consistency sentence covering colours, lighting and quality, so all pages match.",
+      "size": 314882,
+      "sha256": "246f3e43548b6ddcc34023d1cd73f682a096d10b24c010f06296e76a24cd2b87",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.7/image-prompt-queue-1.1.7.bfpk",
+      "contentHash": "1e1e6d463133519e0ac008b16cb399a1f98f10637b32429b44f7dfc4c579d903",
+      "releasedAt": "2026-09-25",
+      "notes": "Updated shared page engine, formatting controls and stability enhancements.",
       "history": [
+        {
+          "version": "1.1.7",
+          "sha256": "246f3e43548b6ddcc34023d1cd73f682a096d10b24c010f06296e76a24cd2b87",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.7/image-prompt-queue-1.1.7.bfpk",
+          "releasedAt": "2026-09-25",
+          "notes": "Updated shared page engine, formatting controls and stability enhancements."
+        },
         {
           "version": "1.1.6",
           "sha256": "3d01a4e367c33f18d1e8683a643f9f7081745e90f162a2f836222d65a41d76e2",
@@ -789,7 +817,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-25T09:46:02.205Z",
+  "generatedAt": "2026-09-25T09:46:15.437Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.8",
