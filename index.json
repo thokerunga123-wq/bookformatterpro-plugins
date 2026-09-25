@@ -255,16 +255,23 @@
     "autoflow-pro": {
       "name": "AutoFlow Pro",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/autoflow-pro/sidepanel.html",
-      "size": 177383,
-      "sha256": "b70d8acaba2b1cb8695e0a070fc73b39a78c8d15cd7e5f0a58cd3d41ababd636",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.0/autoflow-pro-1.1.0.bfpk",
-      "contentHash": "5adfd36c38a8a0ad96cf5dd0894ee3d87e6cc73c52adc3d5775db8c1d2780843",
-      "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "size": 150407,
+      "sha256": "0fb94f55ef34054354ac05abe6b04498339fbb64e2e64df25d6086b9f5932406",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.1/autoflow-pro-1.1.1.bfpk",
+      "contentHash": "3bf8e8b95c15805259417a4ae07485cde5085e15b1c77fb9b479ecaf97a6b527",
+      "releasedAt": "2026-09-25",
+      "notes": "AutoFlow Pro 1.1.1: Google Flow Image Import system with automatic prompt matching, native Win32 folder selection, high-contrast centered confirm import action, and polished toast UI.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "0fb94f55ef34054354ac05abe6b04498339fbb64e2e64df25d6086b9f5932406",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.1/autoflow-pro-1.1.1.bfpk",
+          "releasedAt": "2026-09-25",
+          "notes": "AutoFlow Pro 1.1.1: Google Flow Image Import system with automatic prompt matching, native Win32 folder selection, high-contrast centered confirm import action, and polished toast UI."
+        },
         {
           "version": "1.1.0",
           "sha256": "b70d8acaba2b1cb8695e0a070fc73b39a78c8d15cd7e5f0a58cd3d41ababd636",
@@ -782,7 +789,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-24T10:37:37.239Z",
+  "generatedAt": "2026-09-25T09:46:02.205Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.2.8",
