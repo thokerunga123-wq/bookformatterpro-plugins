@@ -191,9 +191,14 @@
       "name": "AutoFlow Pro",
       "entry": "src/autoflow-pro/sidepanel.html",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.3",
+          "date": "2026-09-27",
+          "notes": "Fix image spinner, add persistent thumbnail cache, and ensure instant object URL on import."
+        },
         {
           "version": "1.1.2",
           "date": "2026-09-25",
@@ -271,9 +276,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.5",
+          "date": "2026-09-27",
+          "notes": "Fix Claude AI extraction engine with semantic article turns and user turn exclusion."
+        },
         {
           "version": "2.0.4",
           "date": "2026-09-25",
@@ -441,9 +451,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.9",
+          "date": "2026-09-27",
+          "notes": "Update page numbers layout, prompt writer design rules, and side-by-side controls."
+        },
         {
           "version": "1.1.8",
           "date": "2026-09-25",
@@ -576,9 +591,14 @@
       "name": "Cookbook Writer Pro",
       "entry": "src/cookbook-writer-pro/index.html",
       "description": "Writes and prepares cookbooks.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.2",
+          "date": "2026-09-27",
+          "notes": "Add English target language support and fix author name mapping in prompt."
+        },
         {
           "version": "1.1.1",
           "date": "2026-09-20",
