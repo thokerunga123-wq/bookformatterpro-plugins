@@ -40,16 +40,23 @@
     "book-formatter-pro": {
       "name": "Book Formatter Pro",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "minAppVersion": "1.0.0",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
-      "size": 11504693,
-      "sha256": "80f9c70390515277df382c465cd699e1c0d87129f56fb21ab73076cda5754fa9",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.8/book-formatter-pro-1.1.8.bfpk",
-      "contentHash": "3d8ce1ded1c8b2df0f19550a7bafe3fee014c31000f5e5bda8735bc65c24dacd",
-      "releasedAt": "2026-09-25",
-      "notes": "Updated shared page engine, formatting controls and stability enhancements.",
+      "size": 11514187,
+      "sha256": "a62ccd0406c20486c6148606bac1f35c4ac891e7465d892c147a69dadcabe03a",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.9/book-formatter-pro-1.1.9.bfpk",
+      "contentHash": "8f01c368af92788311b78e99a445a0fd0bdee928907845bf2c64024cfa225e1d",
+      "releasedAt": "2026-09-27",
+      "notes": "Tube2book now has three tabs: Main video, Sources and Book Writer. The open video, your saved source videos and the book writer each have their own place, so you no longer have to scroll past one to reach another. The Add button also works on YouTube Shorts and finds video cards more reliably across home, search, channel and Shorts pages.",
       "history": [
+        {
+          "version": "1.1.9",
+          "sha256": "a62ccd0406c20486c6148606bac1f35c4ac891e7465d892c147a69dadcabe03a",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-formatter-pro-v1.1.9/book-formatter-pro-1.1.9.bfpk",
+          "releasedAt": "2026-09-27",
+          "notes": "Tube2book now has three tabs: Main video, Sources and Book Writer. The open video, your saved source videos and the book writer each have their own place, so you no longer have to scroll past one to reach another. The Add button also works on YouTube Shorts and finds video cards more reliably across home, search, channel and Shorts pages."
+        },
         {
           "version": "1.1.8",
           "sha256": "80f9c70390515277df382c465cd699e1c0d87129f56fb21ab73076cda5754fa9",
@@ -880,7 +887,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-27T20:57:39.557Z",
+  "generatedAt": "2026-09-27T21:03:32.673Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.3.2",

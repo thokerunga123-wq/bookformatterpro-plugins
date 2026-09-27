@@ -31,9 +31,14 @@
       "name": "Book Formatter Pro",
       "entry": "src/book-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats manuscripts into print-ready books.",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.9",
+          "date": "2026-09-27",
+          "notes": "Tube2book now has three tabs: Main video, Sources and Book Writer. The open video, your saved source videos and the book writer each have their own place, so you no longer have to scroll past one to reach another. The Add button also works on YouTube Shorts and finds video cards more reliably across home, search, channel and Shorts pages."
+        },
         {
           "version": "1.1.8",
           "date": "2026-09-25",
