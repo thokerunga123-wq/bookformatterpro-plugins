@@ -269,16 +269,23 @@
     "autoflow-pro": {
       "name": "AutoFlow Pro",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "entry": "src/autoflow-pro/sidepanel.html",
-      "size": 150407,
-      "sha256": "3763e21fa07e620a516ad65e074d330ff8bc3432ca92a1f0662977c01eb00980",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.2/autoflow-pro-1.1.2.bfpk",
-      "contentHash": "3bf8e8b95c15805259417a4ae07485cde5085e15b1c77fb9b479ecaf97a6b527",
-      "releasedAt": "2026-09-25",
-      "notes": "Google Flow Image Import: native Windows folder picker without browser warnings, smart prompt matching with unassigned fallback, centered gold confirm button, and native toast notifications.",
+      "size": 152160,
+      "sha256": "479d32fd74925ef352fa3dabcaee25cc4b6591ee28a7f7dde0b118b4a8fdc02d",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.3/autoflow-pro-1.1.3.bfpk",
+      "contentHash": "816728d337caff2d4b267442e1237a0d59d00e8efd503a5a7b2079a51269581b",
+      "releasedAt": "2026-09-27",
+      "notes": "Fix image spinner, add persistent thumbnail cache, and ensure instant object URL on import.",
       "history": [
+        {
+          "version": "1.1.3",
+          "sha256": "479d32fd74925ef352fa3dabcaee25cc4b6591ee28a7f7dde0b118b4a8fdc02d",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.3/autoflow-pro-1.1.3.bfpk",
+          "releasedAt": "2026-09-27",
+          "notes": "Fix image spinner, add persistent thumbnail cache, and ensure instant object URL on import."
+        },
         {
           "version": "1.1.2",
           "sha256": "3763e21fa07e620a516ad65e074d330ff8bc3432ca92a1f0662977c01eb00980",
@@ -384,16 +391,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 560679,
-      "sha256": "dd67e4c698165c6e4adf7a3d2bc7a08b463e6ab30f3c1f05f4fdbcad8850c24e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.4/response-collector-2.0.4.bfpk",
+      "size": 560682,
+      "sha256": "c76017b7037628122847265f3e0205a227dd85b95c20229e44658a32957c2b89",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.5/response-collector-2.0.5.bfpk",
       "contentHash": "6806fd1a55a74b7be4bf5df4ab9dc4181ef387377bcf64c9db79bddf5bc1c794",
-      "releasedAt": "2026-09-25",
-      "notes": "Smart recipe image matching: 2-pass numeric prefix and sequential fallback matching, plus one-click 'Fill Remaining Photos from Folder' action for unassigned images.",
+      "releasedAt": "2026-09-27",
+      "notes": "Fix Claude AI extraction engine with semantic article turns and user turn exclusion.",
       "history": [
+        {
+          "version": "2.0.5",
+          "sha256": "c76017b7037628122847265f3e0205a227dd85b95c20229e44658a32957c2b89",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.5/response-collector-2.0.5.bfpk",
+          "releasedAt": "2026-09-27",
+          "notes": "Fix Claude AI extraction engine with semantic article turns and user turn exclusion."
+        },
         {
           "version": "2.0.4",
           "sha256": "dd67e4c698165c6e4adf7a3d2bc7a08b463e6ab30f3c1f05f4fdbcad8850c24e",
@@ -624,16 +638,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 317814,
-      "sha256": "acb02cff7d35f54cf723b5db9ab7a78281b42e71f2e925c40eea684639247ecf",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.8/image-prompt-queue-1.1.8.bfpk",
-      "contentHash": "98a554c7853eab50e274729f92e61ca0a5990d216455e9027d0d1be6399ba74b",
-      "releasedAt": "2026-09-25",
-      "notes": "Grid view drag-and-drop reordering: added drag handles, precision before/after insertion indicators, ghost drag preview, and seamless grid gap and end-of-book dropping.",
+      "size": 369723,
+      "sha256": "1c44a3dc8f2f02056b90fec246f0c148b02b9c2e513c2976b0937ad5d25789ba",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.9/image-prompt-queue-1.1.9.bfpk",
+      "contentHash": "d1210573ba4a5015750d613068397d55de94619f44f049a931e5fb87fb9e26a4",
+      "releasedAt": "2026-09-27",
+      "notes": "Update page numbers layout, prompt writer design rules, and side-by-side controls.",
       "history": [
+        {
+          "version": "1.1.9",
+          "sha256": "1c44a3dc8f2f02056b90fec246f0c148b02b9c2e513c2976b0937ad5d25789ba",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.9/image-prompt-queue-1.1.9.bfpk",
+          "releasedAt": "2026-09-27",
+          "notes": "Update page numbers layout, prompt writer design rules, and side-by-side controls."
+        },
         {
           "version": "1.1.8",
           "sha256": "acb02cff7d35f54cf723b5db9ab7a78281b42e71f2e925c40eea684639247ecf",
@@ -817,16 +838,23 @@
     "cookbook-writer-pro": {
       "name": "Cookbook Writer Pro",
       "description": "Writes and prepares cookbooks.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "entry": "src/cookbook-writer-pro/index.html",
-      "size": 92741,
-      "sha256": "7fba6d039723d24303e6ec2c0cd8534bec3890e40d932b762e0065a2061c9f67",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.1/cookbook-writer-pro-1.1.1.bfpk",
-      "contentHash": "6f207ed3e84ca3fce8afc0744b4d34d267a36a1c39bec7482bbb464fd367bee6",
-      "releasedAt": "2026-09-20",
-      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
+      "size": 93294,
+      "sha256": "ee489efc7e7aac537807900fe41cf7f6536123d2fe74808ec63ef18c1b5ed62d",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.2/cookbook-writer-pro-1.1.2.bfpk",
+      "contentHash": "b9b389d0626cbcb796d2084dd359cb16fed4e7f37493f8ef14f2478f76a10687",
+      "releasedAt": "2026-09-27",
+      "notes": "Add English target language support and fix author name mapping in prompt.",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "ee489efc7e7aac537807900fe41cf7f6536123d2fe74808ec63ef18c1b5ed62d",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/cookbook-writer-pro-v1.1.2/cookbook-writer-pro-1.1.2.bfpk",
+          "releasedAt": "2026-09-27",
+          "notes": "Add English target language support and fix author name mapping in prompt."
+        },
         {
           "version": "1.1.1",
           "sha256": "7fba6d039723d24303e6ec2c0cd8534bec3890e40d932b762e0065a2061c9f67",
@@ -852,16 +880,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-25T22:31:13.293Z",
+  "generatedAt": "2026-09-27T13:24:13.191Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.3.0",
-    "size": 17808556,
-    "sha256": "b75e62a8c0b83384fc0dcd4e102f4a75a8927f670b28810cd40a36a45cb95d42",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.0/BookFormatterPro-1.3.0-setup.exe",
-    "releasedAt": "2026-09-25",
-    "notes": "Version 1.3.0: maintenance update with fixes and improvements.",
+    "version": "1.3.1",
+    "size": 17836352,
+    "sha256": "659d0f3f8abe8c43a2c1d1212dc9ea89f4c843ac6c94b4cd12dfa9b450d9046a",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.1/BookFormatterPro-1.3.1-setup.exe",
+    "releasedAt": "2026-09-27",
+    "notes": "Version 1.3.1: AutoFlow Pro instant preview card loading without spinner freeze, Response Collector Claude AI collection engine with prose filter, Cookbook Writer English language & author mapping fixes, and Image Prompt Queue side-by-side workbook controls.",
     "history": [
+      {
+        "version": "1.3.1",
+        "sha256": "659d0f3f8abe8c43a2c1d1212dc9ea89f4c843ac6c94b4cd12dfa9b450d9046a",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.1/BookFormatterPro-1.3.1-setup.exe",
+        "releasedAt": "2026-09-27",
+        "notes": "Version 1.3.1: AutoFlow Pro instant preview card loading without spinner freeze, Response Collector Claude AI collection engine with prose filter, Cookbook Writer English language & author mapping fixes, and Image Prompt Queue side-by-side workbook controls."
+      },
       {
         "version": "1.3.0",
         "sha256": "b75e62a8c0b83384fc0dcd4e102f4a75a8927f670b28810cd40a36a45cb95d42",
