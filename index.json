@@ -659,16 +659,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.9",
+      "version": "1.1.10",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 369723,
-      "sha256": "1c44a3dc8f2f02056b90fec246f0c148b02b9c2e513c2976b0937ad5d25789ba",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.9/image-prompt-queue-1.1.9.bfpk",
-      "contentHash": "d1210573ba4a5015750d613068397d55de94619f44f049a931e5fb87fb9e26a4",
-      "releasedAt": "2026-09-27",
-      "notes": "Update page numbers layout, prompt writer design rules, and side-by-side controls.",
+      "size": 364972,
+      "sha256": "ae98f6e94bb5e7c448c580ef05ea004edf1c0027b5ab17a90bb5e526265785a9",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.10/image-prompt-queue-1.1.10.bfpk",
+      "contentHash": "1e2be33724a76d4b19ce0cd91656467736658b8cf162a63838646fe3212feb07",
+      "releasedAt": "2026-10-03",
+      "notes": "UI and layout updates.",
       "history": [
+        {
+          "version": "1.1.10",
+          "sha256": "ae98f6e94bb5e7c448c580ef05ea004edf1c0027b5ab17a90bb5e526265785a9",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.10/image-prompt-queue-1.1.10.bfpk",
+          "releasedAt": "2026-10-03",
+          "notes": "UI and layout updates."
+        },
         {
           "version": "1.1.9",
           "sha256": "1c44a3dc8f2f02056b90fec246f0c148b02b9c2e513c2976b0937ad5d25789ba",
@@ -901,7 +908,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-10-03T15:43:01.731Z",
+  "generatedAt": "2026-10-03T15:43:05.884Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.3.2",
