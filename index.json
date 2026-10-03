@@ -132,16 +132,23 @@
     "book-cover": {
       "name": "Book Cover Pro",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "entry": "src/book-cover/index.html",
-      "size": 222366,
-      "sha256": "c983cff5d7646cbb68d9ea5c5b0acbfa65db1dbb38f558a78d9d87a3a235384e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.0/book-cover-1.1.0.bfpk",
-      "contentHash": "7dd84c7cc26d60057e0aad843985941d2777ff64ab629ac5c7ef719b238d9fe9",
-      "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "size": 216155,
+      "sha256": "4dab9f89542781bad3f90a0cca1d3345fa3bb27e71fa5d2a9faa69186b9499f8",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.1/book-cover-1.1.1.bfpk",
+      "contentHash": "eda83c7a0570bb25c2e18761cecd4f9dc2c2ac6d34e38190bccc6cae6e61dc5d",
+      "releasedAt": "2026-10-03",
+      "notes": "Cover Settings panel redesigned to match Book Writer's flat, continuous layout (step-wizard numbering and Previous/Next navigation removed). Quick Upload merged directly into Cover Settings as one panel. Front/Back Reference and Front/Back Cover Image now sit side by side with upload/paste/remove controls inside each box. Spine Image upload removed (spine color/fill shape only). Page Setup moved from the topbar into the side rail, and the duplicate paper-size quick-picker removed from the canvas toolbar -- Page Setup is now the one place that sets trim size everywhere. Fixed a bug where Page Setup's Trim Size never actually applied to either view because of a value-format mismatch; Trim Size now correctly resizes both the AI Cover preview and the Full-Wrap KDP canvas. Removed the unfinished 3D Mockup Studio tab and the Spine badge.",
       "history": [
+        {
+          "version": "1.1.1",
+          "sha256": "4dab9f89542781bad3f90a0cca1d3345fa3bb27e71fa5d2a9faa69186b9499f8",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.1/book-cover-1.1.1.bfpk",
+          "releasedAt": "2026-10-03",
+          "notes": "Cover Settings panel redesigned to match Book Writer's flat, continuous layout (step-wizard numbering and Previous/Next navigation removed). Quick Upload merged directly into Cover Settings as one panel. Front/Back Reference and Front/Back Cover Image now sit side by side with upload/paste/remove controls inside each box. Spine Image upload removed (spine color/fill shape only). Page Setup moved from the topbar into the side rail, and the duplicate paper-size quick-picker removed from the canvas toolbar -- Page Setup is now the one place that sets trim size everywhere. Fixed a bug where Page Setup's Trim Size never actually applied to either view because of a value-format mismatch; Trim Size now correctly resizes both the AI Cover preview and the Full-Wrap KDP canvas. Removed the unfinished 3D Mockup Studio tab and the Spine badge."
+        },
         {
           "version": "1.1.0",
           "sha256": "c983cff5d7646cbb68d9ea5c5b0acbfa65db1dbb38f558a78d9d87a3a235384e",
@@ -887,7 +894,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-27T21:03:32.673Z",
+  "generatedAt": "2026-10-03T15:42:56.328Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.3.2",

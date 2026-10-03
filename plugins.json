@@ -96,9 +96,14 @@
       "name": "Book Cover Pro",
       "entry": "src/book-cover/index.html",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-10-03",
+          "notes": "Cover Settings panel redesigned to match Book Writer's flat, continuous layout (step-wizard numbering and Previous/Next navigation removed). Quick Upload merged directly into Cover Settings as one panel. Front/Back Reference and Front/Back Cover Image now sit side by side with upload/paste/remove controls inside each box. Spine Image upload removed (spine color/fill shape only). Page Setup moved from the topbar into the side rail, and the duplicate paper-size quick-picker removed from the canvas toolbar -- Page Setup is now the one place that sets trim size everywhere. Fixed a bug where Page Setup's Trim Size never actually applied to either view because of a value-format mismatch; Trim Size now correctly resizes both the AI Cover preview and the Full-Wrap KDP canvas. Removed the unfinished 3D Mockup Studio tab and the Spine badge."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
