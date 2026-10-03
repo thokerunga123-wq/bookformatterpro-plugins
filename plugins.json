@@ -286,9 +286,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.6",
+          "date": "2026-10-03",
+          "notes": "New backend-api content collection for ChatGPT and Claude: fetches the full conversation directly from each site's own internal API instead of scrolling and scraping the page, with retry/fault isolation so one malformed message can no longer wipe out an entire already-collected chapter. Markdown rendering (tables, bold/italic, links, blockquotes) is now shared across providers. New 'Edit' button opens the Designed Format preview in a full-screen editor with real, independently paginated pages per chapter, so editing a paragraph only re-paginates that chapter instead of reloading the whole book."
+        },
         {
           "version": "2.0.5",
           "date": "2026-09-27",

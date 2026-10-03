@@ -405,16 +405,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 560682,
-      "sha256": "c76017b7037628122847265f3e0205a227dd85b95c20229e44658a32957c2b89",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.5/response-collector-2.0.5.bfpk",
-      "contentHash": "6806fd1a55a74b7be4bf5df4ab9dc4181ef387377bcf64c9db79bddf5bc1c794",
-      "releasedAt": "2026-09-27",
-      "notes": "Fix Claude AI extraction engine with semantic article turns and user turn exclusion.",
+      "size": 576651,
+      "sha256": "752cf883ee16edcb92eb38d092629677e438dfebc2023631637fe73c2f16cd59",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.6/response-collector-2.0.6.bfpk",
+      "contentHash": "c2d16fa3a2f1302d4ca86da282dce1bbed4e057540347f82d766a0c83b9ec89d",
+      "releasedAt": "2026-10-03",
+      "notes": "New backend-api content collection for ChatGPT and Claude: fetches the full conversation directly from each site's own internal API instead of scrolling and scraping the page, with retry/fault isolation so one malformed message can no longer wipe out an entire already-collected chapter. Markdown rendering (tables, bold/italic, links, blockquotes) is now shared across providers. New 'Edit' button opens the Designed Format preview in a full-screen editor with real, independently paginated pages per chapter, so editing a paragraph only re-paginates that chapter instead of reloading the whole book.",
       "history": [
+        {
+          "version": "2.0.6",
+          "sha256": "752cf883ee16edcb92eb38d092629677e438dfebc2023631637fe73c2f16cd59",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.6/response-collector-2.0.6.bfpk",
+          "releasedAt": "2026-10-03",
+          "notes": "New backend-api content collection for ChatGPT and Claude: fetches the full conversation directly from each site's own internal API instead of scrolling and scraping the page, with retry/fault isolation so one malformed message can no longer wipe out an entire already-collected chapter. Markdown rendering (tables, bold/italic, links, blockquotes) is now shared across providers. New 'Edit' button opens the Designed Format preview in a full-screen editor with real, independently paginated pages per chapter, so editing a paragraph only re-paginates that chapter instead of reloading the whole book."
+        },
         {
           "version": "2.0.5",
           "sha256": "c76017b7037628122847265f3e0205a227dd85b95c20229e44658a32957c2b89",
@@ -894,7 +901,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-10-03T15:42:56.328Z",
+  "generatedAt": "2026-10-03T15:43:01.731Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.3.2",
