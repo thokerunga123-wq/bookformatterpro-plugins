@@ -132,16 +132,30 @@
     "book-cover": {
       "name": "Book Cover Pro",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "entry": "src/book-cover/index.html",
-      "size": 222366,
-      "sha256": "c983cff5d7646cbb68d9ea5c5b0acbfa65db1dbb38f558a78d9d87a3a235384e",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.0/book-cover-1.1.0.bfpk",
-      "contentHash": "7dd84c7cc26d60057e0aad843985941d2777ff64ab629ac5c7ef719b238d9fe9",
-      "releasedAt": "2026-09-20",
-      "notes": "Version 1.1.0: updated Settings panel and update tools.",
+      "size": 216092,
+      "sha256": "758e1dda863df14daa1a3d6518f47d2632d08beca3415525948d80c005f40d1c",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.2/book-cover-1.1.2.bfpk",
+      "contentHash": "5e48af822a6c5afd92514244cb53b1b87702a59aa0b1e7b34a5682be59d84764",
+      "releasedAt": "2026-10-04",
+      "notes": "The 'Send Front'/'Send Back' buttons now open the general ChatGPT page (chatgpt.com) instead of a specific custom GPT, so it works with whatever ChatGPT setup the user already has open.",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "758e1dda863df14daa1a3d6518f47d2632d08beca3415525948d80c005f40d1c",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.2/book-cover-1.1.2.bfpk",
+          "releasedAt": "2026-10-04",
+          "notes": "The 'Send Front'/'Send Back' buttons now open the general ChatGPT page (chatgpt.com) instead of a specific custom GPT, so it works with whatever ChatGPT setup the user already has open."
+        },
+        {
+          "version": "1.1.1",
+          "sha256": "4dab9f89542781bad3f90a0cca1d3345fa3bb27e71fa5d2a9faa69186b9499f8",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.1/book-cover-1.1.1.bfpk",
+          "releasedAt": "2026-10-03",
+          "notes": "Cover Settings panel redesigned to match Book Writer's flat, continuous layout (step-wizard numbering and Previous/Next navigation removed). Quick Upload merged directly into Cover Settings as one panel. Front/Back Reference and Front/Back Cover Image now sit side by side with upload/paste/remove controls inside each box. Spine Image upload removed (spine color/fill shape only). Page Setup moved from the topbar into the side rail, and the duplicate paper-size quick-picker removed from the canvas toolbar -- Page Setup is now the one place that sets trim size everywhere. Fixed a bug where Page Setup's Trim Size never actually applied to either view because of a value-format mismatch; Trim Size now correctly resizes both the AI Cover preview and the Full-Wrap KDP canvas. Removed the unfinished 3D Mockup Studio tab and the Spine badge."
+        },
         {
           "version": "1.1.0",
           "sha256": "c983cff5d7646cbb68d9ea5c5b0acbfa65db1dbb38f558a78d9d87a3a235384e",
@@ -398,16 +412,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
-      "size": 560682,
-      "sha256": "c76017b7037628122847265f3e0205a227dd85b95c20229e44658a32957c2b89",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.5/response-collector-2.0.5.bfpk",
-      "contentHash": "6806fd1a55a74b7be4bf5df4ab9dc4181ef387377bcf64c9db79bddf5bc1c794",
-      "releasedAt": "2026-09-27",
-      "notes": "Fix Claude AI extraction engine with semantic article turns and user turn exclusion.",
+      "size": 576651,
+      "sha256": "752cf883ee16edcb92eb38d092629677e438dfebc2023631637fe73c2f16cd59",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.6/response-collector-2.0.6.bfpk",
+      "contentHash": "c2d16fa3a2f1302d4ca86da282dce1bbed4e057540347f82d766a0c83b9ec89d",
+      "releasedAt": "2026-10-03",
+      "notes": "New backend-api content collection for ChatGPT and Claude: fetches the full conversation directly from each site's own internal API instead of scrolling and scraping the page, with retry/fault isolation so one malformed message can no longer wipe out an entire already-collected chapter. Markdown rendering (tables, bold/italic, links, blockquotes) is now shared across providers. New 'Edit' button opens the Designed Format preview in a full-screen editor with real, independently paginated pages per chapter, so editing a paragraph only re-paginates that chapter instead of reloading the whole book.",
       "history": [
+        {
+          "version": "2.0.6",
+          "sha256": "752cf883ee16edcb92eb38d092629677e438dfebc2023631637fe73c2f16cd59",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.6/response-collector-2.0.6.bfpk",
+          "releasedAt": "2026-10-03",
+          "notes": "New backend-api content collection for ChatGPT and Claude: fetches the full conversation directly from each site's own internal API instead of scrolling and scraping the page, with retry/fault isolation so one malformed message can no longer wipe out an entire already-collected chapter. Markdown rendering (tables, bold/italic, links, blockquotes) is now shared across providers. New 'Edit' button opens the Designed Format preview in a full-screen editor with real, independently paginated pages per chapter, so editing a paragraph only re-paginates that chapter instead of reloading the whole book."
+        },
         {
           "version": "2.0.5",
           "sha256": "c76017b7037628122847265f3e0205a227dd85b95c20229e44658a32957c2b89",
@@ -645,16 +666,30 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.9",
+      "version": "1.1.11",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 369723,
-      "sha256": "1c44a3dc8f2f02056b90fec246f0c148b02b9c2e513c2976b0937ad5d25789ba",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.9/image-prompt-queue-1.1.9.bfpk",
-      "contentHash": "d1210573ba4a5015750d613068397d55de94619f44f049a931e5fb87fb9e26a4",
-      "releasedAt": "2026-09-27",
-      "notes": "Update page numbers layout, prompt writer design rules, and side-by-side controls.",
+      "size": 389014,
+      "sha256": "fd03190984723c1d869ef08a5d86bf7a93450833e4e4155886eaa3df89778844",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.11/image-prompt-queue-1.1.11.bfpk",
+      "contentHash": "d2c8b1805235d9705406baba32891375498f1635a597133f499d64e6f97a5171",
+      "releasedAt": "2026-10-04",
+      "notes": "Prompt Writer: 'Page type' is now 'Book type' (5 simplified choices), with a new 'Book pages' field letting you tick several of that type's 20 variants to mix across the book -- the AI is told to plan the mix deliberately across all content pages instead of repeating one layout. New Guidance and Difficulty-progression controls, and an optional Subjects list to cycle through specific subjects instead of leaving every page to the AI's own choice. Generated prompts are also more reliable: a resolved grey/no-grey contradiction, a per-page text-load cap, a ban on mindless repeated labels, a print-legibility floor, a defined icon-row sequence rule, named decoration placement instead of vague overlap rules, a consistent title/copyright-page emblem, a Contents Page safeguard, a RENDER RISK and POST-PROCESS line on every prompt, and (when mixing types) a page-type-order summary at the end.",
       "history": [
+        {
+          "version": "1.1.11",
+          "sha256": "fd03190984723c1d869ef08a5d86bf7a93450833e4e4155886eaa3df89778844",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.11/image-prompt-queue-1.1.11.bfpk",
+          "releasedAt": "2026-10-04",
+          "notes": "Prompt Writer: 'Page type' is now 'Book type' (5 simplified choices), with a new 'Book pages' field letting you tick several of that type's 20 variants to mix across the book -- the AI is told to plan the mix deliberately across all content pages instead of repeating one layout. New Guidance and Difficulty-progression controls, and an optional Subjects list to cycle through specific subjects instead of leaving every page to the AI's own choice. Generated prompts are also more reliable: a resolved grey/no-grey contradiction, a per-page text-load cap, a ban on mindless repeated labels, a print-legibility floor, a defined icon-row sequence rule, named decoration placement instead of vague overlap rules, a consistent title/copyright-page emblem, a Contents Page safeguard, a RENDER RISK and POST-PROCESS line on every prompt, and (when mixing types) a page-type-order summary at the end."
+        },
+        {
+          "version": "1.1.10",
+          "sha256": "ae98f6e94bb5e7c448c580ef05ea004edf1c0027b5ab17a90bb5e526265785a9",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.10/image-prompt-queue-1.1.10.bfpk",
+          "releasedAt": "2026-10-03",
+          "notes": "UI and layout updates."
+        },
         {
           "version": "1.1.9",
           "sha256": "1c44a3dc8f2f02056b90fec246f0c148b02b9c2e513c2976b0937ad5d25789ba",
@@ -886,8 +921,6 @@
       ]
     }
   },
-  "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-10-04T10:50:01.060Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.3.3",
@@ -1017,5 +1050,6 @@
         "notes": "First release of the redesigned app (version 1). Plugins now update on their own."
       }
     ]
-  }
+  },
+  "generatedAt": "2026-10-04T10:51:17.784Z"
 }

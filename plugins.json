@@ -96,9 +96,19 @@
       "name": "Book Cover Pro",
       "entry": "src/book-cover/index.html",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.2",
+          "date": "2026-10-04",
+          "notes": "The 'Send Front'/'Send Back' buttons now open the general ChatGPT page (chatgpt.com) instead of a specific custom GPT, so it works with whatever ChatGPT setup the user already has open."
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-10-03",
+          "notes": "Cover Settings panel redesigned to match Book Writer's flat, continuous layout (step-wizard numbering and Previous/Next navigation removed). Quick Upload merged directly into Cover Settings as one panel. Front/Back Reference and Front/Back Cover Image now sit side by side with upload/paste/remove controls inside each box. Spine Image upload removed (spine color/fill shape only). Page Setup moved from the topbar into the side rail, and the duplicate paper-size quick-picker removed from the canvas toolbar -- Page Setup is now the one place that sets trim size everywhere. Fixed a bug where Page Setup's Trim Size never actually applied to either view because of a value-format mismatch; Trim Size now correctly resizes both the AI Cover preview and the Full-Wrap KDP canvas. Removed the unfinished 3D Mockup Studio tab and the Spine badge."
+        },
         {
           "version": "1.1.0",
           "date": "2026-09-20",
@@ -281,9 +291,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.6",
+          "date": "2026-10-03",
+          "notes": "New backend-api content collection for ChatGPT and Claude: fetches the full conversation directly from each site's own internal API instead of scrolling and scraping the page, with retry/fault isolation so one malformed message can no longer wipe out an entire already-collected chapter. Markdown rendering (tables, bold/italic, links, blockquotes) is now shared across providers. New 'Edit' button opens the Designed Format preview in a full-screen editor with real, independently paginated pages per chapter, so editing a paragraph only re-paginates that chapter instead of reloading the whole book."
+        },
         {
           "version": "2.0.5",
           "date": "2026-09-27",
@@ -456,9 +471,19 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.9",
+      "version": "1.1.11",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.11",
+          "date": "2026-10-04",
+          "notes": "Prompt Writer: 'Page type' is now 'Book type' (5 simplified choices), with a new 'Book pages' field letting you tick several of that type's 20 variants to mix across the book -- the AI is told to plan the mix deliberately across all content pages instead of repeating one layout. New Guidance and Difficulty-progression controls, and an optional Subjects list to cycle through specific subjects instead of leaving every page to the AI's own choice. Generated prompts are also more reliable: a resolved grey/no-grey contradiction, a per-page text-load cap, a ban on mindless repeated labels, a print-legibility floor, a defined icon-row sequence rule, named decoration placement instead of vague overlap rules, a consistent title/copyright-page emblem, a Contents Page safeguard, a RENDER RISK and POST-PROCESS line on every prompt, and (when mixing types) a page-type-order summary at the end."
+        },
+        {
+          "version": "1.1.10",
+          "date": "2026-10-03",
+          "notes": "UI and layout updates."
+        },
         {
           "version": "1.1.9",
           "date": "2026-09-27",
