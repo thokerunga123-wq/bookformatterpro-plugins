@@ -887,16 +887,23 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-09-27T21:03:32.673Z",
+  "generatedAt": "2026-10-04T10:50:01.060Z",
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.3.2",
-    "size": 17847777,
-    "sha256": "62cfe22b9b4824c6f1d0c795884b988380ee683ba57f8644b757a4b4cc121c77",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.2/BookFormatterPro-1.3.2-setup.exe",
-    "releasedAt": "2026-09-27",
-    "notes": "Version 1.3.2: the Add to Tube2book button now works on YouTube Shorts and detects video cards more reliably across home, search, channel and Shorts pages, and the Tube2book panel's table of contents can now be collapsed.",
+    "version": "1.3.3",
+    "size": 17893458,
+    "sha256": "8a07274573a9d60ababa2b0e36ce3bd1565877de66b4f401fb2a3980067e6a2e",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.3/BookFormatterPro-1.3.3-setup.exe",
+    "releasedAt": "2026-10-04",
+    "notes": "Keyword Researcher Pro: fixed BSR not reading on modern Amazon product pages and on search-results cards (now fetched directly, no broken background dependency); added a Keyword Expander panel that expands Amazon's own search suggestions with a Beam to AI button; removed the redundant stats table from search-results pages; fixed raw script text leaking into Format Pricing; added a Profitability badge (BSR under 500K).",
     "history": [
+      {
+        "version": "1.3.3",
+        "sha256": "8a07274573a9d60ababa2b0e36ce3bd1565877de66b4f401fb2a3980067e6a2e",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.3/BookFormatterPro-1.3.3-setup.exe",
+        "releasedAt": "2026-10-04",
+        "notes": "Keyword Researcher Pro: fixed BSR not reading on modern Amazon product pages and on search-results cards (now fetched directly, no broken background dependency); added a Keyword Expander panel that expands Amazon's own search suggestions with a Beam to AI button; removed the redundant stats table from search-results pages; fixed raw script text leaking into Format Pricing; added a Profitability badge (BSR under 500K)."
+      },
       {
         "version": "1.3.2",
         "sha256": "62cfe22b9b4824c6f1d0c795884b988380ee683ba57f8644b757a4b4cc121c77",
