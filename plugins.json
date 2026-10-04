@@ -96,9 +96,14 @@
       "name": "Book Cover Pro",
       "entry": "src/book-cover/index.html",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.2",
+          "date": "2026-10-04",
+          "notes": "The 'Send Front'/'Send Back' buttons now open the general ChatGPT page (chatgpt.com) instead of a specific custom GPT, so it works with whatever ChatGPT setup the user already has open."
+        },
         {
           "version": "1.1.1",
           "date": "2026-10-03",
