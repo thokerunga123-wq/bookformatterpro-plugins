@@ -666,16 +666,23 @@
     "image-prompt-queue": {
       "name": "Workbook",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.10",
+      "version": "1.1.11",
       "minAppVersion": "1.0.0",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
-      "size": 364972,
-      "sha256": "ae98f6e94bb5e7c448c580ef05ea004edf1c0027b5ab17a90bb5e526265785a9",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.10/image-prompt-queue-1.1.10.bfpk",
-      "contentHash": "1e2be33724a76d4b19ce0cd91656467736658b8cf162a63838646fe3212feb07",
-      "releasedAt": "2026-10-03",
-      "notes": "UI and layout updates.",
+      "size": 389014,
+      "sha256": "fd03190984723c1d869ef08a5d86bf7a93450833e4e4155886eaa3df89778844",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.11/image-prompt-queue-1.1.11.bfpk",
+      "contentHash": "d2c8b1805235d9705406baba32891375498f1635a597133f499d64e6f97a5171",
+      "releasedAt": "2026-10-04",
+      "notes": "Prompt Writer: 'Page type' is now 'Book type' (5 simplified choices), with a new 'Book pages' field letting you tick several of that type's 20 variants to mix across the book -- the AI is told to plan the mix deliberately across all content pages instead of repeating one layout. New Guidance and Difficulty-progression controls, and an optional Subjects list to cycle through specific subjects instead of leaving every page to the AI's own choice. Generated prompts are also more reliable: a resolved grey/no-grey contradiction, a per-page text-load cap, a ban on mindless repeated labels, a print-legibility floor, a defined icon-row sequence rule, named decoration placement instead of vague overlap rules, a consistent title/copyright-page emblem, a Contents Page safeguard, a RENDER RISK and POST-PROCESS line on every prompt, and (when mixing types) a page-type-order summary at the end.",
       "history": [
+        {
+          "version": "1.1.11",
+          "sha256": "fd03190984723c1d869ef08a5d86bf7a93450833e4e4155886eaa3df89778844",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/image-prompt-queue-v1.1.11/image-prompt-queue-1.1.11.bfpk",
+          "releasedAt": "2026-10-04",
+          "notes": "Prompt Writer: 'Page type' is now 'Book type' (5 simplified choices), with a new 'Book pages' field letting you tick several of that type's 20 variants to mix across the book -- the AI is told to plan the mix deliberately across all content pages instead of repeating one layout. New Guidance and Difficulty-progression controls, and an optional Subjects list to cycle through specific subjects instead of leaving every page to the AI's own choice. Generated prompts are also more reliable: a resolved grey/no-grey contradiction, a per-page text-load cap, a ban on mindless repeated labels, a print-legibility floor, a defined icon-row sequence rule, named decoration placement instead of vague overlap rules, a consistent title/copyright-page emblem, a Contents Page safeguard, a RENDER RISK and POST-PROCESS line on every prompt, and (when mixing types) a page-type-order summary at the end."
+        },
         {
           "version": "1.1.10",
           "sha256": "ae98f6e94bb5e7c448c580ef05ea004edf1c0027b5ab17a90bb5e526265785a9",
@@ -915,7 +922,7 @@
     }
   },
   "repo": "thokerunga123-wq/bookformatterpro-plugins",
-  "generatedAt": "2026-10-04T08:27:52.033Z",
+  "generatedAt": "2026-10-04T08:27:59.611Z",
   "app": {
     "name": "BookFormatter Pro",
     "version": "1.3.2",

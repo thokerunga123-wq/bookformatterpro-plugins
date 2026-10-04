@@ -471,9 +471,14 @@
       "name": "Workbook",
       "entry": "src/image-prompt-queue/sidepanel/sidepanel.html",
       "description": "Prompt writer, page generator and KDP multi-page canvas.",
-      "version": "1.1.10",
+      "version": "1.1.11",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.11",
+          "date": "2026-10-04",
+          "notes": "Prompt Writer: 'Page type' is now 'Book type' (5 simplified choices), with a new 'Book pages' field letting you tick several of that type's 20 variants to mix across the book -- the AI is told to plan the mix deliberately across all content pages instead of repeating one layout. New Guidance and Difficulty-progression controls, and an optional Subjects list to cycle through specific subjects instead of leaving every page to the AI's own choice. Generated prompts are also more reliable: a resolved grey/no-grey contradiction, a per-page text-load cap, a ban on mindless repeated labels, a print-legibility floor, a defined icon-row sequence rule, named decoration placement instead of vague overlap rules, a consistent title/copyright-page emblem, a Contents Page safeguard, a RENDER RISK and POST-PROCESS line on every prompt, and (when mixing types) a page-type-order summary at the end."
+        },
         {
           "version": "1.1.10",
           "date": "2026-10-03",
