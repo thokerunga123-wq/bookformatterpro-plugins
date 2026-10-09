@@ -419,16 +419,23 @@
     "response-collector": {
       "name": "Response Collector",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "minAppVersion": "1.2.2",
       "entry": "src/response-collector/index.html",
       "size": 576651,
-      "sha256": "752cf883ee16edcb92eb38d092629677e438dfebc2023631637fe73c2f16cd59",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.6/response-collector-2.0.6.bfpk",
+      "sha256": "6d98eb1c161269d7fdbff14ac6eee8506c996f86945b16abfaa9aa0aeb883674",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.7/response-collector-2.0.7.bfpk",
       "contentHash": "c2d16fa3a2f1302d4ca86da282dce1bbed4e057540347f82d766a0c83b9ec89d",
-      "releasedAt": "2026-10-03",
-      "notes": "New backend-api content collection for ChatGPT and Claude: fetches the full conversation directly from each site's own internal API instead of scrolling and scraping the page, with retry/fault isolation so one malformed message can no longer wipe out an entire already-collected chapter. Markdown rendering (tables, bold/italic, links, blockquotes) is now shared across providers. New 'Edit' button opens the Designed Format preview in a full-screen editor with real, independently paginated pages per chapter, so editing a paragraph only re-paginates that chapter instead of reloading the whole book.",
+      "releasedAt": "2026-10-09",
+      "notes": "Cookbook pipeline: fixed the same recipe-detection and markdown-formatting issues as the recipe-formatter-pro update, plus removed leftover debug logging from the structure-review step.",
       "history": [
+        {
+          "version": "2.0.7",
+          "sha256": "6d98eb1c161269d7fdbff14ac6eee8506c996f86945b16abfaa9aa0aeb883674",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/response-collector-v2.0.7/response-collector-2.0.7.bfpk",
+          "releasedAt": "2026-10-09",
+          "notes": "Cookbook pipeline: fixed the same recipe-detection and markdown-formatting issues as the recipe-formatter-pro update, plus removed leftover debug logging from the structure-review step."
+        },
         {
           "version": "2.0.6",
           "sha256": "752cf883ee16edcb92eb38d092629677e438dfebc2023631637fe73c2f16cd59",
@@ -1058,6 +1065,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-09T12:29:29.989Z",
+  "generatedAt": "2026-10-09T12:29:34.048Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }

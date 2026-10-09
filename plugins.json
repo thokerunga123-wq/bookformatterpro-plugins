@@ -296,9 +296,14 @@
       "name": "Response Collector",
       "entry": "src/response-collector/index.html",
       "description": "Collects AI chat responses into a manuscript.",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "minAppVersion": "1.2.2",
       "changelog": [
+        {
+          "version": "2.0.7",
+          "date": "2026-10-09",
+          "notes": "Cookbook pipeline: fixed the same recipe-detection and markdown-formatting issues as the recipe-formatter-pro update, plus removed leftover debug logging from the structure-review step."
+        },
         {
           "version": "2.0.6",
           "date": "2026-10-03",
