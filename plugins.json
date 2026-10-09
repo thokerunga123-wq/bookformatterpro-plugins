@@ -146,9 +146,14 @@
       "name": "Recipe Formatter Pro",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.5",
+          "date": "2026-10-09",
+          "notes": "Fixed recipes/sub-headings not being detected when AI-generated content used **bold** markdown for titles and headers instead of ## headings, when a description paragraph was hard-wrapped across lines, when ingredients had no explicit header, and when an entire ingredient list arrived as one run-on line with no breaks between items."
+        },
         {
           "version": "1.1.4",
           "date": "2026-09-25",

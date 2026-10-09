@@ -204,16 +204,23 @@
     "recipe-formatter-pro": {
       "name": "Recipe Formatter Pro",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
-      "size": 471674,
-      "sha256": "35852b117bea72819cfa1349a64521669c6bce90a23e76efa5e4130a388e00b1",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.4/recipe-formatter-pro-1.1.4.bfpk",
-      "contentHash": "655b4fa2aef372f8feb60130ae00f445716cbfa28911bb117516600ea3c9690a",
-      "releasedAt": "2026-09-25",
-      "notes": "Enhanced recipe image matching engine with numeric prefix support and improved recipe title normalization.",
+      "size": 478806,
+      "sha256": "3146aea4650689291a5b5206e8bdad973da927e3596348ff82abc548604c94df",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.5/recipe-formatter-pro-1.1.5.bfpk",
+      "contentHash": "d36d92c3d849d72f2944d83572974ee0176686e1890d9d9e32fea953aaf5a3c5",
+      "releasedAt": "2026-10-09",
+      "notes": "Fixed recipes/sub-headings not being detected when AI-generated content used **bold** markdown for titles and headers instead of ## headings, when a description paragraph was hard-wrapped across lines, when ingredients had no explicit header, and when an entire ingredient list arrived as one run-on line with no breaks between items.",
       "history": [
+        {
+          "version": "1.1.5",
+          "sha256": "3146aea4650689291a5b5206e8bdad973da927e3596348ff82abc548604c94df",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.5/recipe-formatter-pro-1.1.5.bfpk",
+          "releasedAt": "2026-10-09",
+          "notes": "Fixed recipes/sub-headings not being detected when AI-generated content used **bold** markdown for titles and headers instead of ## headings, when a description paragraph was hard-wrapped across lines, when ingredients had no explicit header, and when an entire ingredient list arrived as one run-on line with no breaks between items."
+        },
         {
           "version": "1.1.4",
           "sha256": "35852b117bea72819cfa1349a64521669c6bce90a23e76efa5e4130a388e00b1",
@@ -1051,5 +1058,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-04T10:51:17.784Z"
+  "generatedAt": "2026-10-09T12:29:29.989Z",
+  "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }
