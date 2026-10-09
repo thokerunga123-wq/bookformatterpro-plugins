@@ -937,13 +937,20 @@
   },
   "app": {
     "name": "BookFormatter Pro",
-    "version": "1.3.3",
-    "size": 17893458,
-    "sha256": "8a07274573a9d60ababa2b0e36ce3bd1565877de66b4f401fb2a3980067e6a2e",
-    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.3/BookFormatterPro-1.3.3-setup.exe",
-    "releasedAt": "2026-10-04",
-    "notes": "Keyword Researcher Pro: fixed BSR not reading on modern Amazon product pages and on search-results cards (now fetched directly, no broken background dependency); added a Keyword Expander panel that expands Amazon's own search suggestions with a Beam to AI button; removed the redundant stats table from search-results pages; fixed raw script text leaking into Format Pricing; added a Profitability badge (BSR under 500K).",
+    "version": "1.3.4",
+    "size": 17894272,
+    "sha256": "f55d6df4e8ae04c6484e6d047f091cf3ca3cccbdd1012b9c3e1c6a4b50a2885e",
+    "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.4/BookFormatterPro-1.3.4-setup.exe",
+    "releasedAt": "2026-10-09",
+    "notes": "Cookbook pagination/preview now preloads images in parallel before measuring pages (mirrors the existing font-preload fix), speeding up building the preview/export. Fixed the Keyword Researcher Pro and Cookbook recipe-detection issues released as plugin updates this session.",
     "history": [
+      {
+        "version": "1.3.4",
+        "sha256": "f55d6df4e8ae04c6484e6d047f091cf3ca3cccbdd1012b9c3e1c6a4b50a2885e",
+        "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/app-v1.3.4/BookFormatterPro-1.3.4-setup.exe",
+        "releasedAt": "2026-10-09",
+        "notes": "Cookbook pagination/preview now preloads images in parallel before measuring pages (mirrors the existing font-preload fix), speeding up building the preview/export. Fixed the Keyword Researcher Pro and Cookbook recipe-detection issues released as plugin updates this session."
+      },
       {
         "version": "1.3.3",
         "sha256": "8a07274573a9d60ababa2b0e36ce3bd1565877de66b4f401fb2a3980067e6a2e",
@@ -1065,6 +1072,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-09T12:29:34.048Z",
+  "generatedAt": "2026-10-09T12:31:43.447Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }
