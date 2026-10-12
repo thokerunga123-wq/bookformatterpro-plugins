@@ -146,9 +146,14 @@
       "name": "Recipe Formatter Pro",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.7",
+          "date": "2026-10-12",
+          "notes": "Cookbook plugin: recipe text written in other styles now reads correctly - bold titles and headers, emoji headers and check-mark bullets, markdown tables, missing section headers, ALL CAPS, one-line sections, a whole method written as one paragraph, Equipment sections, metric units and AI chatter before or after the recipes. Titles can also be found using the recipe list loaded in Generate List, which also restores missing chapters. Text in the usual format reads exactly as before. Format & Preview now shows a note when a different reading was used and a list of things to check before exporting (recipes with no ingredients or directions, recipes that may be merged, recipes from your list missing from the text); click one to jump to it."
+        },
         {
           "version": "1.1.6",
           "date": "2026-10-12",

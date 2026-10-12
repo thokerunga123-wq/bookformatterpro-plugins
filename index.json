@@ -204,16 +204,23 @@
     "recipe-formatter-pro": {
       "name": "Recipe Formatter Pro",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "minAppVersion": "1.0.0",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
-      "size": 485297,
-      "sha256": "5020351c080c20e66ee822bbc7a3ea54e553935fad3f41584f3c1ca20b90aa38",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.6/recipe-formatter-pro-1.1.6.bfpk",
-      "contentHash": "f4cdd1d44a47f7a99518ec0314f7c0776d98bd946d0b36ea0a8801daf705eb35",
+      "size": 497603,
+      "sha256": "6ed8771dd8b0bcfcb8aba39f0df29347e485f27cea9ac2777c3fc36bba6ae208",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.7/recipe-formatter-pro-1.1.7.bfpk",
+      "contentHash": "556155cc3a708dc943b2901604b5ea07eec7e4845283bf1ab35f9c3fefababcc",
       "releasedAt": "2026-10-12",
-      "notes": "Cookbook plugin: tabs moved to a full-width bar across the top (Generate List, Format & Preview, Book Content). Generate List and Book Content steps now run top to bottom in full-width boxes, with Generation Rules merged into Book & Recipe List. New Auto option for ingredient count, direction steps and step length lets the AI choose. Rule and Structure & Scope buttons now fill their rows evenly. Word export now guarantees readable colours: chapter bands and ingredient boxes are pale again (they were exporting dark navy behind navy text), faint palette colours are darkened, and every line of text is checked against its background on export.",
+      "notes": "Cookbook plugin: recipe text written in other styles now reads correctly - bold titles and headers, emoji headers and check-mark bullets, markdown tables, missing section headers, ALL CAPS, one-line sections, a whole method written as one paragraph, Equipment sections, metric units and AI chatter before or after the recipes. Titles can also be found using the recipe list loaded in Generate List, which also restores missing chapters. Text in the usual format reads exactly as before. Format & Preview now shows a note when a different reading was used and a list of things to check before exporting (recipes with no ingredients or directions, recipes that may be merged, recipes from your list missing from the text); click one to jump to it.",
       "history": [
+        {
+          "version": "1.1.7",
+          "sha256": "6ed8771dd8b0bcfcb8aba39f0df29347e485f27cea9ac2777c3fc36bba6ae208",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/recipe-formatter-pro-v1.1.7/recipe-formatter-pro-1.1.7.bfpk",
+          "releasedAt": "2026-10-12",
+          "notes": "Cookbook plugin: recipe text written in other styles now reads correctly - bold titles and headers, emoji headers and check-mark bullets, markdown tables, missing section headers, ALL CAPS, one-line sections, a whole method written as one paragraph, Equipment sections, metric units and AI chatter before or after the recipes. Titles can also be found using the recipe list loaded in Generate List, which also restores missing chapters. Text in the usual format reads exactly as before. Format & Preview now shows a note when a different reading was used and a list of things to check before exporting (recipes with no ingredients or directions, recipes that may be merged, recipes from your list missing from the text); click one to jump to it."
+        },
         {
           "version": "1.1.6",
           "sha256": "5020351c080c20e66ee822bbc7a3ea54e553935fad3f41584f3c1ca20b90aa38",
@@ -1086,6 +1093,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-12T16:16:27.596Z",
+  "generatedAt": "2026-10-12T16:36:24.213Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }
