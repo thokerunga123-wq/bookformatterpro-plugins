@@ -297,16 +297,23 @@
     "autoflow-pro": {
       "name": "AutoFlow Pro",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "minAppVersion": "1.0.0",
       "entry": "src/autoflow-pro/sidepanel.html",
-      "size": 152160,
-      "sha256": "479d32fd74925ef352fa3dabcaee25cc4b6591ee28a7f7dde0b118b4a8fdc02d",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.3/autoflow-pro-1.1.3.bfpk",
-      "contentHash": "816728d337caff2d4b267442e1237a0d59d00e8efd503a5a7b2079a51269581b",
-      "releasedAt": "2026-09-27",
-      "notes": "Fix image spinner, add persistent thumbnail cache, and ensure instant object URL on import.",
+      "size": 154626,
+      "sha256": "a147620f46fe52e16a70941dcab06c75c747855f8e8c592a1e7c93b280381005",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.4/autoflow-pro-1.1.4.bfpk",
+      "contentHash": "ad5541e77474c7b68d0f08f0d9d9b4f5ee0dbd85af1ae720dce89837944c36ed",
+      "releasedAt": "2026-10-12",
+      "notes": "Added two buttons next to Copy for Flow Agent / Paste to Flow: Copy Batch Rules (instructs the Flow Agent to process 10 images per turn, report how many remain, and ask before continuing) and Copy Verify & Fix Rules (instructs the Agent to check every prompt actually produced an image, retry failures immediately, and only confirm the set ready for download once everything is accounted for).",
       "history": [
+        {
+          "version": "1.1.4",
+          "sha256": "a147620f46fe52e16a70941dcab06c75c747855f8e8c592a1e7c93b280381005",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/autoflow-pro-v1.1.4/autoflow-pro-1.1.4.bfpk",
+          "releasedAt": "2026-10-12",
+          "notes": "Added two buttons next to Copy for Flow Agent / Paste to Flow: Copy Batch Rules (instructs the Flow Agent to process 10 images per turn, report how many remain, and ask before continuing) and Copy Verify & Fix Rules (instructs the Agent to check every prompt actually produced an image, retry failures immediately, and only confirm the set ready for download once everything is accounted for)."
+        },
         {
           "version": "1.1.3",
           "sha256": "479d32fd74925ef352fa3dabcaee25cc4b6591ee28a7f7dde0b118b4a8fdc02d",
@@ -1072,6 +1079,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-09T12:31:43.447Z",
+  "generatedAt": "2026-10-12T10:51:30.821Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }

@@ -211,9 +211,14 @@
       "name": "AutoFlow Pro",
       "entry": "src/autoflow-pro/sidepanel.html",
       "description": "Automates Google Flow image generation and downloads.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.4",
+          "date": "2026-10-12",
+          "notes": "Added two buttons next to Copy for Flow Agent / Paste to Flow: Copy Batch Rules (instructs the Flow Agent to process 10 images per turn, report how many remain, and ask before continuing) and Copy Verify & Fix Rules (instructs the Agent to check every prompt actually produced an image, retry failures immediately, and only confirm the set ready for download once everything is accounted for)."
+        },
         {
           "version": "1.1.3",
           "date": "2026-09-27",
