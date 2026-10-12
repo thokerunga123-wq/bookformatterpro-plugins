@@ -146,9 +146,14 @@
       "name": "Recipe Formatter Pro",
       "entry": "src/recipe-formatter-pro/sidepanel/sidepanel.html",
       "description": "Formats recipes and cookbooks.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.6",
+          "date": "2026-10-12",
+          "notes": "Cookbook plugin: tabs moved to a full-width bar across the top (Generate List, Format & Preview, Book Content). Generate List and Book Content steps now run top to bottom in full-width boxes, with Generation Rules merged into Book & Recipe List. New Auto option for ingredient count, direction steps and step length lets the AI choose. Rule and Structure & Scope buttons now fill their rows evenly. Word export now guarantees readable colours: chapter bands and ingredient boxes are pale again (they were exporting dark navy behind navy text), faint palette colours are darkened, and every line of text is checked against its background on export."
+        },
         {
           "version": "1.1.5",
           "date": "2026-10-09",
