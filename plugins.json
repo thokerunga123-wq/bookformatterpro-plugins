@@ -96,9 +96,14 @@
       "name": "Book Cover Pro",
       "entry": "src/book-cover/index.html",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.4",
+          "date": "2026-10-15",
+          "notes": "Spine Size/Height scale adjustments (the Title/Author +/- buttons) now actually apply to the exported PDF/JPG -- the export canvas previously drew spine text with its own separate code that ignored those scales entirely, so adjustments only ever showed in the live preview. Fixed the 'Midnight' spine fill preset, which was a two-color navy-to-purple diagonal gradient that read as mostly navy on a tall spine instead of the solid purple it looked like in the swatch -- it's now one flat solid color."
+        },
         {
           "version": "1.1.3",
           "date": "2026-10-15",
