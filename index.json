@@ -132,16 +132,23 @@
     "book-cover": {
       "name": "Book Cover Pro",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.0.0",
       "entry": "src/book-cover/index.html",
-      "size": 228293,
-      "sha256": "0ba039fb7f067b74a8adcb33cb5a52c7e9ec6dbacd01a9c1ccb30de8411e9d48",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.5/book-cover-1.1.5.bfpk",
-      "contentHash": "a084383d6afb2c5d678a5d6cead960d93edcd4ed30c4b39b729d610ecf5cdd71",
+      "size": 229167,
+      "sha256": "0688a117aa6729f5fb73ac260127eba774e842d847dca38769a72647afbdd0c4",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.6/book-cover-1.1.6.bfpk",
+      "contentHash": "eece424a293b75d7e90edffb1b8cdad0544797f751de2a28ccd7f3e307834b75",
       "releasedAt": "2026-10-15",
-      "notes": "Spine title/author text is now vertically centered as one balanced block on the spine instead of pinned near the top. Previously each was given a fixed-percentage zone (64%/26% of the spine's safe run) regardless of how much space the actual text needed, so a shorter title left a large, uneven empty gap below the author name instead of the whole title+author group reading as centered.",
+      "notes": "Fixed the plugin freezing right after clicking Reset. A single Reset click was firing off roughly 16 separate chrome.storage.local.set() calls nearly simultaneously (one per field, plus the Full-Wrap engine redundantly clearing and rebuilding its canvas three separate times for the front/back/spine images) -- the fields visibly cleared instantly, but the plugin then sat waiting through that storage-write pile-up. All of those writes are now batched into a couple of combined calls instead.",
       "history": [
+        {
+          "version": "1.1.6",
+          "sha256": "0688a117aa6729f5fb73ac260127eba774e842d847dca38769a72647afbdd0c4",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.6/book-cover-1.1.6.bfpk",
+          "releasedAt": "2026-10-15",
+          "notes": "Fixed the plugin freezing right after clicking Reset. A single Reset click was firing off roughly 16 separate chrome.storage.local.set() calls nearly simultaneously (one per field, plus the Full-Wrap engine redundantly clearing and rebuilding its canvas three separate times for the front/back/spine images) -- the fields visibly cleared instantly, but the plugin then sat waiting through that storage-write pile-up. All of those writes are now batched into a couple of combined calls instead."
+        },
         {
           "version": "1.1.5",
           "sha256": "0ba039fb7f067b74a8adcb33cb5a52c7e9ec6dbacd01a9c1ccb30de8411e9d48",
@@ -1114,6 +1121,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-15T09:20:43.519Z",
+  "generatedAt": "2026-10-15T11:03:53.388Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }

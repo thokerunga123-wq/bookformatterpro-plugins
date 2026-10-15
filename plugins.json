@@ -96,9 +96,14 @@
       "name": "Book Cover Pro",
       "entry": "src/book-cover/index.html",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.6",
+          "date": "2026-10-15",
+          "notes": "Fixed the plugin freezing right after clicking Reset. A single Reset click was firing off roughly 16 separate chrome.storage.local.set() calls nearly simultaneously (one per field, plus the Full-Wrap engine redundantly clearing and rebuilding its canvas three separate times for the front/back/spine images) -- the fields visibly cleared instantly, but the plugin then sat waiting through that storage-write pile-up. All of those writes are now batched into a couple of combined calls instead."
+        },
         {
           "version": "1.1.5",
           "date": "2026-10-15",
