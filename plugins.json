@@ -96,9 +96,14 @@
       "name": "Book Cover Pro",
       "entry": "src/book-cover/index.html",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.5",
+          "date": "2026-10-15",
+          "notes": "Spine title/author text is now vertically centered as one balanced block on the spine instead of pinned near the top. Previously each was given a fixed-percentage zone (64%/26% of the spine's safe run) regardless of how much space the actual text needed, so a shorter title left a large, uneven empty gap below the author name instead of the whole title+author group reading as centered."
+        },
         {
           "version": "1.1.4",
           "date": "2026-10-15",

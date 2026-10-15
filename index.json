@@ -132,16 +132,23 @@
     "book-cover": {
       "name": "Book Cover Pro",
       "description": "AI cover and mockup tools and the full-wrap KDP cover creator.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "entry": "src/book-cover/index.html",
-      "size": 227404,
-      "sha256": "ee6ebe64053caca8bee56679f750c90f1e9b79e67dedfdfb09648ca5da1f34aa",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.4/book-cover-1.1.4.bfpk",
-      "contentHash": "5b1f22b9f4986b5a77ab2416228920518db5879528c5afb12c007a8a246e2b8f",
+      "size": 228293,
+      "sha256": "0ba039fb7f067b74a8adcb33cb5a52c7e9ec6dbacd01a9c1ccb30de8411e9d48",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.5/book-cover-1.1.5.bfpk",
+      "contentHash": "a084383d6afb2c5d678a5d6cead960d93edcd4ed30c4b39b729d610ecf5cdd71",
       "releasedAt": "2026-10-15",
-      "notes": "Spine Size/Height scale adjustments (the Title/Author +/- buttons) now actually apply to the exported PDF/JPG -- the export canvas previously drew spine text with its own separate code that ignored those scales entirely, so adjustments only ever showed in the live preview. Fixed the 'Midnight' spine fill preset, which was a two-color navy-to-purple diagonal gradient that read as mostly navy on a tall spine instead of the solid purple it looked like in the swatch -- it's now one flat solid color.",
+      "notes": "Spine title/author text is now vertically centered as one balanced block on the spine instead of pinned near the top. Previously each was given a fixed-percentage zone (64%/26% of the spine's safe run) regardless of how much space the actual text needed, so a shorter title left a large, uneven empty gap below the author name instead of the whole title+author group reading as centered.",
       "history": [
+        {
+          "version": "1.1.5",
+          "sha256": "0ba039fb7f067b74a8adcb33cb5a52c7e9ec6dbacd01a9c1ccb30de8411e9d48",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/book-cover-v1.1.5/book-cover-1.1.5.bfpk",
+          "releasedAt": "2026-10-15",
+          "notes": "Spine title/author text is now vertically centered as one balanced block on the spine instead of pinned near the top. Previously each was given a fixed-percentage zone (64%/26% of the spine's safe run) regardless of how much space the actual text needed, so a shorter title left a large, uneven empty gap below the author name instead of the whole title+author group reading as centered."
+        },
         {
           "version": "1.1.4",
           "sha256": "ee6ebe64053caca8bee56679f750c90f1e9b79e67dedfdfb09648ca5da1f34aa",
@@ -1107,6 +1114,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-15T09:00:29.657Z",
+  "generatedAt": "2026-10-15T09:20:43.519Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }
