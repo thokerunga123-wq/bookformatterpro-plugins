@@ -281,9 +281,14 @@
       "name": "Outline Book Writer",
       "entry": "src/outline-book-writer/index.html",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.3",
+          "date": "2026-10-21",
+          "notes": "Travel Maps prompt now grounds all five maps in real Google Maps screenshots you attach, instead of asking the AI to invent the geography from research alone -- it keeps real roads, routes, and landmark positions accurate and only restyles the real screenshot into the illustrated guidebook look, filling in any extra maps from its own research only if you attach fewer than five screenshots. Each map panel is also now composed with enough framing to cleanly become its own full page later."
+        },
         {
           "version": "1.1.2",
           "date": "2026-10-21",
