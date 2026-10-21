@@ -281,9 +281,14 @@
       "name": "Outline Book Writer",
       "entry": "src/outline-book-writer/index.html",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.4",
+          "date": "2026-10-21",
+          "notes": "Travel Maps and Map Split prompts switched from a vintage/hand-illustrated engraved black-and-white style to a clean, modern, realistic full-color cartographic style (the kind real published guidebooks and map apps use) -- accurately colored roads, green parks, blue water, and realistic terrain shading, instead of sepia-toned illustration. Vintage style printed poorly and read as decorative rather than a usable navigation map at small KDP print sizes."
+        },
         {
           "version": "1.1.3",
           "date": "2026-10-21",
