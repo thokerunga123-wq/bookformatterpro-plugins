@@ -281,9 +281,14 @@
       "name": "Outline Book Writer",
       "entry": "src/outline-book-writer/index.html",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.2",
+          "date": "2026-10-21",
+          "notes": "New 'Map & Cover' tab added alongside Generate Outline and Write Your Book. Deliberately independent of the outline/writing pipeline -- it only builds prompts and copies them to the clipboard for you to paste into ChatGPT/Claude yourself. Shares just Title/Subtitle/Author from the Write Your Book tab, plus its own Paper Size field. Three buttons: Copy Title Page Prompt (white background, black text, balanced composition, with an optional checkbox to allow one small black-and-white image), Copy Travel Maps Prompt (one combined image of five hand-illustrated, engraved-style guidebook maps -- each with a title box, numbered key, legend, scale bar, and north arrow, matching real published travel-atlas style; the main map also gets a QR code linking to Google Maps), and Copy Map Split Prompt (for Claude: splits the combined image into five full standalone KDP interior pages at the chosen paper size with correct safe margins, and replaces the AI-drawn QR code with a real, properly-encoded one generated via Claude's own code execution, since an image generator can't draw a QR code that actually scans)."
+        },
         {
           "version": "1.1.1",
           "date": "2026-09-20",

@@ -396,16 +396,23 @@
     "outline-book-writer": {
       "name": "Outline Book Writer",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "minAppVersion": "1.0.0",
       "entry": "src/outline-book-writer/index.html",
-      "size": 169727,
-      "sha256": "1d577d2c1c1598df232117188f4c4333f321fd719880542cad3bfdfa68cb5645",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.1/outline-book-writer-1.1.1.bfpk",
-      "contentHash": "9877724d19899cafa20f561e89c85acb0aeaa26937a7f5e6b49be57f75204e36",
-      "releasedAt": "2026-09-20",
-      "notes": "Shared page engine update: more reliable PDF export and page decorations.",
+      "size": 179542,
+      "sha256": "9ee73fb5cf64cbc8be9d1bcdd0d00fe386f534dd211f092056e22cffba1d96da",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.2/outline-book-writer-1.1.2.bfpk",
+      "contentHash": "3f2b31413c2d8e0bd865357bad68637f9ddb5d6253956e5f5335ed209d8fe687",
+      "releasedAt": "2026-10-21",
+      "notes": "New 'Map & Cover' tab added alongside Generate Outline and Write Your Book. Deliberately independent of the outline/writing pipeline -- it only builds prompts and copies them to the clipboard for you to paste into ChatGPT/Claude yourself. Shares just Title/Subtitle/Author from the Write Your Book tab, plus its own Paper Size field. Three buttons: Copy Title Page Prompt (white background, black text, balanced composition, with an optional checkbox to allow one small black-and-white image), Copy Travel Maps Prompt (one combined image of five hand-illustrated, engraved-style guidebook maps -- each with a title box, numbered key, legend, scale bar, and north arrow, matching real published travel-atlas style; the main map also gets a QR code linking to Google Maps), and Copy Map Split Prompt (for Claude: splits the combined image into five full standalone KDP interior pages at the chosen paper size with correct safe margins, and replaces the AI-drawn QR code with a real, properly-encoded one generated via Claude's own code execution, since an image generator can't draw a QR code that actually scans).",
       "history": [
+        {
+          "version": "1.1.2",
+          "sha256": "9ee73fb5cf64cbc8be9d1bcdd0d00fe386f534dd211f092056e22cffba1d96da",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.2/outline-book-writer-1.1.2.bfpk",
+          "releasedAt": "2026-10-21",
+          "notes": "New 'Map & Cover' tab added alongside Generate Outline and Write Your Book. Deliberately independent of the outline/writing pipeline -- it only builds prompts and copies them to the clipboard for you to paste into ChatGPT/Claude yourself. Shares just Title/Subtitle/Author from the Write Your Book tab, plus its own Paper Size field. Three buttons: Copy Title Page Prompt (white background, black text, balanced composition, with an optional checkbox to allow one small black-and-white image), Copy Travel Maps Prompt (one combined image of five hand-illustrated, engraved-style guidebook maps -- each with a title box, numbered key, legend, scale bar, and north arrow, matching real published travel-atlas style; the main map also gets a QR code linking to Google Maps), and Copy Map Split Prompt (for Claude: splits the combined image into five full standalone KDP interior pages at the chosen paper size with correct safe margins, and replaces the AI-drawn QR code with a real, properly-encoded one generated via Claude's own code execution, since an image generator can't draw a QR code that actually scans)."
+        },
         {
           "version": "1.1.1",
           "sha256": "1d577d2c1c1598df232117188f4c4333f321fd719880542cad3bfdfa68cb5645",
@@ -1121,6 +1128,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-15T11:03:53.388Z",
+  "generatedAt": "2026-10-21T09:29:45.987Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }
