@@ -281,9 +281,14 @@
       "name": "Outline Book Writer",
       "entry": "src/outline-book-writer/index.html",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "changelog": [
+        {
+          "version": "1.1.5",
+          "date": "2026-11-10",
+          "notes": "Removed the 'Map & Cover' tab and all its buttons/prompts entirely -- back to the original two tabs, Generate Outline and Write Your Book."
+        },
         {
           "version": "1.1.4",
           "date": "2026-10-21",

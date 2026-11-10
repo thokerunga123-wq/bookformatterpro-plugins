@@ -396,16 +396,23 @@
     "outline-book-writer": {
       "name": "Outline Book Writer",
       "description": "Writes non-fiction books from an outline.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "1.0.0",
       "entry": "src/outline-book-writer/index.html",
-      "size": 180239,
-      "sha256": "e20be3473bb0127009f22fbf109d26c754f4ad71d40a9a543b663f90f014b63b",
-      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.4/outline-book-writer-1.1.4.bfpk",
-      "contentHash": "ac2b9f7f475150851c934ffd093462216f6f0b99d141e1f5b170e8af1b8c30bc",
-      "releasedAt": "2026-10-21",
-      "notes": "Travel Maps and Map Split prompts switched from a vintage/hand-illustrated engraved black-and-white style to a clean, modern, realistic full-color cartographic style (the kind real published guidebooks and map apps use) -- accurately colored roads, green parks, blue water, and realistic terrain shading, instead of sepia-toned illustration. Vintage style printed poorly and read as decorative rather than a usable navigation map at small KDP print sizes.",
+      "size": 169727,
+      "sha256": "75e2a52e2201c9fc1b334925e9a75b42e55a23a9dc1676fc1ce3e5a3d1eaa2b0",
+      "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.5/outline-book-writer-1.1.5.bfpk",
+      "contentHash": "9877724d19899cafa20f561e89c85acb0aeaa26937a7f5e6b49be57f75204e36",
+      "releasedAt": "2026-11-10",
+      "notes": "Removed the 'Map & Cover' tab and all its buttons/prompts entirely -- back to the original two tabs, Generate Outline and Write Your Book.",
       "history": [
+        {
+          "version": "1.1.5",
+          "sha256": "75e2a52e2201c9fc1b334925e9a75b42e55a23a9dc1676fc1ce3e5a3d1eaa2b0",
+          "url": "https://github.com/thokerunga123-wq/bookformatterpro-plugins/releases/download/outline-book-writer-v1.1.5/outline-book-writer-1.1.5.bfpk",
+          "releasedAt": "2026-11-10",
+          "notes": "Removed the 'Map & Cover' tab and all its buttons/prompts entirely -- back to the original two tabs, Generate Outline and Write Your Book."
+        },
         {
           "version": "1.1.4",
           "sha256": "e20be3473bb0127009f22fbf109d26c754f4ad71d40a9a543b663f90f014b63b",
@@ -1142,6 +1149,6 @@
       }
     ]
   },
-  "generatedAt": "2026-10-21T12:20:19.142Z",
+  "generatedAt": "2026-11-10T10:53:33.911Z",
   "repo": "thokerunga123-wq/bookformatterpro-plugins"
 }
